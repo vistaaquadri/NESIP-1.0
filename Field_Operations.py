@@ -10,16 +10,14 @@ from google.oauth2.service_account import Credentials
 st.set_page_config(page_title="NESIP", layout="wide")
 
 
-# Hide Streamlit footer and menu
+# Hide Streamlit branding (bottom right menu)
 hide_streamlit_style = """
     <style>
-        #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
-        header {visibility: hidden;}
-        .stDeployButton {display:none;}
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 # Sidebar navigation
 st.sidebar.title("")
