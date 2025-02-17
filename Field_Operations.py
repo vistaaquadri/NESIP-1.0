@@ -10,6 +10,15 @@ from google.oauth2.service_account import Credentials
 st.set_page_config(page_title="NESIP", layout="wide")
 
 
+# Hide Streamlit branding (bottom right menu)
+hide_streamlit_style = """
+    <style>
+        footer {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
 # Sidebar navigation
 st.sidebar.title("")
 st.sidebar.image("https://www.vista-advisory.com/wp-content/uploads/2024/07/image-18.png", width=150)
@@ -369,14 +378,4 @@ with tab2:
 
 
 
-
-# Hide Streamlit branding (bottom right menu)
-hide_streamlit_style = """
-    <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
-    </style>
-"""
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
