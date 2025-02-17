@@ -366,3 +366,17 @@ with tab1:
 
 with tab2:
     st.write("State Readiness Data summary would be published soon")
+
+
+
+
+# Hide Streamlit branding (bottom right menu)
+hide_streamlit_style = """
+    <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
