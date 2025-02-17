@@ -13,7 +13,9 @@ st.set_page_config(page_title="NESIP", layout="wide")
 # Hide Streamlit footer and menu
 hide_streamlit_style = """
     <style>
+        #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
+        header {visibility: hidden;}
         .stDeployButton {display:none;}
     </style>
 """
