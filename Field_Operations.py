@@ -11,7 +11,7 @@ st.set_page_config(page_title="NESIP", layout="wide")
 
 
 # Sidebar navigation
-st.sidebar.title("Navigation")
+st.sidebar.title("")
 st.sidebar.image("https://www.vista-advisory.com/wp-content/uploads/2024/07/image-18.png", width=150)
 
 
