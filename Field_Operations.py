@@ -364,6 +364,37 @@ with tab1:
 
 
 
+
+
+    # Alternatively, you can use st.container() if you need more complex layout or control
+    with st.container():
+        with st.expander('Summary', expanded=True):
+            # Dropdown for state selection
+            state_options = merged_collection_summ["State"].unique().tolist()
+            selected_state = st.selectbox("Select State", ["All"] + state_options)
+
+            # Filter LGA options based on selected state
+            if selected_state == "All":
+                lga_options = merged_collection_summ["LGA"].unique().tolist()
+            else:
+                lga_options = merged_collection_summ[merged_collection_summ["State"] == selected_state]["LGA"].unique().tolist()
+
+            selected_lga = st.selectbox("Select LGA", ["All"] + lga_options)
+
+            # Filter dataframe based on selections
+            filtered_df_summary = merged_collection_summ.copy()
+
+            if selected_state != "All":
+                filtered_df_summary = filtered_df_summary[filtered_df_summary["State"] == selected_state]
+
+            if selected_lga != "All":
+                filtered_df_summary = filtered_df_summary[filtered_df_summary["LGA"] == selected_lga]
+
+
+                
+            st.markdown(filtered_df_summary.to_html(escape=False, index=False), unsafe_allow_html=True)
+
+
 with tab2:
     st.write("State Readiness Data summary would be published soon")
 
