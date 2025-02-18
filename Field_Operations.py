@@ -9,40 +9,23 @@ from google.oauth2.service_account import Credentials
 # Set page configuration
 st.set_page_config(page_title="NESIP", layout="wide")
 
+# Create two columns: one for the logo, one for the title
+col1, col2 = st.columns([0.5, 6])  # Adjust column width ratio as needed
 
-# Sidebar navigation
-st.sidebar.title("")
-st.sidebar.image("https://www.vista-advisory.com/wp-content/uploads/2024/07/image-18.png", width=150)
+# Add logo to the left column
+with col1:
+    st.image("https://www.vista-advisory.com/wp-content/uploads/2024/07/image-18.png", width=100)
+
+# Add title and motto to the right column
+with col2:
+    st.markdown("""
+        <h3 style='margin-bottom: 0px;'>National Electrification Strategy And Implementation Plan</h3>
+        <hr style='border:1px solid #ddd; margin: 5px 0;'>
+        <p style='font-size: 14px; color: #555;'>Data collection Tracking Dashboard</p>
+    """, unsafe_allow_html=True)
 
 
-# Set up Google Sheets credentials
-#def get_google_sheet(sheet_url, sheet_name):
-#    scope = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
-#    credentials = Credentials.from_service_account_file("data/nesip-451109-d25b71f62e3b.json", scopes=scope)
-#    client = gspread.authorize(credentials)
-
-#    # Open Google Sheet by URL or Sheet name
-#    spreadsheet = client.open_by_url(sheet_url)
-#    worksheet = spreadsheet.worksheet(sheet_name)
-
-    # Convert sheet to DataFrame
-#    data = worksheet.get_all_records()
-#    df = pd.DataFrame(data)
-#    return df
-
-# Streamlit app
-st.title("NESIP")
-
-#sheet_url = "https://docs.google.com/spreadsheets/d/1gCwYBWV_v0Ajuwfcive6yuqWcio_Ta0Bbad4IXzMz8w/edit#gid=0"
-#sheet_ea_day = "0. Energy Access(LP)"
-#sheet_ea_dump = "1. Energy Access Dump"
-#sheet_ea_passed = "2. Energy Access(Passed)"
-#sheet_ea_bad = "3. Energy Access(Bad)"
-
-#energy_access_day = get_google_sheet(sheet_url, sheet_ea_day)
-#ea_dump = get_google_sheet(sheet_url, sheet_ea_dump)
-#ea_passed = get_google_sheet(sheet_url, sheet_ea_passed)
-#ea_bad = get_google_sheet(sheet_url, sheet_ea_bad)
+#read data 
 
 sheet_url = "data/data.xlsx"
 sheet_ea_day = "0. Energy Access(LP)"
@@ -60,8 +43,9 @@ ea_bad = pd.read_excel(sheet_url, sheet_ea_bad)
 sampling_sheet = "Sampling Numbers"
 sampling_numbers = pd.read_excel(sheet_url, sampling_sheet)
 
-##### data collection progress
 
+
+##### data collection progress
 # Create Urban_Collected and Rural_Collected based on "Area Description"
 ea_passed["Urban_Collected"] = (ea_passed["Area Description"] == "Urban").astype(int)
 ea_passed["Rural_Collected"] = (ea_passed["Area Description"] == "Rural").astype(int)
@@ -156,7 +140,53 @@ days_to_complete = remaining_total / daily_avg_combined  # if daily_avg_combined
 today = datetime.date.today()
 completion_date = today + datetime.timedelta(days=round(days_to_complete))
 
-completion_date_text = completion_date.strftime('%Y-%m-%d')
+
+completion_date_text = completion_date.strftime('%B-%d-%Y')
+
+expected_completion_date = "March 4th, 2025"
+
+
+
+
+merged_collection_summ['Rural_Deficit'] = merged_collection_summ['Rural_Deficit'].round(0).astype(int)
+merged_collection_summ['Urban_Deficit'] = merged_collection_summ['Urban_Deficit'].round(0).astype(int)
+
+merged_collection_summ['Urban_Collected'] = merged_collection_summ['Urban_Collected'].round(0).astype(int)
+merged_collection_summ['Rural_Collected'] = merged_collection_summ['Rural_Collected'].round(0).astype(int)
+
+
+expander_data = merged_collection_summ[['State', 'LGA', 'Urban_Target', 'Rural_Target','Urban_Collected', 'Rural_Collected','Urban_Deficit', 'Rural_Deficit']]
+
+
+
+import streamlit as st
+
+# Tabs for state and vendor
+tab1, tab2 = st.tabs(["Energy Access", "State Readiness"])
+
+# Custom CSS to style the tabs
+st.markdown(
+    """
+    <style>
+    div.stTabs [data-baseweb="tab-list"] {
+        background-color: #1a3665;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    div.stTabs [data-baseweb="tab"] {
+        color: white;
+        font-weight: bold;
+    }
+    div.stTabs [aria-selected="true"] {
+        background-color: #1f5c94 !important;
+        border-radius: 10px;
+        color: white !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 
 
@@ -169,14 +199,26 @@ states_visited = f"{ea_passed['State'].nunique()} states visited"
 
 
 
+# GOOD AND BAD DATA SUMMARY
+good_bad_summary = ea_dump.pivot_table(
+    index="State",
+    columns="vista_remark",
+    aggfunc="size",
+    fill_value=0
+).reset_index()
 
+# Ensure "Good" and "Bad" columns are present even if some are missing
+if "Good" not in good_bad_summary.columns:
+    good_bad_summary["Good"] = 0
+if "Bad" not in good_bad_summary.columns:
+    good_bad_summary["Bad"] = 0
 
+# Reorder columns for readability
+good_bad_summary = good_bad_summary[['State', 'Good', 'Bad']]
+good_bad_summary.rename(columns={"Good": "Clean Data", "Bad": "Inconsistent Data"}, inplace=True)
 
-# Tabs for state and vendor
-tab1, tab2 = st.tabs(["Energy Access", "State Readiness"])
-
-
-
+total_clean_records = good_bad_summary["Clean Data"].sum()
+total_bad_records = good_bad_summary["Inconsistent Data"].sum()
 
 
 with tab1:
@@ -185,7 +227,7 @@ with tab1:
     col1.metric("States Completed", f"{states_done} of {total_states}", states_visited)
     col2.metric("Data Collected", f"{total_target} ({current_total})", "")
     col3.metric("Avg. Daily Collection", f"{daily_avg_combined} per day", f"{perc_inc_dec_avg_col} %")
-    col4.metric("Expected completion day", f"{completion_date_text}", "")
+    col4.metric("Expected completion day", f"{expected_completion_date}", f"{completion_date_text}")
 
     # Map View and Progress Bar
     col1, col2 = st.columns([1, 2])
@@ -203,7 +245,7 @@ with tab1:
     with col1:
     # State Dropdown
 
-        st.subheader("Progress Bar")
+        st.subheader("Collection Progess")
 
 
 
@@ -211,7 +253,7 @@ with tab1:
     with col2:       
 
 
-        st.subheader("Map View")
+        st.subheader("Geospatial Spread")
 
         col1A, col2A = st.columns(2)     
 
@@ -240,7 +282,7 @@ with tab1:
     # State Dropdown
 
         fig_progress = go.Figure(go.Pie(values=[f"{overall_completion}", f"{perc_deficit}"], labels=["Completed", "Remaining"],
-                                        hole=0.6, marker_colors=["blue", "lightgrey"]))
+                                        hole=0.6, marker_colors=["#1a3665", "lightgrey"]))
         fig_progress.update_traces(textinfo='none')
         fig_progress.update_layout(showlegend=False, annotations=[dict(text= f"{overall_completion:.2f}%" , x=0.5, y=0.5, font_size=20, showarrow=False)], width=600, height=600 )
         st.plotly_chart(fig_progress, use_container_width=True)
@@ -326,16 +368,9 @@ with tab1:
 
     with colA:
         # Data Quality Analysis
-        data_quality = {
-            "Week": ["Week 1", "Week 2", "Week 3"],
-            "Clean data": [59, 70, 96],
-            "Bad data": [45, 89, 84]
-        }
-        
-        df_quality = pd.DataFrame(data_quality)
         fig_quality = px.bar(good_bad_summary, x="State", y=["Clean Data",  "Inconsistent Data"], 
                             barmode="stack", title="Data Quality Analysis", color_discrete_map={
-                                "Clean Data": "blue", "Inconsistent DataBad data": "red"
+                                "Clean Data": "#1a3665", "Inconsistent DataBad data": "#6599cd"
                             })
         st.plotly_chart(fig_quality, use_container_width=True)
 
@@ -365,7 +400,7 @@ with tab1:
             selected_lga = st.selectbox("Select LGA", ["All"] + lga_options)
 
             # Filter dataframe based on selections
-            filtered_df_summary = merged_collection_summ.copy()
+            filtered_df_summary = expander_data.copy()
 
             if selected_state != "All":
                 filtered_df_summary = filtered_df_summary[filtered_df_summary["State"] == selected_state]
