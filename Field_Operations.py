@@ -160,11 +160,6 @@ completion_date_text = completion_date.strftime('%Y-%m-%d')
 
 
 
-
-# Tabs for state and vendor
-tab1, tab2 = st.tabs(["Energy Access", "State Readiness"])
-
-
 ## GET ALL METRICS
 total_states = 37
 states_done = len(state_data[state_data['Overall_Completion'] >= 100])
@@ -174,26 +169,14 @@ states_visited = f"{ea_passed['State'].nunique()} states visited"
 
 
 
-# GOOD AND BAD DATA SUMMARY
-good_bad_summary = ea_dump.pivot_table(
-    index="State",
-    columns="vista_remark",
-    aggfunc="size",
-    fill_value=0
-).reset_index()
 
-# Ensure "Good" and "Bad" columns are present even if some are missing
-if "Good" not in good_bad_summary.columns:
-    good_bad_summary["Good"] = 0
-if "Bad" not in good_bad_summary.columns:
-    good_bad_summary["Bad"] = 0
 
-# Reorder columns for readability
-good_bad_summary = good_bad_summary[['State', 'Good', 'Bad']]
-good_bad_summary.rename(columns={"Good": "Clean Data", "Bad": "Inconsistent Data"}, inplace=True)
 
-total_clean_records = good_bad_summary["Clean Data"].sum()
-total_bad_records = good_bad_summary["Inconsistent Data"].sum()
+# Tabs for state and vendor
+tab1, tab2 = st.tabs(["Energy Access", "State Readiness"])
+
+
+
 
 
 with tab1:
