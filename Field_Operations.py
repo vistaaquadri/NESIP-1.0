@@ -368,7 +368,7 @@ with tab1:
 
     # Alternatively, you can use st.container() if you need more complex layout or control
     with st.container():
-        with st.expander('Summary', expanded=True):
+        with st.expander('Sampling Methodology Tracker', expanded=True):
             # Dropdown for state selection
             state_options = merged_collection_summ["State"].unique().tolist()
             selected_state = st.selectbox("Select State", ["All"] + state_options)
