@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 import gspread
 from google.oauth2.service_account import Credentials
 
+
 # Set page configuration
 st.set_page_config(page_title="NESIP", layout="wide")
 
@@ -302,10 +303,6 @@ with tab1:
     # Plotly bar chart showing progress
     fig = go.Figure()
 
-    import plotly.graph_objects as go
-    import streamlit as st
-
-    fig = go.Figure()
 
     for index, row in state_data.iterrows():
         fig.add_trace(go.Bar(
@@ -321,7 +318,7 @@ with tab1:
             x=[row['State']],
             y=[row['Urban_Completion']],
             name='Urban (Collected)',
-            marker_color='blue',
+            marker_color='#1a3665',
             width=0.4,
             offset=-0.2,
             showlegend=(index == 0)
@@ -340,7 +337,7 @@ with tab1:
             x=[row['State']],
             y=[row['Rural_Completion']],
             name='Rural (Collected)',
-            marker_color='green',
+            marker_color='#6599cd',
             width=0.4,
             offset=0.2,
             showlegend=(index == 0)
