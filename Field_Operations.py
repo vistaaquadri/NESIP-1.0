@@ -135,14 +135,14 @@ ea_passed['date'] = ea_passed['Timestamp'].dt.date
 daily_collection_combined = ea_passed.groupby('date').size()
 
 # Average daily collection
-daily_avg_combined = daily_collection_combined.mean()
+daily_avg_combined = round(daily_collection_combined.mean(), 0)
 
 # Exclude the latest date
 latest_date = daily_collection_combined.index.max()
 daily_collection_excluding_latest = daily_collection_combined[daily_collection_combined.index != latest_date]
 
 # Average daily collection (excluding the latest date)
-prev_daily_avg_combined = daily_collection_excluding_latest.mean()
+prev_daily_avg_combined = round(daily_collection_excluding_latest.mean(), 0)
 
 perc_inc_dec_avg_col = round((daily_avg_combined - prev_daily_avg_combined)/prev_daily_avg_combined * 100, 0)
 
