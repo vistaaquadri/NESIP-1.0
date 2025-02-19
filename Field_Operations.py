@@ -82,7 +82,8 @@ total_bad_records = int(dashboard_single_data['total_bad_records'][0])
 with tab1:
     # Overview Metrics
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("States Completed", f"{states_done} of {total_states}", states_visited)
+#    col1.metric("States Completed", f"{states_done} of {total_states}", states_visited)
+    col1.metric("States Completed", f"0 of {total_states}", states_visited)
     col2.metric("Data Collected", f"{total_target} ({current_total})", "")
     col3.metric("Avg. Daily Collection", f"{daily_avg_combined} per day", f"{perc_inc_dec_avg_col} %")
     col4.metric("Expected completion day", f"{expected_completion_date}", f"{completion_date_text}")
