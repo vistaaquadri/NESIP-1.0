@@ -74,6 +74,10 @@ completion_date_text = str(dashboard_single_data['completion_date_text'][0])
 overall_completion = int(dashboard_single_data['overall_completion'][0])
 perc_deficit = int(dashboard_single_data['perc_deficit'][0])
 
+Daily_avg_expected = int(dashboard_single_data['Daily_avg_expected'])
+perc_in_dec_collection = int(dashboard_single_data['perc_in_dec_collection'])
+
+
 total_clean_records = int(dashboard_single_data['total_clean_records'][0])
 total_bad_records = int(dashboard_single_data['total_bad_records'][0])
 
@@ -84,10 +88,10 @@ with tab1:
     col1, col2, col3, col4 = st.columns(4)
 #    col1.metric("States Completed", f"{states_done} of {total_states}", states_visited)
     col1.metric("States Completed", f"0 of {total_states}", "12 States Visited")
-    col2.metric("Data Collected", f"{total_target} ({current_total})", "")
-    col3.metric("Avg. Daily Collection", f"{daily_avg_combined} per day", f"{perc_inc_dec_avg_col} %")
-    col4.metric("Expected completion day", f"{expected_completion_date}", f"{completion_date_text}")
+    col2.metric("Data Collection", f"{total_target} Expected", f"{current_total} Collected")
+    col3.metric("Avg. Daily Collection", f"{Daily_avg_expected} Expected per day", f"{daily_avg_combined} last collected ({perc_in_dec_collection} %)")
 
+    col4.metric("Expected completion day", f"{expected_completion_date}", f"{completion_date_text}")
 
     # Map View and Progress Bar
     col1, col2 = st.columns([1, 2])
