@@ -3,8 +3,7 @@ import pandas as pd
 import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-import gspread
-from google.oauth2.service_account import Credentials
+
 
 
 # Set page configuration
@@ -27,140 +26,13 @@ with col2:
 
 
 #read data 
-
-sheet_url = "data/data.xlsx"
-sheet_ea_day = "0. Energy Access(LP)"
-sheet_ea_dump = "1. Energy Access Dump"
-sheet_ea_passed = "2. Energy Access(Passed)"
-sheet_ea_bad = "3. Energy Access(Bad)"
-
-energy_access_day = pd.read_excel(sheet_url, sheet_ea_day)
-ea_dump = pd.read_excel(sheet_url, sheet_ea_dump)
-ea_passed = pd.read_excel(sheet_url, sheet_ea_passed)
-ea_bad = pd.read_excel(sheet_url, sheet_ea_bad)
+dashboard_single_data = pd.read_csv('data/dashboard_data/dashboard_single_df.csv')
+data_quality_summary_data = pd.read_csv('data/dashboard_data/data_quality_summary.csv')
+expander_data = pd.read_csv('data/dashboard_data/expander_df.csv')
+geospatial_data = pd.read_csv('data/dashboard_data/geospatial_df.csv')
+state_lga_completion_data = pd.read_csv('data/dashboard_data/state_lga_completion_data.csv')
 
 
-#sampling_numbers 
-sampling_sheet = "Sampling Numbers"
-sampling_numbers = pd.read_excel(sheet_url, sampling_sheet)
-
-
-
-##### data collection progress
-# Create Urban_Collected and Rural_Collected based on "Area Description"
-ea_passed["Urban_Collected"] = (ea_passed["Area Description"] == "Urban").astype(int)
-ea_passed["Rural_Collected"] = (ea_passed["Area Description"] == "Rural").astype(int)
-
-ea_passed = pd.DataFrame(ea_passed)
-
-# Group by State and LGA, sum Urban and Rural collected
-summary_collected = ea_passed.groupby(["State", "LGA"])[["Urban_Collected", "Rural_Collected"]].sum().reset_index()
-
-	
-# Outer Join on 'LGA'
-merged_collection_summ = pd.merge(sampling_numbers, summary_collected, on=['State', 'LGA'] , how='outer')
-
-merged_collection_summ.fillna(0, inplace=True)
-
-# Calculate Completion Percentage per LGA
-merged_collection_summ["Urban_Completion"] = (merged_collection_summ["Urban_Collected"] / merged_collection_summ["Urban_Target"]) * 100
-merged_collection_summ["Rural_Completion"] = (merged_collection_summ["Rural_Collected"] / merged_collection_summ["Rural_Target"]) * 100
-
-# Aggregate to State Level
-state_completion = merged_collection_summ.groupby("State").agg(
-    Urban_Completion=("Urban_Completion", "mean"),
-    Rural_Completion=("Rural_Completion", "mean")
-).reset_index()
-
-# Calculate Overall Completion per State
-state_completion["Overall_Completion"] = round((state_completion["Urban_Completion"] + state_completion["Rural_Completion"]) / 2,0)
-
-state_data = state_completion.copy()
-
-#### deficit to calculate percentage completion
-
-# Calculate the Deficit (Data not yet collected)
-merged_collection_summ["Urban_Deficit"] = merged_collection_summ["Urban_Target"] - merged_collection_summ["Urban_Collected"]
-merged_collection_summ["Rural_Deficit"] = merged_collection_summ["Rural_Target"] - merged_collection_summ["Rural_Collected"]
-
-# If collected >= target, set deficit to 0 (i.e., already completed)
-merged_collection_summ["Urban_Deficit"] = merged_collection_summ["Urban_Deficit"].apply(lambda x: x if x > 0 else 0)
-merged_collection_summ["Rural_Deficit"] = merged_collection_summ["Rural_Deficit"].apply(lambda x: x if x > 0 else 0)
-
-# Sum the deficits and targets across all states and LGAs
-total_urban_deficit = merged_collection_summ["Urban_Deficit"].sum()
-total_rural_deficit = merged_collection_summ["Rural_Deficit"].sum()
-
-total_urban_target = merged_collection_summ["Urban_Target"].sum()
-total_rural_target = merged_collection_summ["Rural_Target"].sum()
-
-# Total Deficit (Urban + Rural)
-total_deficit = total_urban_deficit + total_rural_deficit
-
-# Total Target (Urban + Rural)
-total_target = total_urban_target + total_rural_target
-
-# Overall Percentage Completion
-overall_completion = round((1 - (total_deficit / total_target)) * 100,2)
-perc_deficit =  round((100  - overall_completion), 2)
-
-############################################################################
-# completion date
-urban_target = sampling_numbers['Urban_Target'].sum()
-rural_target = sampling_numbers['Rural_Target'].sum()
-
-total_target = urban_target + rural_target 
-
-current_total  = ea_passed.shape[0]
-# Assuming ea_passed is your DataFrame
-ea_passed['Timestamp'] = pd.to_datetime(ea_passed['Timestamp'], format='%m/%d/%Y %H:%M:%S')
-ea_passed['date'] = ea_passed['Timestamp'].dt.date
-
-# Daily collection count
-daily_collection_combined = ea_passed.groupby('date').size()
-
-# Average daily collection
-daily_avg_combined = round(daily_collection_combined.mean(), 0)
-
-# Exclude the latest date
-latest_date = daily_collection_combined.index.max()
-daily_collection_excluding_latest = daily_collection_combined[daily_collection_combined.index != latest_date]
-
-# Average daily collection (excluding the latest date)
-prev_daily_avg_combined = round(daily_collection_excluding_latest.mean(), 0)
-
-perc_inc_dec_avg_col = round((daily_avg_combined - prev_daily_avg_combined)/prev_daily_avg_combined * 100, 0)
-
-# Remaining surveys to be collected
-remaining_total = max(total_target - current_total, 0)
-
-# Calculate estimated completion time
-days_to_complete = remaining_total / daily_avg_combined  # if daily_avg_combined > 0 else float('inf')
-
-# Estimated completion date
-today = datetime.date.today()
-completion_date = today + datetime.timedelta(days=round(days_to_complete))
-
-
-completion_date_text = completion_date.strftime('%B-%d-%Y')
-
-expected_completion_date = "March 4th, 2025"
-
-
-
-
-merged_collection_summ['Rural_Deficit'] = merged_collection_summ['Rural_Deficit'].round(0).astype(int)
-merged_collection_summ['Urban_Deficit'] = merged_collection_summ['Urban_Deficit'].round(0).astype(int)
-
-merged_collection_summ['Urban_Collected'] = merged_collection_summ['Urban_Collected'].round(0).astype(int)
-merged_collection_summ['Rural_Collected'] = merged_collection_summ['Rural_Collected'].round(0).astype(int)
-
-
-expander_data = merged_collection_summ[['State', 'LGA', 'Urban_Target', 'Rural_Target','Urban_Collected', 'Rural_Collected','Urban_Deficit', 'Rural_Deficit']]
-
-
-
-import streamlit as st
 
 # Tabs for state and vendor
 tab1, tab2 = st.tabs(["Energy Access", "State Readiness"])
@@ -189,37 +61,22 @@ st.markdown(
 )
 
 
+# Ensure correct data type conversion
+states_done = int(dashboard_single_data['states_done'][0])
+total_states = int(dashboard_single_data['total_states'][0])
+states_visited = str(dashboard_single_data['states_visited'][0])
+total_target = int(dashboard_single_data['total_target'][0])
+current_total = int(dashboard_single_data['current_total'][0])
+daily_avg_combined = int(dashboard_single_data['daily_avg_combined'][0])
+perc_inc_dec_avg_col = int(dashboard_single_data['perc_inc_dec_avg_col'][0])
+expected_completion_date = str(dashboard_single_data['expected_completion_date'][0])  # If it's a date, format it properly
+completion_date_text = str(dashboard_single_data['completion_date_text'][0])
+overall_completion = int(dashboard_single_data['overall_completion'][0])
+perc_deficit = int(dashboard_single_data['perc_deficit'][0])
 
+total_clean_records = int(dashboard_single_data['total_clean_records'][0])
+total_bad_records = int(dashboard_single_data['total_bad_records'][0])
 
-## GET ALL METRICS
-total_states = 37
-states_done = len(state_data[state_data['Overall_Completion'] >= 100])
-state_per_cmptd = round((states_done/total_states) *100, 2)
-states_visited = f"{ea_passed['State'].nunique()} states visited"
-
-
-
-
-# GOOD AND BAD DATA SUMMARY
-good_bad_summary = ea_dump.pivot_table(
-    index="State",
-    columns="vista_remark",
-    aggfunc="size",
-    fill_value=0
-).reset_index()
-
-# Ensure "Good" and "Bad" columns are present even if some are missing
-if "Good" not in good_bad_summary.columns:
-    good_bad_summary["Good"] = 0
-if "Bad" not in good_bad_summary.columns:
-    good_bad_summary["Bad"] = 0
-
-# Reorder columns for readability
-good_bad_summary = good_bad_summary[['State', 'Good', 'Bad']]
-good_bad_summary.rename(columns={"Good": "Clean Data", "Bad": "Inconsistent Data"}, inplace=True)
-
-total_clean_records = good_bad_summary["Clean Data"].sum()
-total_bad_records = good_bad_summary["Inconsistent Data"].sum()
 
 
 with tab1:
@@ -230,18 +87,9 @@ with tab1:
     col3.metric("Avg. Daily Collection", f"{daily_avg_combined} per day", f"{perc_inc_dec_avg_col} %")
     col4.metric("Expected completion day", f"{expected_completion_date}", f"{completion_date_text}")
 
+
     # Map View and Progress Bar
     col1, col2 = st.columns([1, 2])
-
-
-    # Ensure Geolocation is string and split into lat/lon
-    ea_passed['Geolocation'] = ea_passed['Geolocation'].astype(str)
-    ea_passed[['lat', 'lon']] = ea_passed['Geolocation'].str.split(',', expand=True)
-    ea_passed['lat'] = pd.to_numeric(ea_passed['lat'], errors='coerce')
-    ea_passed['lon'] = pd.to_numeric(ea_passed['lon'], errors='coerce')
-    ea_passed = ea_passed.dropna(subset=['lat', 'lon'])
-
- 
 
     with col1:
     # State Dropdown
@@ -259,19 +107,19 @@ with tab1:
         col1A, col2A = st.columns(2)     
 
         with col1A:
-            selected_state = st.selectbox("Select State", options=["All"] + sorted(ea_passed['State'].unique()))
+            selected_state = st.selectbox("Select State", options=["All"] + sorted(geospatial_data['State'].unique()))
 
         with col2A:
 
             # LGA Dropdown (depends on State)
             if selected_state == "All":
-                lga_options = ["All"] + sorted(ea_passed['LGA'].unique())
+                lga_options = ["All"] + sorted(geospatial_data['LGA'].unique())
             else:
-                lga_options = ["All"] + sorted(ea_passed[ea_passed['State'] == selected_state]['LGA'].unique())
+                lga_options = ["All"] + sorted(geospatial_data[geospatial_data['State'] == selected_state]['LGA'].unique())
 
             selected_lga = st.selectbox("Select LGA", options=lga_options) 
             # Filter Data
-            filtered_data = ea_passed.copy()
+            filtered_data = geospatial_data.copy()
 
             if selected_state != "All":
                 filtered_data = filtered_data[filtered_data['State'] == selected_state]
@@ -298,13 +146,11 @@ with tab1:
 
 
 
-
-
     # Plotly bar chart showing progress
     fig = go.Figure()
 
 
-    for index, row in state_data.iterrows():
+    for index, row in state_lga_completion_data.iterrows():
         fig.add_trace(go.Bar(
             x=[row['State']],
             y=[100],
@@ -365,9 +211,9 @@ with tab1:
 
     with colA:
         # Data Quality Analysis
-        fig_quality = px.bar(good_bad_summary, x="State", y=["Clean Data",  "Inconsistent Data"], 
+        fig_quality = px.bar(data_quality_summary_data, x="State", y=["Clean Data",  "Inconsistent Data"], 
                             barmode="stack", title="Data Quality Analysis", color_discrete_map={
-                                "Clean Data": "#1a3665", "Inconsistent DataBad data": "#6599cd"
+                                "Clean Data": "#1a3665", "Inconsistent Data": "#6599cd"
                             })
         st.plotly_chart(fig_quality, use_container_width=True)
 
@@ -385,14 +231,14 @@ with tab1:
     with st.container():
         with st.expander('Sampling Methodology Tracker', expanded=True):
             # Dropdown for state selection
-            state_options = merged_collection_summ["State"].unique().tolist()
+            state_options = expander_data["State"].unique().tolist()
             selected_state = st.selectbox("Select State", ["All"] + state_options)
 
             # Filter LGA options based on selected state
             if selected_state == "All":
-                lga_options = merged_collection_summ["LGA"].unique().tolist()
+                lga_options = expander_data["LGA"].unique().tolist()
             else:
-                lga_options = merged_collection_summ[merged_collection_summ["State"] == selected_state]["LGA"].unique().tolist()
+                lga_options = expander_data[expander_data["State"] == selected_state]["LGA"].unique().tolist()
 
             selected_lga = st.selectbox("Select LGA", ["All"] + lga_options)
 
