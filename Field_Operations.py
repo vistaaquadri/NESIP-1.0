@@ -260,6 +260,10 @@ with tab1:
             if selected_lga != "All":
                 filtered_df_summary = filtered_df_summary[filtered_df_summary["LGA"] == selected_lga]
 
+
+                
+            st.markdown(filtered_df_summary.to_html(escape=False, index=False), unsafe_allow_html=True)
+
             # Convert DataFrame to CSV
             csv = filtered_df_summary.to_csv(index=False).encode('utf-8')
 
@@ -271,10 +275,6 @@ with tab1:
                 mime="text/csv",
                 key="download-csv"
             )
-                
-            st.markdown(filtered_df_summary.to_html(escape=False, index=False), unsafe_allow_html=True)
-
-
 
 
 with tab2:
