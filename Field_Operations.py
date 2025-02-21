@@ -260,14 +260,25 @@ with tab1:
             if selected_lga != "All":
                 filtered_df_summary = filtered_df_summary[filtered_df_summary["LGA"] == selected_lga]
 
+            # Convert DataFrame to CSV
+            csv = filtered_df_summary.to_csv(index=False).encode('utf-8')
 
+            # Create a Download Button
+            st.download_button(
+                label="📥 Download CSV",
+                data=csv,
+                file_name="progress.csv",
+                mime="text/csv",
+                key="download-csv"
+            )
                 
             st.markdown(filtered_df_summary.to_html(escape=False, index=False), unsafe_allow_html=True)
 
 
+
+
 with tab2:
     st.write("State Readiness Data summary would be published soon")
-
 
 
 
