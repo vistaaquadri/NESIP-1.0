@@ -44,19 +44,19 @@
 42,Akwa-Ibom,Essien Udim,3,6,0,0,3,6
 43,Akwa-Ibom,Etim Ekpo,3,6,0,0,3,6
 44,Akwa-Ibom,Etinan,3,6,3,6,0,0
-45,Akwa-Ibom,Ibeno,3,6,0,0,3,6
+45,Akwa-Ibom,Ibeno,3,6,3,6,0,0
 46,Akwa-Ibom,Ibesikpo Asutan,3,6,6,3,0,3
-47,Akwa-Ibom,Ibiono-Ibom,3,6,0,0,3,6
-48,Akwa-Ibom,Ika,3,6,0,0,3,6
+47,Akwa-Ibom,Ibiono-Ibom,3,6,3,6,0,0
+48,Akwa-Ibom,Ika,3,6,3,6,0,0
 49,Akwa-Ibom,Ikono,3,6,3,6,0,0
-50,Akwa-Ibom,Ikot Abasi (village),3,6,0,0,3,6
+50,Akwa-Ibom,Ikot Abasi (village),3,6,3,6,0,0
 51,Akwa-Ibom,Ikot Ekpene,3,6,3,5,0,1
 52,Akwa-Ibom,Ini,3,6,0,0,3,6
 53,Akwa-Ibom,Itu,3,6,3,6,0,0
-54,Akwa-Ibom,Mbo,3,6,2,5,1,1
-55,Akwa-Ibom,Mkpat-Enin,3,6,0,0,3,6
+54,Akwa-Ibom,Mbo,3,6,2,8,1,0
+55,Akwa-Ibom,Mkpat-Enin,3,6,3,7,0,0
 56,Akwa-Ibom,Nsit-Atai,3,6,1,5,2,1
-57,Akwa-Ibom,Nsit-Ibom,3,6,1,7,2,0
+57,Akwa-Ibom,Nsit-Ibom,3,6,2,7,1,0
 58,Akwa-Ibom,Nsit-Ubium,3,6,2,6,1,0
 59,Akwa-Ibom,Obot Akara,3,6,0,0,3,6
 60,Akwa-Ibom,Okobo,3,6,3,6,0,0
@@ -64,16 +64,16 @@
 62,Akwa-Ibom,Oron,3,6,3,6,0,0
 63,Akwa-Ibom,Oruk Anam,3,6,2,6,1,0
 64,Akwa-Ibom,Udung-Uko,3,6,2,7,1,0
-65,Akwa-Ibom,Ukanafun,3,6,3,5,0,1
+65,Akwa-Ibom,Ukanafun,3,6,4,5,0,1
 66,Akwa-Ibom,Uruan,3,6,3,6,0,0
-67,Akwa-Ibom,Urue-Offong/Oruko,3,6,0,1,3,5
+67,Akwa-Ibom,Urue-Offong/Oruko,3,6,3,8,0,0
 68,Akwa-Ibom,Uyo,3,6,9,9,0,0
 69,Anambra,Aguata,10,3,0,0,10,3
 70,Anambra,Anambra East,10,3,0,0,10,3
 71,Anambra,Anambra West,10,3,0,0,10,3
 72,Anambra,Anaocha,10,3,0,0,10,3
 73,Anambra,Awka North,10,3,0,0,10,3
-74,Anambra,Awka South,10,3,0,0,10,3
+74,Anambra,Awka South,10,3,5,0,5,3
 75,Anambra,Ayamelum,10,3,0,0,10,3
 76,Anambra,Dunukofia,10,3,0,0,10,3
 77,Anambra,Ekwusigo,10,3,0,0,10,3
@@ -109,14 +109,14 @@
 107,Bauchi,Toro,3,7,0,0,3,7
 108,Bauchi,Warji,3,7,0,0,3,7
 109,Bauchi,Zaki,3,7,0,0,3,7
-110,Bayelsa,Brass,3,7,2,6,1,1
+110,Bayelsa,Brass,3,7,3,7,0,0
 111,Bayelsa,Ekeremor,3,7,3,6,0,1
 112,Bayelsa,Kolokuma/Opokuma,3,7,3,7,0,0
 113,Bayelsa,Nembe,3,7,4,8,0,0
 114,Bayelsa,Ogbia,3,7,2,8,1,0
 115,Bayelsa,Sagbama,3,7,3,6,0,1
 116,Bayelsa,Southern Ijaw,3,7,4,6,0,1
-117,Bayelsa,Yenagoa,3,7,7,3,0,4
+117,Bayelsa,Yenagoa,3,7,7,5,0,2
 118,Benue,Ado,3,8,0,0,3,8
 119,Benue,Agatu,3,8,0,0,3,8
 120,Benue,Apa,3,8,0,0,3,8
@@ -129,7 +129,7 @@
 127,Benue,Konshisha,3,8,0,0,3,8
 128,Benue,Kwande,3,8,0,0,3,8
 129,Benue,Logo,3,8,0,0,3,8
-130,Benue,Makurdi,3,8,0,0,3,8
+130,Benue,Makurdi,3,8,3,0,0,8
 131,Benue,Obi,3,8,0,0,3,8
 132,Benue,Ogbadibo,3,8,0,0,3,8
 133,Benue,Ohimini,3,8,0,0,3,8
@@ -183,7 +183,7 @@
 181,Cross River,Obudu,3,8,0,0,3,8
 182,Cross River,Odukpani,3,8,3,8,0,0
 183,Cross River,Ogoja,3,8,0,0,3,8
-184,Cross River,Yakurr,3,8,0,0,3,8
+184,Cross River,Yakurr,3,8,2,0,1,8
 185,Cross River,Yala,3,8,0,0,3,8
 186,Delta,Aniocha North,5,5,0,0,5,5
 187,Delta,Aniocha South,5,5,0,0,5,5
@@ -195,8 +195,8 @@
 193,Delta,Ika South,5,5,0,0,5,5
 194,Delta,Isoko North,5,5,6,7,0,0
 195,Delta,Isoko South,5,5,6,6,0,0
-196,Delta,Ndokwa East,5,5,0,0,5,5
-197,Delta,Ndokwa West,5,5,0,0,5,5
+196,Delta,Ndokwa East,5,5,5,5,0,0
+197,Delta,Ndokwa West,5,5,5,5,0,0
 198,Delta,Okpe,5,5,2,5,3,0
 199,Delta,Oshimili North,5,5,0,0,5,5
 200,Delta,Oshimili South,5,5,0,0,5,5
@@ -205,11 +205,11 @@
 203,Delta,Udu,5,5,5,2,0,3
 204,Delta,Ughelli North,5,5,5,6,0,0
 205,Delta,Ughelli South,5,5,5,5,0,0
-206,Delta,Ukwuani,5,5,0,0,5,5
+206,Delta,Ukwuani,5,5,5,3,0,2
 207,Delta,Uvwie,5,5,4,5,1,0
 208,Delta,Warri North,5,5,0,0,5,5
 209,Delta,Warri South,5,5,5,0,0,5
-210,Delta,Warri South West,5,5,4,3,1,2
+210,Delta,Warri South West,5,5,4,4,1,1
 211,Ebonyi,Abakaliki,7,3,0,0,7,3
 212,Ebonyi,Afikpo,7,3,0,0,7,3
 213,Ebonyi,Ebonyi,7,3,0,0,7,3
@@ -226,7 +226,7 @@
 224,Edo,Akoko-Edo,6,4,6,4,0,0
 225,Edo,Benin,6,4,0,0,6,4
 226,Edo,Egor,6,4,6,4,0,0
-227,Edo,Esan Central,6,4,0,1,6,3
+227,Edo,Esan Central,6,4,6,5,0,0
 228,Edo,Esan North-East,6,4,8,2,0,2
 229,Edo,Esan South-East,6,4,6,4,0,0
 230,Edo,Esan West,6,4,6,4,0,0
@@ -244,7 +244,7 @@
 242,Edo,Uhunmwonde,6,4,6,4,0,0
 243,Ekiti,Ado Ekiti,8,3,9,3,0,0
 244,Ekiti,Efon,8,3,4,2,4,1
-245,Ekiti,Ekiti East,8,3,0,0,8,3
+245,Ekiti,Ekiti East,8,3,7,2,1,1
 246,Ekiti,Ekiti South-West,8,3,8,3,0,0
 247,Ekiti,Ekiti West,8,3,1,1,7,2
 248,Ekiti,Emure,8,3,8,3,0,0
@@ -260,9 +260,9 @@
 258,Ekiti,Oye,8,3,7,3,1,0
 259,Enugu,Aninri,8,3,0,0,8,3
 260,Enugu,Awgu,8,3,0,0,8,3
-261,Enugu,Enugu East,8,3,0,0,8,3
-262,Enugu,Enugu North,8,3,0,0,8,3
-263,Enugu,Enugu South,8,3,0,0,8,3
+261,Enugu,Enugu East,8,3,0,2,8,1
+262,Enugu,Enugu North,8,3,3,0,5,3
+263,Enugu,Enugu South,8,3,1,2,7,1
 264,Enugu,Ezeagu,8,3,0,0,8,3
 265,Enugu,Igbo Etiti,8,3,0,0,8,3
 266,Enugu,Igbo Eze North,8,3,0,0,8,3
@@ -465,7 +465,7 @@
 463,Kogi,Bassa,3,5,0,0,3,5
 464,Kogi,Dekina,3,5,0,0,3,5
 465,Kogi,Ibaji,3,5,0,0,3,5
-466,Kogi,Idah,3,5,0,0,3,5
+466,Kogi,Idah,3,5,1,0,2,5
 467,Kogi,Igalamela-Odolu,3,5,0,0,3,5
 468,Kogi,Ijumu,3,5,0,0,3,5
 469,Kogi,Isanlu,3,5,0,0,3,5
@@ -482,8 +482,8 @@
 480,Kwara,BarutenA,6,3,0,0,6,3
 481,Kwara,Ekiti,6,3,0,0,6,3
 482,Kwara,Ifelodun,6,3,0,0,6,3
-483,Kwara,Ilorin East,6,3,0,0,6,3
-484,Kwara,Ilorin West,6,3,0,0,6,3
+483,Kwara,Ilorin East,6,3,5,0,1,3
+484,Kwara,Ilorin West,6,3,5,2,1,1
 485,Kwara,Irepodun,6,3,0,0,6,3
 486,Kwara,Isin,6,3,0,0,6,3
 487,Kwara,Kaiama,6,3,0,0,6,3
@@ -491,28 +491,28 @@
 489,Kwara,Moro,6,3,0,0,6,3
 490,Kwara,Offa,6,3,0,0,6,3
 491,Kwara,Oke Ero,6,3,0,0,6,3
-492,Kwara,Omu Aran,6,3,0,0,6,3
+492,Kwara,Omu Aran,6,3,1,0,5,3
 493,Kwara,Oyun,6,3,0,0,6,3
 494,Kwara,Pategi,6,3,0,0,6,3
 495,Lagos,Agege,29,3,27,3,2,0
 496,Lagos,Ajeromi-Ifelodun,29,3,29,3,0,0
 497,Lagos,Alimosho,29,3,26,3,3,0
-498,Lagos,Amuwo-Odofin,29,3,21,3,8,0
-499,Lagos,Apapa,29,3,18,3,11,0
+498,Lagos,Amuwo-Odofin,29,3,31,3,0,0
+499,Lagos,Apapa,29,3,29,3,0,0
 500,Lagos,Badagry,29,3,29,3,0,0
 501,Lagos,Epe,29,3,0,0,29,3
-502,Lagos,Eti-Osa,29,3,18,3,11,0
-503,Lagos,Ibeju-Lekki,29,3,0,0,29,3
+502,Lagos,Eti-Osa,29,3,25,4,4,0
+503,Lagos,Ibeju-Lekki,29,3,27,4,2,0
 504,Lagos,Ifako-Ijaiye,29,3,30,3,0,0
-505,Lagos,Ikeja,29,3,25,5,4,0
-506,Lagos,Ikorodu,29,3,20,3,9,0
+505,Lagos,Ikeja,29,3,26,5,3,0
+506,Lagos,Ikorodu,29,3,30,3,0,0
 507,Lagos,Kosofe,29,3,36,3,0,0
 508,Lagos,Lagos Island,29,3,32,6,0,0
 509,Lagos,Lagos Mainland,29,3,23,0,6,3
 510,Lagos,Mushin,29,3,29,3,0,0
-511,Lagos,Ojo,29,3,11,0,18,3
+511,Lagos,Ojo,29,3,29,3,0,0
 512,Lagos,Oshodi-Isolo,29,3,28,3,1,0
-513,Lagos,Somolu,29,3,19,3,10,0
+513,Lagos,Somolu,29,3,31,3,0,0
 514,Lagos,Surulere,29,3,32,4,0,0
 515,Nasarawa,Akwanga,3,5,0,0,3,5
 516,Nasarawa,Awe,3,5,0,0,3,5
@@ -560,7 +560,7 @@
 558,Ogun,Ijebu East,6,6,6,6,0,0
 559,Ogun,Ijebu North,6,6,5,6,1,0
 560,Ogun,Ijebu North East,6,6,6,6,0,0
-561,Ogun,Ijebu Ode,6,6,6,5,0,1
+561,Ogun,Ijebu Ode,6,6,6,6,0,0
 562,Ogun,Ikenne,6,6,8,4,0,2
 563,Ogun,Ilishan-Remo,6,6,5,6,1,0
 564,Ogun,Imeko Afon,6,6,5,6,1,0
@@ -592,15 +592,15 @@
 590,Ondo,Ose,5,6,5,6,0,0
 591,Ondo,Owo,5,6,5,6,0,0
 592,Osun,Aiyedaade,5,3,5,3,0,0
-593,Osun,Aiyedire,5,3,0,0,5,3
+593,Osun,Aiyedire,5,3,5,3,0,0
 594,Osun,Atakunmosa East,5,3,4,4,1,0
-595,Osun,Atakunmosa West,5,3,1,0,4,3
+595,Osun,Atakunmosa West,5,3,6,2,0,1
 596,Osun,Boluwaduro,5,3,5,2,0,1
 597,Osun,Boripe,5,3,4,3,1,0
 598,Osun,Ede North,5,3,7,4,0,0
 599,Osun,Ede South,5,3,1,2,4,1
-600,Osun,Egbedore,5,3,0,0,5,3
-601,Osun,Ejigbo,5,3,3,3,2,0
+600,Osun,Egbedore,5,3,5,3,0,0
+601,Osun,Ejigbo,5,3,5,3,0,0
 602,Osun,Ife Central,5,3,5,3,0,0
 603,Osun,Ife East,5,3,5,3,0,0
 604,Osun,Ife North,5,3,5,3,0,0
@@ -612,12 +612,12 @@
 610,Osun,Ilesa West,5,3,5,3,0,0
 611,Osun,Irepodun,5,3,4,3,1,0
 612,Osun,Irewole,5,3,5,3,0,0
-613,Osun,Isokan,5,3,0,0,5,3
+613,Osun,Isokan,5,3,4,3,1,0
 614,Osun,Iwo,5,3,0,0,5,3
 615,Osun,Obokun,5,3,4,4,1,0
 616,Osun,Odo-Otin,5,3,5,4,0,0
 617,Osun,Ola-Oluwa,5,3,5,3,0,0
-618,Osun,Olorunda,5,3,0,0,5,3
+618,Osun,Olorunda,5,3,2,2,3,1
 619,Osun,Ori-Ade,5,3,6,4,0,0
 620,Osun,Orolu,5,3,5,3,0,0
 621,Osun,Osogbo,5,3,0,0,5,3
@@ -675,10 +675,10 @@
 673,Rivers,Abua-Odual,6,6,6,6,0,0
 674,Rivers,Ahoada East,6,6,6,6,0,0
 675,Rivers,Ahoada West,6,6,6,8,0,0
-676,Rivers,Akuku Toru,6,6,5,7,1,0
-677,Rivers,Andoni,6,6,0,0,6,6
+676,Rivers,Akuku Toru,6,6,6,7,0,0
+677,Rivers,Andoni,6,6,6,6,0,0
 678,Rivers,Asari Toru,6,6,7,6,0,0
-679,Rivers,Bonny,6,6,3,9,3,0
+679,Rivers,Bonny,6,6,6,9,0,0
 680,Rivers,Degema,6,6,6,6,0,0
 681,Rivers,Eleme,6,6,8,6,0,0
 682,Rivers,Emohua,6,6,6,6,0,0
