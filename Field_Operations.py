@@ -62,7 +62,7 @@ st.markdown(
 
 
 # Ensure correct data type conversion
-states_done = int(dashboard_single_data['states_done'][0])
+states_done = int(dashboard_single_data['states_done'][0])#updated
 total_states = int(dashboard_single_data['total_states'][0])
 states_visited = str(dashboard_single_data['states_visited'][0])
 total_target = int(dashboard_single_data['total_target'][0])
@@ -88,10 +88,10 @@ last_collection_count = int(dashboard_single_data['last_collection_count'][0])
 with tab1:
     # Overview Metrics
     col1, col2, col3, col4 = st.columns(4)
-#    col1.metric("States Completed", f"{states_done} of {total_states}", states_visited)
+    col1.metric("States Completed", f"{states_done} of {total_states}", states_visited)
 
 
-    col1.metric("States Completed", f"0 of {total_states}", "12 States Visited")
+    #col1.metric("States Completed", f"0 of {total_states}", "12 States Visited")
     col2.metric("Data Collection", f"{total_target} Expected", f"{current_total} Collected")
     col3.metric("Avg. Daily Collection", f"{Daily_avg_expected} Expected per day", f"{daily_avg_combined} Avg Daily collection ({perc_in_dec_collection} %)")
 
