@@ -1,8 +1,8 @@
 ,State,LGA,Urban_Target,Rural_Target,Urban_Collected,Rural_Collected,Urban_Deficit,Rural_Deficit
 0,Abia,Aba North,3,8,0,0,3,8
-1,Abia,Aba South,3,8,0,0,3,8
+1,Abia,Aba South,3,8,4,0,0,8
 2,Abia,Arochukwu,3,8,0,0,3,8
-3,Abia,Bende,3,8,0,0,3,8
+3,Abia,Bende,3,8,2,5,1,3
 4,Abia,Ikwuano,3,8,0,0,3,8
 5,Abia,Isiala Ngwa North,3,8,0,0,3,8
 6,Abia,Isiala Ngwa South,3,8,0,0,3,8
@@ -15,7 +15,7 @@
 13,Abia,Ukwa West,3,8,0,0,3,8
 14,Abia,Umu Nneochi,3,8,0,0,3,8
 15,Abia,Umuahia North,3,8,0,0,3,8
-16,Abia,Umuahia South,3,8,0,0,3,8
+16,Abia,Umuahia South,3,8,2,3,1,5
 17,Adamawa,Demsa,3,4,0,0,3,4
 18,Adamawa,Fufure,3,4,0,0,3,4
 19,Adamawa,Ganye,3,4,0,0,3,4
@@ -41,7 +41,7 @@
 39,Akwa-Ibom,Eastern Obolo,3,6,0,0,3,6
 40,Akwa-Ibom,Eket,3,6,3,6,0,0
 41,Akwa-Ibom,Esit Eket,3,6,3,6,0,0
-42,Akwa-Ibom,Essien Udim,3,6,0,0,3,6
+42,Akwa-Ibom,Essien Udim,3,6,3,3,0,3
 43,Akwa-Ibom,Etim Ekpo,3,6,0,0,3,6
 44,Akwa-Ibom,Etinan,3,6,3,6,0,0
 45,Akwa-Ibom,Ibeno,3,6,3,6,0,0
@@ -51,14 +51,14 @@
 49,Akwa-Ibom,Ikono,3,6,3,6,0,0
 50,Akwa-Ibom,Ikot Abasi (village),3,6,3,6,0,0
 51,Akwa-Ibom,Ikot Ekpene,3,6,3,5,0,1
-52,Akwa-Ibom,Ini,3,6,0,0,3,6
+52,Akwa-Ibom,Ini,3,6,2,5,1,1
 53,Akwa-Ibom,Itu,3,6,3,6,0,0
 54,Akwa-Ibom,Mbo,3,6,2,8,1,0
 55,Akwa-Ibom,Mkpat-Enin,3,6,3,7,0,0
 56,Akwa-Ibom,Nsit-Atai,3,6,1,5,2,1
 57,Akwa-Ibom,Nsit-Ibom,3,6,2,7,1,0
 58,Akwa-Ibom,Nsit-Ubium,3,6,2,6,1,0
-59,Akwa-Ibom,Obot Akara,3,6,0,0,3,6
+59,Akwa-Ibom,Obot Akara,3,6,3,7,0,0
 60,Akwa-Ibom,Okobo,3,6,3,6,0,0
 61,Akwa-Ibom,Onna,3,6,4,7,0,0
 62,Akwa-Ibom,Oron,3,6,3,6,0,0
@@ -73,7 +73,7 @@
 71,Anambra,Anambra West,10,3,0,0,10,3
 72,Anambra,Anaocha,10,3,0,0,10,3
 73,Anambra,Awka North,10,3,0,0,10,3
-74,Anambra,Awka South,10,3,5,0,5,3
+74,Anambra,Awka South,10,3,13,0,0,3
 75,Anambra,Ayamelum,10,3,0,0,10,3
 76,Anambra,Dunukofia,10,3,0,0,10,3
 77,Anambra,Ekwusigo,10,3,0,0,10,3
@@ -114,29 +114,29 @@
 112,Bayelsa,Kolokuma/Opokuma,3,7,3,7,0,0
 113,Bayelsa,Nembe,3,7,4,8,0,0
 114,Bayelsa,Ogbia,3,7,2,8,1,0
-115,Bayelsa,Sagbama,3,7,3,6,0,1
-116,Bayelsa,Southern Ijaw,3,7,4,6,0,1
-117,Bayelsa,Yenagoa,3,7,7,5,0,2
+115,Bayelsa,Sagbama,3,7,3,7,0,0
+116,Bayelsa,Southern Ijaw,3,7,4,7,0,0
+117,Bayelsa,Yenagoa,3,7,7,7,0,0
 118,Benue,Ado,3,8,0,0,3,8
 119,Benue,Agatu,3,8,0,0,3,8
 120,Benue,Apa,3,8,0,0,3,8
 121,Benue,Buruku,3,8,0,0,3,8
 122,Benue,Gboko,3,8,0,0,3,8
-123,Benue,Guma,3,8,0,0,3,8
+123,Benue,Guma,3,8,0,11,3,0
 124,Benue,Gwer East,3,8,0,0,3,8
 125,Benue,Gwer West,3,8,0,0,3,8
 126,Benue,Katsina-Ala,3,8,0,0,3,8
 127,Benue,Konshisha,3,8,0,0,3,8
 128,Benue,Kwande,3,8,0,0,3,8
 129,Benue,Logo,3,8,0,0,3,8
-130,Benue,Makurdi,3,8,3,0,0,8
+130,Benue,Makurdi,3,8,3,7,0,1
 131,Benue,Obi,3,8,0,0,3,8
 132,Benue,Ogbadibo,3,8,0,0,3,8
 133,Benue,Ohimini,3,8,0,0,3,8
 134,Benue,Oju,3,8,0,0,3,8
-135,Benue,Okpokwu,3,8,0,0,3,8
+135,Benue,Okpokwu,3,8,3,7,0,1
 136,Benue,Oturkpo,3,8,0,0,3,8
-137,Benue,Tarka,3,8,0,0,3,8
+137,Benue,Tarka,3,8,3,8,0,0
 138,Benue,Ukum,3,8,0,0,3,8
 139,Benue,Ushongo,3,8,0,0,3,8
 140,Benue,Vandeikya,3,8,0,0,3,8
@@ -170,35 +170,35 @@
 168,Cross River,Abi,3,8,1,8,2,0
 169,Cross River,Akamkpa,3,8,3,8,0,0
 170,Cross River,Akpabuyo,3,8,3,7,0,1
-171,Cross River,Bakassi,3,8,5,5,0,3
+171,Cross River,Bakassi,3,8,5,8,0,0
 172,Cross River,Bekwarra,3,8,0,0,3,8
 173,Cross River,Biase,3,8,3,7,0,1
 174,Cross River,Boki,3,8,0,0,3,8
-175,Cross River,Calabar Municipal,3,8,5,7,0,1
+175,Cross River,Calabar Municipal,3,8,5,8,0,0
 176,Cross River,Calabar South,3,8,2,10,1,0
 177,Cross River,Etung,3,8,0,0,3,8
 178,Cross River,Ikom,3,8,0,0,3,8
-179,Cross River,Obanliku,3,8,0,0,3,8
+179,Cross River,Obanliku,3,8,3,4,0,4
 180,Cross River,Obubra,3,8,3,8,0,0
-181,Cross River,Obudu,3,8,0,0,3,8
+181,Cross River,Obudu,3,8,3,8,0,0
 182,Cross River,Odukpani,3,8,3,8,0,0
 183,Cross River,Ogoja,3,8,0,0,3,8
 184,Cross River,Yakurr,3,8,2,0,1,8
 185,Cross River,Yala,3,8,0,0,3,8
 186,Delta,Aniocha North,5,5,0,0,5,5
-187,Delta,Aniocha South,5,5,0,0,5,5
+187,Delta,Aniocha South,5,5,5,5,0,0
 188,Delta,Bomadi,5,5,4,0,1,5
 189,Delta,Burutu,5,5,4,4,1,1
 190,Delta,Ethiope East,5,5,6,0,0,5
-191,Delta,Ethiope West,5,5,0,0,5,5
+191,Delta,Ethiope West,5,5,5,4,0,1
 192,Delta,Ika North East,5,5,0,0,5,5
-193,Delta,Ika South,5,5,0,0,5,5
+193,Delta,Ika South,5,5,5,5,0,0
 194,Delta,Isoko North,5,5,6,7,0,0
 195,Delta,Isoko South,5,5,6,6,0,0
 196,Delta,Ndokwa East,5,5,5,5,0,0
 197,Delta,Ndokwa West,5,5,5,5,0,0
 198,Delta,Okpe,5,5,2,5,3,0
-199,Delta,Oshimili North,5,5,0,0,5,5
+199,Delta,Oshimili North,5,5,5,5,0,0
 200,Delta,Oshimili South,5,5,0,0,5,5
 201,Delta,Patani,5,5,0,10,5,0
 202,Delta,Sapele,5,5,0,0,5,5
@@ -207,9 +207,9 @@
 205,Delta,Ughelli South,5,5,5,5,0,0
 206,Delta,Ukwuani,5,5,5,3,0,2
 207,Delta,Uvwie,5,5,4,5,1,0
-208,Delta,Warri North,5,5,0,0,5,5
+208,Delta,Warri North,5,5,2,0,3,5
 209,Delta,Warri South,5,5,5,0,0,5
-210,Delta,Warri South West,5,5,4,4,1,1
+210,Delta,Warri South West,5,5,4,5,1,0
 211,Ebonyi,Abakaliki,7,3,0,0,7,3
 212,Ebonyi,Afikpo,7,3,0,0,7,3
 213,Ebonyi,Ebonyi,7,3,0,0,7,3
@@ -260,8 +260,8 @@
 258,Ekiti,Oye,8,3,7,3,1,0
 259,Enugu,Aninri,8,3,0,0,8,3
 260,Enugu,Awgu,8,3,0,0,8,3
-261,Enugu,Enugu East,8,3,0,2,8,1
-262,Enugu,Enugu North,8,3,3,0,5,3
+261,Enugu,Enugu East,8,3,3,2,5,1
+262,Enugu,Enugu North,8,3,7,2,1,1
 263,Enugu,Enugu South,8,3,1,2,7,1
 264,Enugu,Ezeagu,8,3,0,0,8,3
 265,Enugu,Igbo Etiti,8,3,0,0,8,3
@@ -276,8 +276,8 @@
 274,Enugu,Udi,8,3,0,0,8,3
 275,Enugu,Uzo-Uwani,8,3,0,0,8,3
 276,Federal Capital Territory,Abaji,17,7,0,0,17,7
-277,Federal Capital Territory,Abuja Municipal Area Council,17,7,0,0,17,7
-278,Federal Capital Territory,Bwari,17,7,0,0,17,7
+277,Federal Capital Territory,Abuja Municipal Area Council,17,7,0,5,17,2
+278,Federal Capital Territory,Bwari,17,7,14,8,3,0
 279,Federal Capital Territory,Gwagwalada,17,7,0,0,17,7
 280,Federal Capital Territory,Kuje,17,7,0,0,17,7
 281,Federal Capital Territory,Kwali,17,7,0,0,17,7
@@ -316,7 +316,7 @@
 314,Imo,Orsu,4,4,0,0,4,4
 315,Imo,Oru East,4,4,0,0,4,4
 316,Imo,Oru West,4,4,0,0,4,4
-317,Imo,Owerri Municipal,4,4,0,0,4,4
+317,Imo,Owerri Municipal,4,4,9,0,0,4
 318,Imo,Owerri North,4,4,0,0,4,4
 319,Imo,Owerri West,4,4,0,0,4,4
 320,Jigawa,Auyo,3,5,0,0,3,5
@@ -470,20 +470,20 @@
 468,Kogi,Ijumu,3,5,0,0,3,5
 469,Kogi,Isanlu,3,5,0,0,3,5
 470,Kogi,Kabba/Bunu,3,5,0,0,3,5
-471,Kogi,Lokoja,3,5,0,0,3,5
+471,Kogi,Lokoja,3,5,3,3,0,2
 472,Kogi,Mopa-Muro,3,5,0,0,3,5
 473,Kogi,Okehi,3,5,0,0,3,5
 474,Kogi,Okene,3,5,0,0,3,5
-475,Kogi,Olamaboro,3,5,0,0,3,5
+475,Kogi,Olamaboro,3,5,3,5,0,0
 476,Kogi,Omala,3,5,0,0,3,5
 477,Kogi,Yagba East,3,5,0,0,3,5
 478,Kogi,Yagba West,3,5,0,0,3,5
-479,Kwara,Asa,6,3,0,0,6,3
+479,Kwara,Asa,6,3,6,3,0,0
 480,Kwara,BarutenA,6,3,0,0,6,3
 481,Kwara,Ekiti,6,3,0,0,6,3
-482,Kwara,Ifelodun,6,3,0,0,6,3
-483,Kwara,Ilorin East,6,3,5,0,1,3
-484,Kwara,Ilorin West,6,3,5,2,1,1
+482,Kwara,Ifelodun,6,3,5,3,1,0
+483,Kwara,Ilorin East,6,3,6,4,0,0
+484,Kwara,Ilorin West,6,3,7,2,0,1
 485,Kwara,Irepodun,6,3,0,0,6,3
 486,Kwara,Isin,6,3,0,0,6,3
 487,Kwara,Kaiama,6,3,0,0,6,3
@@ -491,7 +491,7 @@
 489,Kwara,Moro,6,3,0,0,6,3
 490,Kwara,Offa,6,3,0,0,6,3
 491,Kwara,Oke Ero,6,3,0,0,6,3
-492,Kwara,Omu Aran,6,3,1,0,5,3
+492,Kwara,Omu Aran,6,3,5,2,1,1
 493,Kwara,Oyun,6,3,0,0,6,3
 494,Kwara,Pategi,6,3,0,0,6,3
 495,Lagos,Agege,29,3,27,3,2,0
@@ -500,7 +500,7 @@
 498,Lagos,Amuwo-Odofin,29,3,31,3,0,0
 499,Lagos,Apapa,29,3,29,3,0,0
 500,Lagos,Badagry,29,3,29,3,0,0
-501,Lagos,Epe,29,3,0,0,29,3
+501,Lagos,Epe,29,3,10,0,19,3
 502,Lagos,Eti-Osa,29,3,25,4,4,0
 503,Lagos,Ibeju-Lekki,29,3,27,4,2,0
 504,Lagos,Ifako-Ijaiye,29,3,30,3,0,0
@@ -520,7 +520,7 @@
 518,Nasarawa,Karu,3,5,0,0,3,5
 519,Nasarawa,Keffi,3,5,0,0,3,5
 520,Nasarawa,Kokona,3,5,0,0,3,5
-521,Nasarawa,Lafia,3,5,0,0,3,5
+521,Nasarawa,Lafia,3,5,3,0,0,5
 522,Nasarawa,Nasarawa,3,5,0,0,3,5
 523,Nasarawa,Nasarawa Eggon,3,5,0,0,3,5
 524,Nasarawa,Obi,3,5,0,0,3,5
@@ -531,7 +531,7 @@
 529,Niger,Agwara,3,4,0,0,3,4
 530,Niger,Bida,3,4,0,0,3,4
 531,Niger,Borgu,3,4,0,0,3,4
-532,Niger,Bosso,3,4,0,0,3,4
+532,Niger,Bosso,3,4,4,0,0,4
 533,Niger,Chanchaga,3,4,0,0,3,4
 534,Niger,Edati,3,4,0,0,3,4
 535,Niger,Gbako,3,4,0,0,3,4
@@ -548,7 +548,7 @@
 546,Niger,Paikoro,3,4,0,0,3,4
 547,Niger,Rafi,3,4,0,0,3,4
 548,Niger,Rijau,3,4,0,0,3,4
-549,Niger,Shiroro,3,4,0,0,3,4
+549,Niger,Shiroro,3,4,0,2,3,2
 550,Niger,Suleja,3,4,0,0,3,4
 551,Niger,Tafa,3,4,0,0,3,4
 552,Niger,Wushishi,3,4,0,0,3,4
@@ -568,14 +568,14 @@
 566,Ogun,Obafemi Owode,6,6,6,6,0,0
 567,Ogun,Odeda,6,6,6,6,0,0
 568,Ogun,Odogbolu,6,6,0,0,6,6
-569,Ogun,Ogun Waterside,6,6,0,0,6,6
+569,Ogun,Ogun Waterside,6,6,3,1,3,5
 570,Ogun,Remo North,6,6,0,0,6,6
 571,Ogun,Shagamu,6,6,6,5,0,1
 572,Ogun,Yewa North,6,6,6,7,0,0
 573,Ogun,Yewa South,6,6,11,6,0,0
-574,Ondo,Akoko North-East,5,6,5,5,0,1
+574,Ondo,Akoko North-East,5,6,6,6,0,0
 575,Ondo,Akoko North-West,5,6,5,6,0,0
-576,Ondo,Akoko South-East,5,6,5,5,0,1
+576,Ondo,Akoko South-East,5,6,6,5,0,1
 577,Ondo,Akoko South-West,5,6,5,6,0,0
 578,Ondo,Akure North,5,6,5,6,0,0
 579,Ondo,Akure South,5,6,6,6,0,0
