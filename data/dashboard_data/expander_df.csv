@@ -224,541 +224,540 @@
 222,Ebonyi,Ohaukwu,7,3,0,0,7,3
 223,Ebonyi,Onicha,7,3,0,0,7,3
 224,Edo,Akoko-Edo,6,4,6,4,0,0
-225,Edo,Benin,6,4,0,0,6,4
-226,Edo,Egor,6,4,6,4,0,0
-227,Edo,Esan Central,6,4,6,5,0,0
-228,Edo,Esan North-East,6,4,8,2,0,2
-229,Edo,Esan South-East,6,4,6,4,0,0
-230,Edo,Esan West,6,4,6,4,0,0
-231,Edo,Etsako Central,6,4,6,3,0,1
-232,Edo,Etsako East,6,4,6,4,0,0
-233,Edo,Etsako West,6,4,6,4,0,0
-234,Edo,Igueben,6,4,6,4,0,0
-235,Edo,Ikpoba Okha,6,4,6,4,0,0
-236,Edo,Oredo,6,4,6,4,0,0
-237,Edo,Orhionmwon,6,4,6,4,0,0
-238,Edo,Ovia North-East,6,4,4,4,2,0
-239,Edo,Ovia South-West,6,4,6,4,0,0
-240,Edo,Owan East,6,4,6,4,0,0
-241,Edo,Owan West,6,4,6,4,0,0
-242,Edo,Uhunmwonde,6,4,6,4,0,0
-243,Ekiti,Ado Ekiti,8,3,9,3,0,0
-244,Ekiti,Efon,8,3,4,2,4,1
-245,Ekiti,Ekiti East,8,3,7,2,1,1
-246,Ekiti,Ekiti South-West,8,3,8,3,0,0
-247,Ekiti,Ekiti West,8,3,1,1,7,2
-248,Ekiti,Emure,8,3,8,3,0,0
-249,Ekiti,Gbonyin,8,3,8,3,0,0
-250,Ekiti,Ido Osi,8,3,8,3,0,0
-251,Ekiti,Ijero,8,3,9,2,0,1
-252,Ekiti,Ikere,8,3,8,3,0,0
-253,Ekiti,Ikole,8,3,8,3,0,0
-254,Ekiti,Ilejemeje,8,3,8,3,0,0
-255,Ekiti,Irepodun/Ifelodun,8,3,9,2,0,1
-256,Ekiti,Ise/Orun,8,3,8,3,0,0
-257,Ekiti,Moba,8,3,7,3,1,0
-258,Ekiti,Oye,8,3,7,3,1,0
-259,Enugu,Aninri,8,3,0,0,8,3
-260,Enugu,Awgu,8,3,0,0,8,3
-261,Enugu,Enugu East,8,3,3,2,5,1
-262,Enugu,Enugu North,8,3,7,2,1,1
-263,Enugu,Enugu South,8,3,1,2,7,1
-264,Enugu,Ezeagu,8,3,0,0,8,3
-265,Enugu,Igbo Etiti,8,3,0,0,8,3
-266,Enugu,Igbo Eze North,8,3,0,0,8,3
-267,Enugu,Igbo Eze South,8,3,0,0,8,3
-268,Enugu,Isi Uzo,8,3,0,0,8,3
-269,Enugu,Nkanu East,8,3,0,0,8,3
-270,Enugu,Nkanu West,8,3,0,0,8,3
-271,Enugu,Nsukka,8,3,0,0,8,3
-272,Enugu,Oji River,8,3,0,0,8,3
-273,Enugu,Udenu,8,3,0,0,8,3
-274,Enugu,Udi,8,3,0,0,8,3
-275,Enugu,Uzo-Uwani,8,3,0,0,8,3
-276,Federal Capital Territory,Abaji,17,7,0,0,17,7
-277,Federal Capital Territory,Abuja Municipal Area Council,17,7,0,5,17,2
-278,Federal Capital Territory,Bwari,17,7,14,8,3,0
-279,Federal Capital Territory,Gwagwalada,17,7,0,0,17,7
-280,Federal Capital Territory,Kuje,17,7,0,0,17,7
-281,Federal Capital Territory,Kwali,17,7,0,0,17,7
-282,Gombe,Akko,3,8,0,0,3,8
-283,Gombe,Balanga,3,8,0,0,3,8
-284,Gombe,Billiri,3,8,0,0,3,8
-285,Gombe,Dukku,3,8,0,0,3,8
-286,Gombe,Funakaye,3,8,0,0,3,8
-287,Gombe,Gombe,3,8,0,0,3,8
-288,Gombe,Kaltungo,3,8,0,0,3,8
-289,Gombe,Kwami,3,8,0,0,3,8
-290,Gombe,Nafada,3,8,0,0,3,8
-291,Gombe,Shongom,3,8,0,0,3,8
-292,Gombe,Yamaltu/Deba,3,8,0,0,3,8
-293,Imo,Aboh Mbaise,4,4,0,0,4,4
-294,Imo,Ahiazu Mbaise,4,4,0,0,4,4
-295,Imo,Ehime Mbano,4,4,0,0,4,4
-296,Imo,Ezinihitte,4,4,0,0,4,4
-297,Imo,Ideato North,4,4,0,0,4,4
-298,Imo,Ideato South,4,4,0,0,4,4
-299,Imo,Ihitte/Uboma,4,4,0,0,4,4
-300,Imo,Ikeduru,4,4,0,0,4,4
-301,Imo,Isiala Mbano,4,4,0,0,4,4
-302,Imo,Isu,4,4,0,0,4,4
-303,Imo,Mbaitoli,4,4,0,0,4,4
-304,Imo,Ngor Okpala,4,4,0,0,4,4
-305,Imo,Njaba,4,4,0,0,4,4
-306,Imo,Nkwerre,4,4,0,0,4,4
-307,Imo,Nwangele,4,4,0,0,4,4
-308,Imo,Obowo,4,4,0,0,4,4
-309,Imo,Oguta,4,4,0,0,4,4
-310,Imo,Ohaji/Egbema,4,4,0,0,4,4
-311,Imo,Okigwe,4,4,0,0,4,4
-312,Imo,Onuimo,4,4,0,0,4,4
-313,Imo,Orlu,4,4,0,0,4,4
-314,Imo,Orsu,4,4,0,0,4,4
-315,Imo,Oru East,4,4,0,0,4,4
-316,Imo,Oru West,4,4,0,0,4,4
-317,Imo,Owerri Municipal,4,4,9,0,0,4
-318,Imo,Owerri North,4,4,0,0,4,4
-319,Imo,Owerri West,4,4,0,0,4,4
-320,Jigawa,Auyo,3,5,0,0,3,5
-321,Jigawa,Babura,3,5,0,0,3,5
-322,Jigawa,Birnin Kudu,3,5,0,0,3,5
-323,Jigawa,Birniwa,3,5,0,0,3,5
-324,Jigawa,Buji,3,5,0,0,3,5
-325,Jigawa,Dutse,3,5,0,0,3,5
-326,Jigawa,Gagarawa,3,5,0,0,3,5
-327,Jigawa,Garki,3,5,0,0,3,5
-328,Jigawa,Gumel,3,5,0,0,3,5
-329,Jigawa,Guri,3,5,0,0,3,5
-330,Jigawa,Gwaram,3,5,0,0,3,5
-331,Jigawa,Gwiwa,3,5,0,0,3,5
-332,Jigawa,Hadejia,3,5,0,0,3,5
-333,Jigawa,Jahun,3,5,0,0,3,5
-334,Jigawa,Kafin Hausa,3,5,0,0,3,5
-335,Jigawa,Kaugama,3,5,0,0,3,5
-336,Jigawa,Kazaure,3,5,0,0,3,5
-337,Jigawa,Kiri Kasama,3,5,0,0,3,5
-338,Jigawa,Kiyawa,3,5,0,0,3,5
-339,Jigawa,Maigatari,3,5,0,0,3,5
-340,Jigawa,Malam Madori,3,5,0,0,3,5
-341,Jigawa,Miga,3,5,0,0,3,5
-342,Jigawa,Ringim,3,5,0,0,3,5
-343,Jigawa,Roni,3,5,0,0,3,5
-344,Jigawa,Sule Tankarkar,3,5,0,0,3,5
-345,Jigawa,Taura,3,5,0,0,3,5
-346,Jigawa,Yankwashi,3,5,0,0,3,5
-347,Kaduna,Birnin Gwari,4,5,0,0,4,5
-348,Kaduna,Chikun,4,5,0,0,4,5
-349,Kaduna,Giwa,4,5,0,0,4,5
-350,Kaduna,Igabi,4,5,0,0,4,5
-351,Kaduna,Ikara,4,5,0,0,4,5
-352,Kaduna,Jaba,4,5,0,0,4,5
-353,Kaduna,Jema'a,4,5,0,0,4,5
-354,Kaduna,Kachia,4,5,0,0,4,5
-355,Kaduna,Kaduna North,4,5,0,0,4,5
-356,Kaduna,Kaduna South,4,5,0,0,4,5
-357,Kaduna,Kagarko,4,5,0,0,4,5
-358,Kaduna,Kajuru,4,5,0,0,4,5
-359,Kaduna,Kaura,4,5,0,0,4,5
-360,Kaduna,Kauru,4,5,0,0,4,5
-361,Kaduna,Kubau,4,5,0,0,4,5
-362,Kaduna,Kudan,4,5,0,0,4,5
-363,Kaduna,Lere,4,5,0,0,4,5
-364,Kaduna,Makarfi,4,5,0,0,4,5
-365,Kaduna,Sabon Gari,4,5,0,0,4,5
-366,Kaduna,Sanga,4,5,0,0,4,5
-367,Kaduna,Soba,4,5,0,0,4,5
-368,Kaduna,Zangon Kataf,4,5,0,0,4,5
-369,Kaduna,Zaria,4,5,0,0,4,5
-370,Kano,Ajingi,3,4,0,0,3,4
-371,Kano,Albasu,3,4,0,0,3,4
-372,Kano,Bagwai,3,4,0,0,3,4
-373,Kano,Bebeji,3,4,0,0,3,4
-374,Kano,Bichi,3,4,0,0,3,4
-375,Kano,Bunkure,3,4,0,0,3,4
-376,Kano,Dala,3,4,0,0,3,4
-377,Kano,Dambatta,3,4,0,0,3,4
-378,Kano,Dawakin Kudu,3,4,0,0,3,4
-379,Kano,Dawakin Tofa,3,4,0,0,3,4
-380,Kano,Doguwa,3,4,0,0,3,4
-381,Kano,Fagge,3,4,0,0,3,4
-382,Kano,Gabasawa,3,4,0,0,3,4
-383,Kano,Garko,3,4,0,0,3,4
-384,Kano,Garun Mallam,3,4,0,0,3,4
-385,Kano,Gaya,3,4,0,0,3,4
-386,Kano,Gezawa,3,4,0,0,3,4
-387,Kano,Gwale,3,4,0,0,3,4
-388,Kano,Gwarzo,3,4,0,0,3,4
-389,Kano,Kabo,3,4,0,0,3,4
-390,Kano,Kano Municipal,3,4,0,0,3,4
-391,Kano,Karaye,3,4,0,0,3,4
-392,Kano,Kibiya,3,4,0,0,3,4
-393,Kano,Kiru,3,4,0,0,3,4
-394,Kano,Kumbotso,3,4,0,0,3,4
-395,Kano,Kunchi,3,4,0,0,3,4
-396,Kano,Kura,3,4,0,0,3,4
-397,Kano,Madobi,3,4,0,0,3,4
-398,Kano,Makoda,3,4,0,0,3,4
-399,Kano,Minjibir,3,4,0,0,3,4
-400,Kano,Nasarawa,3,4,0,0,3,4
-401,Kano,Rano,3,4,0,0,3,4
-402,Kano,Rimin Gado,3,4,0,0,3,4
-403,Kano,Rogo,3,4,0,0,3,4
-404,Kano,Shanono,3,4,0,0,3,4
-405,Kano,Sumaila,3,4,0,0,3,4
-406,Kano,Takai,3,4,0,0,3,4
-407,Kano,Tarauni,3,4,0,0,3,4
-408,Kano,Tofa,3,4,0,0,3,4
-409,Kano,Tsanyawa,3,4,0,0,3,4
-410,Kano,Tudun Wada,3,4,0,0,3,4
-411,Kano,Ungogo,3,4,0,0,3,4
-412,Kano,Warawa,3,4,0,0,3,4
-413,Kano,Wudil,3,4,0,0,3,4
-414,Kastina,Bakori,3,5,0,0,3,5
-415,Kastina,Batagarawa,3,5,0,0,3,5
-416,Kastina,Batsari,3,5,0,0,3,5
-417,Kastina,Baure,3,5,0,0,3,5
-418,Kastina,Bindawa,3,5,0,0,3,5
-419,Kastina,Charanchi,3,5,0,0,3,5
-420,Kastina,Dan Musa,3,5,0,0,3,5
-421,Kastina,Dandume,3,5,0,0,3,5
-422,Kastina,Danja,3,5,0,0,3,5
-423,Kastina,Daura,3,5,0,0,3,5
-424,Kastina,Dutsi,3,5,0,0,3,5
-425,Kastina,Dutsin Ma,3,5,0,0,3,5
-426,Kastina,Faskari,3,5,0,0,3,5
-427,Kastina,Funtua,3,5,0,0,3,5
-428,Kastina,Ingawa,3,5,0,0,3,5
-429,Kastina,Jibia,3,5,0,0,3,5
-430,Kastina,Kafur,3,5,0,0,3,5
-431,Kastina,Kaita,3,5,0,0,3,5
-432,Kastina,Kankara,3,5,0,0,3,5
-433,Kastina,Kankia,3,5,0,0,3,5
-434,Kastina,Katsina,3,5,0,0,3,5
-435,Kastina,Kurfi,3,5,0,0,3,5
-436,Kastina,Kusada,3,5,0,0,3,5
-437,Kastina,Mai'Adua,3,5,0,0,3,5
-438,Kastina,Malumfashi,3,5,0,0,3,5
-439,Kastina,Mani,3,5,0,0,3,5
-440,Kastina,Mashi,3,5,0,0,3,5
-441,Kastina,Matazu,3,5,0,0,3,5
-442,Kastina,Musawa,3,5,0,0,3,5
-443,Kastina,Rimi,3,5,0,0,3,5
-444,Kastina,Sabuwa,3,5,0,0,3,5
-445,Kastina,Safana,3,5,0,0,3,5
-446,Kastina,Sandamu,3,5,0,0,3,5
-447,Kastina,Zango,3,5,0,0,3,5
-448,Kebbi,Aleiro,3,5,0,0,3,5
-449,Kebbi,Arewa,3,5,0,0,3,5
-450,Kebbi,Argungu,3,5,0,0,3,5
-451,Kebbi,Augie,3,5,0,0,3,5
-452,Kebbi,Bagudo,3,5,0,0,3,5
-453,Kebbi,Birnin Kebbi,3,5,0,0,3,5
-454,Kebbi,Bunza,3,5,0,0,3,5
-455,Kebbi,Dandi,3,5,0,0,3,5
-456,Kebbi,Fakai,3,5,0,0,3,5
-457,Kebbi,Gwandu,3,5,0,0,3,5
-458,Kebbi,Jega,3,5,0,0,3,5
-459,Kebbi,Kalgo,3,5,0,0,3,5
-460,Kogi,Adavi,3,5,0,0,3,5
-461,Kogi,Ajaokuta,3,5,0,0,3,5
-462,Kogi,Ankpa,3,5,0,0,3,5
-463,Kogi,Bassa,3,5,0,0,3,5
-464,Kogi,Dekina,3,5,0,0,3,5
-465,Kogi,Ibaji,3,5,0,0,3,5
-466,Kogi,Idah,3,5,1,0,2,5
-467,Kogi,Igalamela-Odolu,3,5,0,0,3,5
-468,Kogi,Ijumu,3,5,0,0,3,5
-469,Kogi,Isanlu,3,5,0,0,3,5
-470,Kogi,Kabba/Bunu,3,5,0,0,3,5
-471,Kogi,Lokoja,3,5,3,3,0,2
-472,Kogi,Mopa-Muro,3,5,0,0,3,5
-473,Kogi,Okehi,3,5,0,0,3,5
-474,Kogi,Okene,3,5,0,0,3,5
-475,Kogi,Olamaboro,3,5,3,5,0,0
-476,Kogi,Omala,3,5,0,0,3,5
-477,Kogi,Yagba East,3,5,0,0,3,5
-478,Kogi,Yagba West,3,5,0,0,3,5
-479,Kwara,Asa,6,3,6,3,0,0
-480,Kwara,BarutenA,6,3,0,0,6,3
-481,Kwara,Ekiti,6,3,0,0,6,3
-482,Kwara,Ifelodun,6,3,5,3,1,0
-483,Kwara,Ilorin East,6,3,6,4,0,0
-484,Kwara,Ilorin West,6,3,7,2,0,1
-485,Kwara,Irepodun,6,3,0,0,6,3
-486,Kwara,Isin,6,3,0,0,6,3
-487,Kwara,Kaiama,6,3,0,0,6,3
-488,Kwara,Latiagi,6,3,0,0,6,3
-489,Kwara,Moro,6,3,0,0,6,3
-490,Kwara,Offa,6,3,0,0,6,3
-491,Kwara,Oke Ero,6,3,0,0,6,3
-492,Kwara,Omu Aran,6,3,5,2,1,1
-493,Kwara,Oyun,6,3,0,0,6,3
-494,Kwara,Pategi,6,3,0,0,6,3
-495,Lagos,Agege,29,3,27,3,2,0
-496,Lagos,Ajeromi-Ifelodun,29,3,29,3,0,0
-497,Lagos,Alimosho,29,3,26,3,3,0
-498,Lagos,Amuwo-Odofin,29,3,31,3,0,0
-499,Lagos,Apapa,29,3,29,3,0,0
-500,Lagos,Badagry,29,3,29,3,0,0
-501,Lagos,Epe,29,3,10,0,19,3
-502,Lagos,Eti-Osa,29,3,25,4,4,0
-503,Lagos,Ibeju-Lekki,29,3,27,4,2,0
-504,Lagos,Ifako-Ijaiye,29,3,30,3,0,0
-505,Lagos,Ikeja,29,3,26,5,3,0
-506,Lagos,Ikorodu,29,3,30,3,0,0
-507,Lagos,Kosofe,29,3,36,3,0,0
-508,Lagos,Lagos Island,29,3,32,6,0,0
-509,Lagos,Lagos Mainland,29,3,23,0,6,3
-510,Lagos,Mushin,29,3,29,3,0,0
-511,Lagos,Ojo,29,3,29,3,0,0
-512,Lagos,Oshodi-Isolo,29,3,28,3,1,0
-513,Lagos,Somolu,29,3,31,3,0,0
-514,Lagos,Surulere,29,3,32,4,0,0
-515,Nasarawa,Akwanga,3,5,0,0,3,5
-516,Nasarawa,Awe,3,5,0,0,3,5
-517,Nasarawa,Doma,3,5,0,0,3,5
-518,Nasarawa,Karu,3,5,0,0,3,5
-519,Nasarawa,Keffi,3,5,0,0,3,5
-520,Nasarawa,Kokona,3,5,0,0,3,5
-521,Nasarawa,Lafia,3,5,3,0,0,5
-522,Nasarawa,Nasarawa,3,5,0,0,3,5
-523,Nasarawa,Nasarawa Eggon,3,5,0,0,3,5
-524,Nasarawa,Obi,3,5,0,0,3,5
-525,Nasarawa,Toto,3,5,0,0,3,5
-526,Nasarawa,Wamba,3,5,0,0,3,5
-527,Nasarawa,keana,3,5,0,0,3,5
-528,Niger,Agaie,3,4,0,0,3,4
-529,Niger,Agwara,3,4,0,0,3,4
-530,Niger,Bida,3,4,0,0,3,4
-531,Niger,Borgu,3,4,0,0,3,4
-532,Niger,Bosso,3,4,4,0,0,4
-533,Niger,Chanchaga,3,4,0,0,3,4
-534,Niger,Edati,3,4,0,0,3,4
-535,Niger,Gbako,3,4,0,0,3,4
-536,Niger,Gurara,3,4,0,0,3,4
-537,Niger,Katcha,3,4,0,0,3,4
-538,Niger,Kontagora,3,4,0,0,3,4
-539,Niger,Lapai,3,4,0,0,3,4
-540,Niger,Lavun,3,4,0,0,3,4
-541,Niger,Magama,3,4,0,0,3,4
-542,Niger,Mariga,3,4,0,0,3,4
-543,Niger,Mashegu,3,4,0,0,3,4
-544,Niger,Mokwa,3,4,0,0,3,4
-545,Niger,Munya,3,4,0,0,3,4
-546,Niger,Paikoro,3,4,0,0,3,4
-547,Niger,Rafi,3,4,0,0,3,4
-548,Niger,Rijau,3,4,0,0,3,4
-549,Niger,Shiroro,3,4,0,2,3,2
-550,Niger,Suleja,3,4,0,0,3,4
-551,Niger,Tafa,3,4,0,0,3,4
-552,Niger,Wushishi,3,4,0,0,3,4
-553,Ogun,Abeokuta North,6,6,6,6,0,0
-554,Ogun,Abeokuta South,6,6,2,6,4,0
-555,Ogun,Ado-Odo/Ota,6,6,6,5,0,1
-556,Ogun,Ewekoro,6,6,6,6,0,0
-557,Ogun,Ifo,6,6,6,6,0,0
-558,Ogun,Ijebu East,6,6,6,6,0,0
-559,Ogun,Ijebu North,6,6,5,6,1,0
-560,Ogun,Ijebu North East,6,6,6,6,0,0
-561,Ogun,Ijebu Ode,6,6,6,6,0,0
-562,Ogun,Ikenne,6,6,8,4,0,2
-563,Ogun,Ilishan-Remo,6,6,5,6,1,0
-564,Ogun,Imeko Afon,6,6,5,6,1,0
-565,Ogun,Ipokia,6,6,7,6,0,0
-566,Ogun,Obafemi Owode,6,6,6,6,0,0
-567,Ogun,Odeda,6,6,6,6,0,0
-568,Ogun,Odogbolu,6,6,0,0,6,6
-569,Ogun,Ogun Waterside,6,6,3,1,3,5
-570,Ogun,Remo North,6,6,0,0,6,6
-571,Ogun,Shagamu,6,6,6,5,0,1
-572,Ogun,Yewa North,6,6,6,7,0,0
-573,Ogun,Yewa South,6,6,11,6,0,0
-574,Ondo,Akoko North-East,5,6,6,6,0,0
-575,Ondo,Akoko North-West,5,6,5,6,0,0
-576,Ondo,Akoko South-East,5,6,6,5,0,1
-577,Ondo,Akoko South-West,5,6,5,6,0,0
-578,Ondo,Akure North,5,6,5,6,0,0
-579,Ondo,Akure South,5,6,6,6,0,0
-580,Ondo,Ese Odo,5,6,5,6,0,0
-581,Ondo,Idanre,5,6,0,0,5,6
-582,Ondo,Ifedore,5,6,5,6,0,0
-583,Ondo,Ilaje,5,6,5,6,0,0
-584,Ondo,Ile-Oluji/Okeigbo,5,6,7,3,0,3
-585,Ondo,Irele,5,6,1,2,4,4
-586,Ondo,Odigbo,5,6,2,2,3,4
-587,Ondo,Okitipupa,5,6,5,6,0,0
-588,Ondo,Ondo East,5,6,5,6,0,0
-589,Ondo,Ondo West,5,6,5,6,0,0
-590,Ondo,Ose,5,6,5,6,0,0
-591,Ondo,Owo,5,6,5,6,0,0
-592,Osun,Aiyedaade,5,3,5,3,0,0
-593,Osun,Aiyedire,5,3,5,3,0,0
-594,Osun,Atakunmosa East,5,3,4,4,1,0
-595,Osun,Atakunmosa West,5,3,6,2,0,1
-596,Osun,Boluwaduro,5,3,5,2,0,1
-597,Osun,Boripe,5,3,4,3,1,0
-598,Osun,Ede North,5,3,7,4,0,0
-599,Osun,Ede South,5,3,1,2,4,1
-600,Osun,Egbedore,5,3,5,3,0,0
-601,Osun,Ejigbo,5,3,5,3,0,0
-602,Osun,Ife Central,5,3,5,3,0,0
-603,Osun,Ife East,5,3,5,3,0,0
-604,Osun,Ife North,5,3,5,3,0,0
-605,Osun,Ife South,5,3,0,0,5,3
-606,Osun,Ifedayo,5,3,6,3,0,0
-607,Osun,Ifelodun,5,3,6,3,0,0
-608,Osun,Ila,5,3,6,3,0,0
-609,Osun,Ilesa East,5,3,5,3,0,0
-610,Osun,Ilesa West,5,3,5,3,0,0
-611,Osun,Irepodun,5,3,4,3,1,0
-612,Osun,Irewole,5,3,5,3,0,0
-613,Osun,Isokan,5,3,4,3,1,0
-614,Osun,Iwo,5,3,0,0,5,3
-615,Osun,Obokun,5,3,4,4,1,0
-616,Osun,Odo-Otin,5,3,5,4,0,0
-617,Osun,Ola-Oluwa,5,3,5,3,0,0
-618,Osun,Olorunda,5,3,2,2,3,1
-619,Osun,Ori-Ade,5,3,6,4,0,0
-620,Osun,Orolu,5,3,5,3,0,0
-621,Osun,Osogbo,5,3,0,0,5,3
-622,Oyo,Afijio,6,3,7,3,0,0
-623,Oyo,Akinyele,6,3,5,5,1,0
-624,Oyo,Asabari,6,3,0,0,6,3
-625,Oyo,Atiba,6,3,7,3,0,0
-626,Oyo,Atisbo,6,3,5,4,1,0
-627,Oyo,Egbeda,6,3,5,5,1,0
-628,Oyo,Ibadan North,6,3,6,3,0,0
-629,Oyo,Ibadan North-East,6,3,6,3,0,0
-630,Oyo,Ibadan North-West,6,3,4,5,2,0
-631,Oyo,Ibadan South-East,6,3,7,3,0,0
-632,Oyo,Ibadan South-West,6,3,7,3,0,0
-633,Oyo,Ibarapa Central,6,3,6,3,0,0
-634,Oyo,Ibarapa East,6,3,6,3,0,0
-635,Oyo,Ibarapa North,6,3,8,3,0,0
-636,Oyo,Ido,6,3,6,4,0,0
-637,Oyo,Irepo,6,3,6,3,0,0
-638,Oyo,Iseyin,6,3,6,4,0,0
-639,Oyo,Itesiwaju,6,3,6,3,0,0
-640,Oyo,Iwajowa,6,3,6,3,0,0
-641,Oyo,Kajola,6,3,6,2,0,1
-642,Oyo,Lagelu,6,3,6,5,0,0
-643,Oyo,Ogbomosho North,6,3,7,2,0,1
-644,Oyo,Ogbomosho South,6,3,6,4,0,0
-645,Oyo,Ogo Oluwa,6,3,6,3,0,0
-646,Oyo,Olorunsogo,6,3,6,3,0,0
-647,Oyo,Oluyole,6,3,5,5,1,0
-648,Oyo,Ona Ara,6,3,6,3,0,0
-649,Oyo,Orelope,6,3,6,3,0,0
-650,Oyo,Orire,6,3,6,3,0,0
-651,Oyo,Oyo East,6,3,6,4,0,0
-652,Oyo,Oyo West,6,3,6,3,0,0
-653,Oyo,Saki East,6,3,6,5,0,0
-654,Oyo,Saki West,6,3,8,1,0,2
-655,Oyo,Surulere,6,3,6,3,0,0
-656,Plateau,Barkin Ladi,3,6,0,0,3,6
-657,Plateau,Bassa,3,6,0,0,3,6
-658,Plateau,Bokkos,3,6,0,0,3,6
-659,Plateau,Jos East,3,6,0,0,3,6
-660,Plateau,Jos North,3,6,0,0,3,6
-661,Plateau,Jos South,3,6,0,0,3,6
-662,Plateau,Kanam,3,6,0,0,3,6
-663,Plateau,Kanke,3,6,0,0,3,6
-664,Plateau,Langtang North,3,6,0,0,3,6
-665,Plateau,Langtang South,3,6,0,0,3,6
-666,Plateau,Mangu,3,6,0,0,3,6
-667,Plateau,Mikang,3,6,0,0,3,6
-668,Plateau,Pankshin,3,6,0,0,3,6
-669,Plateau,Quaran Pan,3,6,0,0,3,6
-670,Plateau,Riyom,3,6,0,0,3,6
-671,Plateau,Shendam,3,6,0,0,3,6
-672,Plateau,Wase,3,6,0,0,3,6
-673,Rivers,Abua-Odual,6,6,6,6,0,0
-674,Rivers,Ahoada East,6,6,6,6,0,0
-675,Rivers,Ahoada West,6,6,6,8,0,0
-676,Rivers,Akuku Toru,6,6,6,7,0,0
-677,Rivers,Andoni,6,6,6,6,0,0
-678,Rivers,Asari Toru,6,6,7,6,0,0
-679,Rivers,Bonny,6,6,6,9,0,0
-680,Rivers,Degema,6,6,6,6,0,0
-681,Rivers,Eleme,6,6,8,6,0,0
-682,Rivers,Emohua,6,6,6,6,0,0
-683,Rivers,Etche,6,6,6,6,0,0
-684,Rivers,Gokana,6,6,6,6,0,0
-685,Rivers,Ikwerre,6,6,6,6,0,0
-686,Rivers,Khana,6,6,6,6,0,0
-687,Rivers,Obio-Akpor,6,6,8,6,0,0
-688,Rivers,Ogba-Egbema-Ndoni,6,6,6,6,0,0
-689,Rivers,Ogu-Bolo,6,6,6,6,0,0
-690,Rivers,Okirika,6,6,6,6,0,0
-691,Rivers,Omuma,6,6,6,6,0,0
-692,Rivers,Opobo-Nkoro,6,6,6,6,0,0
-693,Rivers,Oyigbo,6,6,6,6,0,0
-694,Rivers,Port Harcourt,6,6,6,7,0,0
-695,Rivers,Tai,6,6,6,6,0,0
-696,Sokoto,Binji,3,4,0,0,3,4
-697,Sokoto,Bodinga,3,4,0,0,3,4
-698,Sokoto,Dange Shuni,3,4,0,0,3,4
-699,Sokoto,Gada,3,4,0,0,3,4
-700,Sokoto,Goronyo,3,4,0,0,3,4
-701,Sokoto,Gudu,3,4,0,0,3,4
-702,Sokoto,Gwadabawa,3,4,0,0,3,4
-703,Sokoto,Illela,3,4,0,0,3,4
-704,Sokoto,Isah,3,4,0,0,3,4
-705,Sokoto,Kware,3,4,0,0,3,4
-706,Sokoto,Rabah,3,4,0,0,3,4
-707,Sokoto,Sabon Birni,3,4,0,0,3,4
-708,Sokoto,Silame,3,4,0,0,3,4
-709,Sokoto,Sokoto North,3,4,0,0,3,4
-710,Sokoto,Sokoto South,3,4,0,0,3,4
-711,Sokoto,Tambuwal,3,4,0,0,3,4
-712,Sokoto,Tangaza,3,4,0,0,3,4
-713,Sokoto,Tureta,3,4,0,0,3,4
-714,Sokoto,Wamakko,3,4,0,0,3,4
-715,Sokoto,Wurno,3,4,0,0,3,4
-716,Taraba,Ardo Kola,3,5,0,0,3,5
-717,Taraba,Bali,3,5,0,0,3,5
-718,Taraba,Donga,3,5,0,0,3,5
-719,Taraba,Gashaka,3,5,0,0,3,5
-720,Taraba,Gassol,3,5,0,0,3,5
-721,Taraba,Ibi,3,5,0,0,3,5
-722,Taraba,Jalingo,3,5,0,0,3,5
-723,Taraba,Karim Lamido,3,5,0,0,3,5
-724,Taraba,Kurmi,3,5,0,0,3,5
-725,Taraba,Lau,3,5,0,0,3,5
-726,Taraba,Sardauna,3,5,0,0,3,5
-727,Taraba,Takum,3,5,0,0,3,5
-728,Taraba,Ussa,3,5,0,0,3,5
-729,Taraba,Wukari,3,5,0,0,3,5
-730,Taraba,Yorro,3,5,0,0,3,5
-731,Taraba,Zing,3,5,0,0,3,5
-732,Yobe,Bade,3,4,0,0,3,4
-733,Yobe,Bursari,3,4,0,0,3,4
-734,Yobe,Damaturu,3,4,0,0,3,4
-735,Yobe,Fika,3,4,0,0,3,4
-736,Yobe,Fune,3,4,0,0,3,4
-737,Yobe,Geidam,3,4,0,0,3,4
-738,Yobe,Gujba,3,4,0,0,3,4
-739,Yobe,Gulani,3,4,0,0,3,4
-740,Yobe,Jakusko,3,4,0,0,3,4
-741,Yobe,Karasuwa,3,4,0,0,3,4
-742,Yobe,Machina,3,4,0,0,3,4
-743,Yobe,Nangere,3,4,0,0,3,4
-744,Yobe,Nguru,3,4,0,0,3,4
-745,Yobe,Potiskum,3,4,0,0,3,4
-746,Yobe,Tarmuwa,3,4,0,0,3,4
-747,Yobe,Yunusari,3,4,0,0,3,4
-748,Yobe,Yusufari,3,4,0,0,3,4
-749,Zamfara,Anka,3,7,0,0,3,7
-750,Zamfara,Bakuka,3,7,0,0,3,7
-751,Zamfara,Birnin Magaji/Kiyaw,3,7,0,0,3,7
-752,Zamfara,Bukkuyum,3,7,0,0,3,7
-753,Zamfara,Bungudu,3,7,0,0,3,7
-754,Zamfara,Gummi,3,7,0,0,3,7
-755,Zamfara,Gusau,3,7,0,0,3,7
-756,Zamfara,Kaura-Namoda,3,7,0,0,3,7
-757,Zamfara,Maradun,3,7,0,0,3,7
-758,Zamfara,Maru,3,7,0,0,3,7
-759,Zamfara,Shinkafi,3,7,0,0,3,7
-760,Zamfara,Talata-Mafara,3,7,0,0,3,7
-761,Zamfara,Tsafe,3,7,0,0,3,7
-762,Zamfara,Zurmi,3,7,0,0,3,7
+225,Edo,Egor,6,4,6,4,0,0
+226,Edo,Esan Central,6,4,6,5,0,0
+227,Edo,Esan North-East,6,4,8,2,0,2
+228,Edo,Esan South-East,6,4,6,4,0,0
+229,Edo,Esan West,6,4,6,4,0,0
+230,Edo,Etsako Central,6,4,6,3,0,1
+231,Edo,Etsako East,6,4,6,4,0,0
+232,Edo,Etsako West,6,4,6,4,0,0
+233,Edo,Igueben,6,4,6,4,0,0
+234,Edo,Ikpoba Okha,6,4,6,4,0,0
+235,Edo,Oredo,6,4,6,4,0,0
+236,Edo,Orhionmwon,6,4,6,4,0,0
+237,Edo,Ovia North-East,6,4,4,4,2,0
+238,Edo,Ovia South-West,6,4,6,4,0,0
+239,Edo,Owan East,6,4,6,4,0,0
+240,Edo,Owan West,6,4,6,4,0,0
+241,Edo,Uhunmwonde,6,4,6,4,0,0
+242,Ekiti,Ado Ekiti,8,3,9,3,0,0
+243,Ekiti,Efon,8,3,4,2,4,1
+244,Ekiti,Ekiti East,8,3,7,2,1,1
+245,Ekiti,Ekiti South-West,8,3,8,3,0,0
+246,Ekiti,Ekiti West,8,3,1,1,7,2
+247,Ekiti,Emure,8,3,8,3,0,0
+248,Ekiti,Gbonyin,8,3,8,3,0,0
+249,Ekiti,Ido Osi,8,3,8,3,0,0
+250,Ekiti,Ijero,8,3,9,2,0,1
+251,Ekiti,Ikere,8,3,8,3,0,0
+252,Ekiti,Ikole,8,3,8,3,0,0
+253,Ekiti,Ilejemeje,8,3,8,3,0,0
+254,Ekiti,Irepodun/Ifelodun,8,3,9,2,0,1
+255,Ekiti,Ise/Orun,8,3,8,3,0,0
+256,Ekiti,Moba,8,3,7,3,1,0
+257,Ekiti,Oye,8,3,7,3,1,0
+258,Enugu,Aninri,8,3,0,0,8,3
+259,Enugu,Awgu,8,3,0,0,8,3
+260,Enugu,Enugu East,8,3,3,2,5,1
+261,Enugu,Enugu North,8,3,7,2,1,1
+262,Enugu,Enugu South,8,3,1,2,7,1
+263,Enugu,Ezeagu,8,3,0,0,8,3
+264,Enugu,Igbo Etiti,8,3,0,0,8,3
+265,Enugu,Igbo Eze North,8,3,0,0,8,3
+266,Enugu,Igbo Eze South,8,3,0,0,8,3
+267,Enugu,Isi Uzo,8,3,0,0,8,3
+268,Enugu,Nkanu East,8,3,0,0,8,3
+269,Enugu,Nkanu West,8,3,0,0,8,3
+270,Enugu,Nsukka,8,3,0,0,8,3
+271,Enugu,Oji River,8,3,0,0,8,3
+272,Enugu,Udenu,8,3,0,0,8,3
+273,Enugu,Udi,8,3,0,0,8,3
+274,Enugu,Uzo-Uwani,8,3,0,0,8,3
+275,Federal Capital Territory,Abaji,17,7,0,0,17,7
+276,Federal Capital Territory,Abuja Municipal Area Council,17,7,0,5,17,2
+277,Federal Capital Territory,Bwari,17,7,14,8,3,0
+278,Federal Capital Territory,Gwagwalada,17,7,0,0,17,7
+279,Federal Capital Territory,Kuje,17,7,0,0,17,7
+280,Federal Capital Territory,Kwali,17,7,0,0,17,7
+281,Gombe,Akko,3,8,0,0,3,8
+282,Gombe,Balanga,3,8,0,0,3,8
+283,Gombe,Billiri,3,8,0,0,3,8
+284,Gombe,Dukku,3,8,0,0,3,8
+285,Gombe,Funakaye,3,8,0,0,3,8
+286,Gombe,Gombe,3,8,0,0,3,8
+287,Gombe,Kaltungo,3,8,0,0,3,8
+288,Gombe,Kwami,3,8,0,0,3,8
+289,Gombe,Nafada,3,8,0,0,3,8
+290,Gombe,Shongom,3,8,0,0,3,8
+291,Gombe,Yamaltu/Deba,3,8,0,0,3,8
+292,Imo,Aboh Mbaise,4,4,0,0,4,4
+293,Imo,Ahiazu Mbaise,4,4,0,0,4,4
+294,Imo,Ehime Mbano,4,4,0,0,4,4
+295,Imo,Ezinihitte,4,4,0,0,4,4
+296,Imo,Ideato North,4,4,0,0,4,4
+297,Imo,Ideato South,4,4,0,0,4,4
+298,Imo,Ihitte/Uboma,4,4,0,0,4,4
+299,Imo,Ikeduru,4,4,0,0,4,4
+300,Imo,Isiala Mbano,4,4,0,0,4,4
+301,Imo,Isu,4,4,0,0,4,4
+302,Imo,Mbaitoli,4,4,0,0,4,4
+303,Imo,Ngor Okpala,4,4,0,0,4,4
+304,Imo,Njaba,4,4,0,0,4,4
+305,Imo,Nkwerre,4,4,0,0,4,4
+306,Imo,Nwangele,4,4,0,0,4,4
+307,Imo,Obowo,4,4,0,0,4,4
+308,Imo,Oguta,4,4,0,0,4,4
+309,Imo,Ohaji/Egbema,4,4,0,0,4,4
+310,Imo,Okigwe,4,4,0,0,4,4
+311,Imo,Onuimo,4,4,0,0,4,4
+312,Imo,Orlu,4,4,0,0,4,4
+313,Imo,Orsu,4,4,0,0,4,4
+314,Imo,Oru East,4,4,0,0,4,4
+315,Imo,Oru West,4,4,0,0,4,4
+316,Imo,Owerri Municipal,4,4,9,0,0,4
+317,Imo,Owerri North,4,4,0,0,4,4
+318,Imo,Owerri West,4,4,0,0,4,4
+319,Jigawa,Auyo,3,5,0,0,3,5
+320,Jigawa,Babura,3,5,0,0,3,5
+321,Jigawa,Birnin Kudu,3,5,0,0,3,5
+322,Jigawa,Birniwa,3,5,0,0,3,5
+323,Jigawa,Buji,3,5,0,0,3,5
+324,Jigawa,Dutse,3,5,0,0,3,5
+325,Jigawa,Gagarawa,3,5,0,0,3,5
+326,Jigawa,Garki,3,5,0,0,3,5
+327,Jigawa,Gumel,3,5,0,0,3,5
+328,Jigawa,Guri,3,5,0,0,3,5
+329,Jigawa,Gwaram,3,5,0,0,3,5
+330,Jigawa,Gwiwa,3,5,0,0,3,5
+331,Jigawa,Hadejia,3,5,0,0,3,5
+332,Jigawa,Jahun,3,5,0,0,3,5
+333,Jigawa,Kafin Hausa,3,5,0,0,3,5
+334,Jigawa,Kaugama,3,5,0,0,3,5
+335,Jigawa,Kazaure,3,5,0,0,3,5
+336,Jigawa,Kiri Kasama,3,5,0,0,3,5
+337,Jigawa,Kiyawa,3,5,0,0,3,5
+338,Jigawa,Maigatari,3,5,0,0,3,5
+339,Jigawa,Malam Madori,3,5,0,0,3,5
+340,Jigawa,Miga,3,5,0,0,3,5
+341,Jigawa,Ringim,3,5,0,0,3,5
+342,Jigawa,Roni,3,5,0,0,3,5
+343,Jigawa,Sule Tankarkar,3,5,0,0,3,5
+344,Jigawa,Taura,3,5,0,0,3,5
+345,Jigawa,Yankwashi,3,5,0,0,3,5
+346,Kaduna,Birnin Gwari,4,5,0,0,4,5
+347,Kaduna,Chikun,4,5,0,0,4,5
+348,Kaduna,Giwa,4,5,0,0,4,5
+349,Kaduna,Igabi,4,5,0,0,4,5
+350,Kaduna,Ikara,4,5,0,0,4,5
+351,Kaduna,Jaba,4,5,0,0,4,5
+352,Kaduna,Jema'a,4,5,0,0,4,5
+353,Kaduna,Kachia,4,5,0,0,4,5
+354,Kaduna,Kaduna North,4,5,0,0,4,5
+355,Kaduna,Kaduna South,4,5,0,0,4,5
+356,Kaduna,Kagarko,4,5,0,0,4,5
+357,Kaduna,Kajuru,4,5,0,0,4,5
+358,Kaduna,Kaura,4,5,0,0,4,5
+359,Kaduna,Kauru,4,5,0,0,4,5
+360,Kaduna,Kubau,4,5,0,0,4,5
+361,Kaduna,Kudan,4,5,0,0,4,5
+362,Kaduna,Lere,4,5,0,0,4,5
+363,Kaduna,Makarfi,4,5,0,0,4,5
+364,Kaduna,Sabon Gari,4,5,0,0,4,5
+365,Kaduna,Sanga,4,5,0,0,4,5
+366,Kaduna,Soba,4,5,0,0,4,5
+367,Kaduna,Zangon Kataf,4,5,0,0,4,5
+368,Kaduna,Zaria,4,5,0,0,4,5
+369,Kano,Ajingi,3,4,0,0,3,4
+370,Kano,Albasu,3,4,0,0,3,4
+371,Kano,Bagwai,3,4,0,0,3,4
+372,Kano,Bebeji,3,4,0,0,3,4
+373,Kano,Bichi,3,4,0,0,3,4
+374,Kano,Bunkure,3,4,0,0,3,4
+375,Kano,Dala,3,4,0,0,3,4
+376,Kano,Dambatta,3,4,0,0,3,4
+377,Kano,Dawakin Kudu,3,4,0,0,3,4
+378,Kano,Dawakin Tofa,3,4,0,0,3,4
+379,Kano,Doguwa,3,4,0,0,3,4
+380,Kano,Fagge,3,4,0,0,3,4
+381,Kano,Gabasawa,3,4,0,0,3,4
+382,Kano,Garko,3,4,0,0,3,4
+383,Kano,Garun Mallam,3,4,0,0,3,4
+384,Kano,Gaya,3,4,0,0,3,4
+385,Kano,Gezawa,3,4,0,0,3,4
+386,Kano,Gwale,3,4,0,0,3,4
+387,Kano,Gwarzo,3,4,0,0,3,4
+388,Kano,Kabo,3,4,0,0,3,4
+389,Kano,Kano Municipal,3,4,0,0,3,4
+390,Kano,Karaye,3,4,0,0,3,4
+391,Kano,Kibiya,3,4,0,0,3,4
+392,Kano,Kiru,3,4,0,0,3,4
+393,Kano,Kumbotso,3,4,0,0,3,4
+394,Kano,Kunchi,3,4,0,0,3,4
+395,Kano,Kura,3,4,0,0,3,4
+396,Kano,Madobi,3,4,0,0,3,4
+397,Kano,Makoda,3,4,0,0,3,4
+398,Kano,Minjibir,3,4,0,0,3,4
+399,Kano,Nasarawa,3,4,0,0,3,4
+400,Kano,Rano,3,4,0,0,3,4
+401,Kano,Rimin Gado,3,4,0,0,3,4
+402,Kano,Rogo,3,4,0,0,3,4
+403,Kano,Shanono,3,4,0,0,3,4
+404,Kano,Sumaila,3,4,0,0,3,4
+405,Kano,Takai,3,4,0,0,3,4
+406,Kano,Tarauni,3,4,0,0,3,4
+407,Kano,Tofa,3,4,0,0,3,4
+408,Kano,Tsanyawa,3,4,0,0,3,4
+409,Kano,Tudun Wada,3,4,0,0,3,4
+410,Kano,Ungogo,3,4,0,0,3,4
+411,Kano,Warawa,3,4,0,0,3,4
+412,Kano,Wudil,3,4,0,0,3,4
+413,Kastina,Bakori,3,5,0,0,3,5
+414,Kastina,Batagarawa,3,5,0,0,3,5
+415,Kastina,Batsari,3,5,0,0,3,5
+416,Kastina,Baure,3,5,0,0,3,5
+417,Kastina,Bindawa,3,5,0,0,3,5
+418,Kastina,Charanchi,3,5,0,0,3,5
+419,Kastina,Dan Musa,3,5,0,0,3,5
+420,Kastina,Dandume,3,5,0,0,3,5
+421,Kastina,Danja,3,5,0,0,3,5
+422,Kastina,Daura,3,5,0,0,3,5
+423,Kastina,Dutsi,3,5,0,0,3,5
+424,Kastina,Dutsin Ma,3,5,0,0,3,5
+425,Kastina,Faskari,3,5,0,0,3,5
+426,Kastina,Funtua,3,5,0,0,3,5
+427,Kastina,Ingawa,3,5,0,0,3,5
+428,Kastina,Jibia,3,5,0,0,3,5
+429,Kastina,Kafur,3,5,0,0,3,5
+430,Kastina,Kaita,3,5,0,0,3,5
+431,Kastina,Kankara,3,5,0,0,3,5
+432,Kastina,Kankia,3,5,0,0,3,5
+433,Kastina,Katsina,3,5,0,0,3,5
+434,Kastina,Kurfi,3,5,0,0,3,5
+435,Kastina,Kusada,3,5,0,0,3,5
+436,Kastina,Mai'Adua,3,5,0,0,3,5
+437,Kastina,Malumfashi,3,5,0,0,3,5
+438,Kastina,Mani,3,5,0,0,3,5
+439,Kastina,Mashi,3,5,0,0,3,5
+440,Kastina,Matazu,3,5,0,0,3,5
+441,Kastina,Musawa,3,5,0,0,3,5
+442,Kastina,Rimi,3,5,0,0,3,5
+443,Kastina,Sabuwa,3,5,0,0,3,5
+444,Kastina,Safana,3,5,0,0,3,5
+445,Kastina,Sandamu,3,5,0,0,3,5
+446,Kastina,Zango,3,5,0,0,3,5
+447,Kebbi,Aleiro,3,5,0,0,3,5
+448,Kebbi,Arewa,3,5,0,0,3,5
+449,Kebbi,Argungu,3,5,0,0,3,5
+450,Kebbi,Augie,3,5,0,0,3,5
+451,Kebbi,Bagudo,3,5,0,0,3,5
+452,Kebbi,Birnin Kebbi,3,5,0,0,3,5
+453,Kebbi,Bunza,3,5,0,0,3,5
+454,Kebbi,Dandi,3,5,0,0,3,5
+455,Kebbi,Fakai,3,5,0,0,3,5
+456,Kebbi,Gwandu,3,5,0,0,3,5
+457,Kebbi,Jega,3,5,0,0,3,5
+458,Kebbi,Kalgo,3,5,0,0,3,5
+459,Kogi,Adavi,3,5,0,0,3,5
+460,Kogi,Ajaokuta,3,5,0,0,3,5
+461,Kogi,Ankpa,3,5,0,0,3,5
+462,Kogi,Bassa,3,5,0,0,3,5
+463,Kogi,Dekina,3,5,0,0,3,5
+464,Kogi,Ibaji,3,5,0,0,3,5
+465,Kogi,Idah,3,5,1,0,2,5
+466,Kogi,Igalamela-Odolu,3,5,0,0,3,5
+467,Kogi,Ijumu,3,5,0,0,3,5
+468,Kogi,Isanlu,3,5,0,0,3,5
+469,Kogi,Kabba/Bunu,3,5,0,0,3,5
+470,Kogi,Lokoja,3,5,3,3,0,2
+471,Kogi,Mopa-Muro,3,5,0,0,3,5
+472,Kogi,Okehi,3,5,0,0,3,5
+473,Kogi,Okene,3,5,0,0,3,5
+474,Kogi,Olamaboro,3,5,3,5,0,0
+475,Kogi,Omala,3,5,0,0,3,5
+476,Kogi,Yagba East,3,5,0,0,3,5
+477,Kogi,Yagba West,3,5,0,0,3,5
+478,Kwara,Asa,6,3,6,3,0,0
+479,Kwara,BarutenA,6,3,0,0,6,3
+480,Kwara,Ekiti,6,3,0,0,6,3
+481,Kwara,Ifelodun,6,3,5,3,1,0
+482,Kwara,Ilorin East,6,3,6,4,0,0
+483,Kwara,Ilorin West,6,3,7,2,0,1
+484,Kwara,Irepodun,6,3,0,0,6,3
+485,Kwara,Isin,6,3,0,0,6,3
+486,Kwara,Kaiama,6,3,0,0,6,3
+487,Kwara,Latiagi,6,3,0,0,6,3
+488,Kwara,Moro,6,3,0,0,6,3
+489,Kwara,Offa,6,3,0,0,6,3
+490,Kwara,Oke Ero,6,3,0,0,6,3
+491,Kwara,Omu Aran,6,3,5,2,1,1
+492,Kwara,Oyun,6,3,0,0,6,3
+493,Kwara,Pategi,6,3,0,0,6,3
+494,Lagos,Agege,29,3,27,3,2,0
+495,Lagos,Ajeromi-Ifelodun,29,3,29,3,0,0
+496,Lagos,Alimosho,29,3,26,3,3,0
+497,Lagos,Amuwo-Odofin,29,3,31,3,0,0
+498,Lagos,Apapa,29,3,29,3,0,0
+499,Lagos,Badagry,29,3,29,3,0,0
+500,Lagos,Epe,29,3,10,0,19,3
+501,Lagos,Eti-Osa,29,3,25,4,4,0
+502,Lagos,Ibeju-Lekki,29,3,27,4,2,0
+503,Lagos,Ifako-Ijaiye,29,3,30,3,0,0
+504,Lagos,Ikeja,29,3,26,5,3,0
+505,Lagos,Ikorodu,29,3,30,3,0,0
+506,Lagos,Kosofe,29,3,36,3,0,0
+507,Lagos,Lagos Island,29,3,32,6,0,0
+508,Lagos,Lagos Mainland,29,3,23,0,6,3
+509,Lagos,Mushin,29,3,29,3,0,0
+510,Lagos,Ojo,29,3,29,3,0,0
+511,Lagos,Oshodi-Isolo,29,3,28,3,1,0
+512,Lagos,Somolu,29,3,31,3,0,0
+513,Lagos,Surulere,29,3,32,4,0,0
+514,Nasarawa,Akwanga,3,5,0,0,3,5
+515,Nasarawa,Awe,3,5,0,0,3,5
+516,Nasarawa,Doma,3,5,0,0,3,5
+517,Nasarawa,Karu,3,5,0,0,3,5
+518,Nasarawa,Keffi,3,5,0,0,3,5
+519,Nasarawa,Kokona,3,5,0,0,3,5
+520,Nasarawa,Lafia,3,5,3,0,0,5
+521,Nasarawa,Nasarawa,3,5,0,0,3,5
+522,Nasarawa,Nasarawa Eggon,3,5,0,0,3,5
+523,Nasarawa,Obi,3,5,0,0,3,5
+524,Nasarawa,Toto,3,5,0,0,3,5
+525,Nasarawa,Wamba,3,5,0,0,3,5
+526,Nasarawa,keana,3,5,0,0,3,5
+527,Niger,Agaie,3,4,0,0,3,4
+528,Niger,Agwara,3,4,0,0,3,4
+529,Niger,Bida,3,4,0,0,3,4
+530,Niger,Borgu,3,4,0,0,3,4
+531,Niger,Bosso,3,4,4,0,0,4
+532,Niger,Chanchaga,3,4,0,0,3,4
+533,Niger,Edati,3,4,0,0,3,4
+534,Niger,Gbako,3,4,0,0,3,4
+535,Niger,Gurara,3,4,0,0,3,4
+536,Niger,Katcha,3,4,0,0,3,4
+537,Niger,Kontagora,3,4,0,0,3,4
+538,Niger,Lapai,3,4,0,0,3,4
+539,Niger,Lavun,3,4,0,0,3,4
+540,Niger,Magama,3,4,0,0,3,4
+541,Niger,Mariga,3,4,0,0,3,4
+542,Niger,Mashegu,3,4,0,0,3,4
+543,Niger,Mokwa,3,4,0,0,3,4
+544,Niger,Munya,3,4,0,0,3,4
+545,Niger,Paikoro,3,4,0,0,3,4
+546,Niger,Rafi,3,4,0,0,3,4
+547,Niger,Rijau,3,4,0,0,3,4
+548,Niger,Shiroro,3,4,0,2,3,2
+549,Niger,Suleja,3,4,0,0,3,4
+550,Niger,Tafa,3,4,0,0,3,4
+551,Niger,Wushishi,3,4,0,0,3,4
+552,Ogun,Abeokuta North,6,6,6,6,0,0
+553,Ogun,Abeokuta South,6,6,2,6,4,0
+554,Ogun,Ado-Odo/Ota,6,6,6,5,0,1
+555,Ogun,Ewekoro,6,6,6,6,0,0
+556,Ogun,Ifo,6,6,6,6,0,0
+557,Ogun,Ijebu East,6,6,6,6,0,0
+558,Ogun,Ijebu North,6,6,5,6,1,0
+559,Ogun,Ijebu North East,6,6,6,6,0,0
+560,Ogun,Ijebu Ode,6,6,6,6,0,0
+561,Ogun,Ikenne,6,6,8,4,0,2
+562,Ogun,Ilishan-Remo,6,6,5,6,1,0
+563,Ogun,Imeko Afon,6,6,5,6,1,0
+564,Ogun,Ipokia,6,6,7,6,0,0
+565,Ogun,Obafemi Owode,6,6,6,6,0,0
+566,Ogun,Odeda,6,6,6,6,0,0
+567,Ogun,Odogbolu,6,6,0,0,6,6
+568,Ogun,Ogun Waterside,6,6,3,1,3,5
+569,Ogun,Remo North,6,6,0,0,6,6
+570,Ogun,Shagamu,6,6,6,5,0,1
+571,Ogun,Yewa North,6,6,6,7,0,0
+572,Ogun,Yewa South,6,6,11,6,0,0
+573,Ondo,Akoko North-East,5,6,6,6,0,0
+574,Ondo,Akoko North-West,5,6,5,6,0,0
+575,Ondo,Akoko South-East,5,6,6,5,0,1
+576,Ondo,Akoko South-West,5,6,5,6,0,0
+577,Ondo,Akure North,5,6,5,6,0,0
+578,Ondo,Akure South,5,6,6,6,0,0
+579,Ondo,Ese Odo,5,6,5,6,0,0
+580,Ondo,Idanre,5,6,0,0,5,6
+581,Ondo,Ifedore,5,6,5,6,0,0
+582,Ondo,Ilaje,5,6,5,6,0,0
+583,Ondo,Ile-Oluji/Okeigbo,5,6,7,3,0,3
+584,Ondo,Irele,5,6,1,2,4,4
+585,Ondo,Odigbo,5,6,2,2,3,4
+586,Ondo,Okitipupa,5,6,5,6,0,0
+587,Ondo,Ondo East,5,6,5,6,0,0
+588,Ondo,Ondo West,5,6,5,6,0,0
+589,Ondo,Ose,5,6,5,6,0,0
+590,Ondo,Owo,5,6,5,6,0,0
+591,Osun,Aiyedaade,5,3,5,3,0,0
+592,Osun,Aiyedire,5,3,5,3,0,0
+593,Osun,Atakunmosa East,5,3,4,4,1,0
+594,Osun,Atakunmosa West,5,3,6,2,0,1
+595,Osun,Boluwaduro,5,3,5,2,0,1
+596,Osun,Boripe,5,3,4,3,1,0
+597,Osun,Ede North,5,3,7,4,0,0
+598,Osun,Ede South,5,3,1,2,4,1
+599,Osun,Egbedore,5,3,5,3,0,0
+600,Osun,Ejigbo,5,3,5,3,0,0
+601,Osun,Ife Central,5,3,5,3,0,0
+602,Osun,Ife East,5,3,5,3,0,0
+603,Osun,Ife North,5,3,5,3,0,0
+604,Osun,Ife South,5,3,0,0,5,3
+605,Osun,Ifedayo,5,3,6,3,0,0
+606,Osun,Ifelodun,5,3,6,3,0,0
+607,Osun,Ila,5,3,6,3,0,0
+608,Osun,Ilesa East,5,3,5,3,0,0
+609,Osun,Ilesa West,5,3,5,3,0,0
+610,Osun,Irepodun,5,3,4,3,1,0
+611,Osun,Irewole,5,3,5,3,0,0
+612,Osun,Isokan,5,3,4,3,1,0
+613,Osun,Iwo,5,3,0,0,5,3
+614,Osun,Obokun,5,3,4,4,1,0
+615,Osun,Odo-Otin,5,3,5,4,0,0
+616,Osun,Ola-Oluwa,5,3,5,3,0,0
+617,Osun,Olorunda,5,3,2,2,3,1
+618,Osun,Ori-Ade,5,3,6,4,0,0
+619,Osun,Orolu,5,3,5,3,0,0
+620,Osun,Osogbo,5,3,0,0,5,3
+621,Oyo,Afijio,6,3,7,3,0,0
+622,Oyo,Akinyele,6,3,5,5,1,0
+623,Oyo,Asabari,6,3,0,0,6,3
+624,Oyo,Atiba,6,3,7,3,0,0
+625,Oyo,Atisbo,6,3,5,4,1,0
+626,Oyo,Egbeda,6,3,5,5,1,0
+627,Oyo,Ibadan North,6,3,6,3,0,0
+628,Oyo,Ibadan North-East,6,3,6,3,0,0
+629,Oyo,Ibadan North-West,6,3,4,5,2,0
+630,Oyo,Ibadan South-East,6,3,7,3,0,0
+631,Oyo,Ibadan South-West,6,3,7,3,0,0
+632,Oyo,Ibarapa Central,6,3,6,3,0,0
+633,Oyo,Ibarapa East,6,3,6,3,0,0
+634,Oyo,Ibarapa North,6,3,8,3,0,0
+635,Oyo,Ido,6,3,6,4,0,0
+636,Oyo,Irepo,6,3,6,3,0,0
+637,Oyo,Iseyin,6,3,6,4,0,0
+638,Oyo,Itesiwaju,6,3,6,3,0,0
+639,Oyo,Iwajowa,6,3,6,3,0,0
+640,Oyo,Kajola,6,3,6,2,0,1
+641,Oyo,Lagelu,6,3,6,5,0,0
+642,Oyo,Ogbomosho North,6,3,7,2,0,1
+643,Oyo,Ogbomosho South,6,3,6,4,0,0
+644,Oyo,Ogo Oluwa,6,3,6,3,0,0
+645,Oyo,Olorunsogo,6,3,6,3,0,0
+646,Oyo,Oluyole,6,3,5,5,1,0
+647,Oyo,Ona Ara,6,3,6,3,0,0
+648,Oyo,Orelope,6,3,6,3,0,0
+649,Oyo,Orire,6,3,6,3,0,0
+650,Oyo,Oyo East,6,3,6,4,0,0
+651,Oyo,Oyo West,6,3,6,3,0,0
+652,Oyo,Saki East,6,3,6,5,0,0
+653,Oyo,Saki West,6,3,8,1,0,2
+654,Oyo,Surulere,6,3,6,3,0,0
+655,Plateau,Barkin Ladi,3,6,0,0,3,6
+656,Plateau,Bassa,3,6,0,0,3,6
+657,Plateau,Bokkos,3,6,0,0,3,6
+658,Plateau,Jos East,3,6,0,0,3,6
+659,Plateau,Jos North,3,6,0,0,3,6
+660,Plateau,Jos South,3,6,0,0,3,6
+661,Plateau,Kanam,3,6,0,0,3,6
+662,Plateau,Kanke,3,6,0,0,3,6
+663,Plateau,Langtang North,3,6,0,0,3,6
+664,Plateau,Langtang South,3,6,0,0,3,6
+665,Plateau,Mangu,3,6,0,0,3,6
+666,Plateau,Mikang,3,6,0,0,3,6
+667,Plateau,Pankshin,3,6,0,0,3,6
+668,Plateau,Quaran Pan,3,6,0,0,3,6
+669,Plateau,Riyom,3,6,0,0,3,6
+670,Plateau,Shendam,3,6,0,0,3,6
+671,Plateau,Wase,3,6,0,0,3,6
+672,Rivers,Abua-Odual,6,6,6,6,0,0
+673,Rivers,Ahoada East,6,6,6,6,0,0
+674,Rivers,Ahoada West,6,6,6,8,0,0
+675,Rivers,Akuku Toru,6,6,6,7,0,0
+676,Rivers,Andoni,6,6,6,6,0,0
+677,Rivers,Asari Toru,6,6,7,6,0,0
+678,Rivers,Bonny,6,6,6,9,0,0
+679,Rivers,Degema,6,6,6,6,0,0
+680,Rivers,Eleme,6,6,8,6,0,0
+681,Rivers,Emohua,6,6,6,6,0,0
+682,Rivers,Etche,6,6,6,6,0,0
+683,Rivers,Gokana,6,6,6,6,0,0
+684,Rivers,Ikwerre,6,6,6,6,0,0
+685,Rivers,Khana,6,6,6,6,0,0
+686,Rivers,Obio-Akpor,6,6,8,6,0,0
+687,Rivers,Ogba-Egbema-Ndoni,6,6,6,6,0,0
+688,Rivers,Ogu-Bolo,6,6,6,6,0,0
+689,Rivers,Okirika,6,6,6,6,0,0
+690,Rivers,Omuma,6,6,6,6,0,0
+691,Rivers,Opobo-Nkoro,6,6,6,6,0,0
+692,Rivers,Oyigbo,6,6,6,6,0,0
+693,Rivers,Port Harcourt,6,6,6,7,0,0
+694,Rivers,Tai,6,6,6,6,0,0
+695,Sokoto,Binji,3,4,0,0,3,4
+696,Sokoto,Bodinga,3,4,0,0,3,4
+697,Sokoto,Dange Shuni,3,4,0,0,3,4
+698,Sokoto,Gada,3,4,0,0,3,4
+699,Sokoto,Goronyo,3,4,0,0,3,4
+700,Sokoto,Gudu,3,4,0,0,3,4
+701,Sokoto,Gwadabawa,3,4,0,0,3,4
+702,Sokoto,Illela,3,4,0,0,3,4
+703,Sokoto,Isah,3,4,0,0,3,4
+704,Sokoto,Kware,3,4,0,0,3,4
+705,Sokoto,Rabah,3,4,0,0,3,4
+706,Sokoto,Sabon Birni,3,4,0,0,3,4
+707,Sokoto,Silame,3,4,0,0,3,4
+708,Sokoto,Sokoto North,3,4,0,0,3,4
+709,Sokoto,Sokoto South,3,4,0,0,3,4
+710,Sokoto,Tambuwal,3,4,0,0,3,4
+711,Sokoto,Tangaza,3,4,0,0,3,4
+712,Sokoto,Tureta,3,4,0,0,3,4
+713,Sokoto,Wamakko,3,4,0,0,3,4
+714,Sokoto,Wurno,3,4,0,0,3,4
+715,Taraba,Ardo Kola,3,5,0,0,3,5
+716,Taraba,Bali,3,5,0,0,3,5
+717,Taraba,Donga,3,5,0,0,3,5
+718,Taraba,Gashaka,3,5,0,0,3,5
+719,Taraba,Gassol,3,5,0,0,3,5
+720,Taraba,Ibi,3,5,0,0,3,5
+721,Taraba,Jalingo,3,5,0,0,3,5
+722,Taraba,Karim Lamido,3,5,0,0,3,5
+723,Taraba,Kurmi,3,5,0,0,3,5
+724,Taraba,Lau,3,5,0,0,3,5
+725,Taraba,Sardauna,3,5,0,0,3,5
+726,Taraba,Takum,3,5,0,0,3,5
+727,Taraba,Ussa,3,5,0,0,3,5
+728,Taraba,Wukari,3,5,0,0,3,5
+729,Taraba,Yorro,3,5,0,0,3,5
+730,Taraba,Zing,3,5,0,0,3,5
+731,Yobe,Bade,3,4,0,0,3,4
+732,Yobe,Bursari,3,4,0,0,3,4
+733,Yobe,Damaturu,3,4,0,0,3,4
+734,Yobe,Fika,3,4,0,0,3,4
+735,Yobe,Fune,3,4,0,0,3,4
+736,Yobe,Geidam,3,4,0,0,3,4
+737,Yobe,Gujba,3,4,0,0,3,4
+738,Yobe,Gulani,3,4,0,0,3,4
+739,Yobe,Jakusko,3,4,0,0,3,4
+740,Yobe,Karasuwa,3,4,0,0,3,4
+741,Yobe,Machina,3,4,0,0,3,4
+742,Yobe,Nangere,3,4,0,0,3,4
+743,Yobe,Nguru,3,4,0,0,3,4
+744,Yobe,Potiskum,3,4,0,0,3,4
+745,Yobe,Tarmuwa,3,4,0,0,3,4
+746,Yobe,Yunusari,3,4,0,0,3,4
+747,Yobe,Yusufari,3,4,0,0,3,4
+748,Zamfara,Anka,3,7,0,0,3,7
+749,Zamfara,Bakuka,3,7,0,0,3,7
+750,Zamfara,Birnin Magaji/Kiyaw,3,7,0,0,3,7
+751,Zamfara,Bukkuyum,3,7,0,0,3,7
+752,Zamfara,Bungudu,3,7,0,0,3,7
+753,Zamfara,Gummi,3,7,0,0,3,7
+754,Zamfara,Gusau,3,7,0,0,3,7
+755,Zamfara,Kaura-Namoda,3,7,0,0,3,7
+756,Zamfara,Maradun,3,7,0,0,3,7
+757,Zamfara,Maru,3,7,0,0,3,7
+758,Zamfara,Shinkafi,3,7,0,0,3,7
+759,Zamfara,Talata-Mafara,3,7,0,0,3,7
+760,Zamfara,Tsafe,3,7,0,0,3,7
+761,Zamfara,Zurmi,3,7,0,0,3,7
