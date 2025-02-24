@@ -3,6 +3,7 @@ import pandas as pd
 import datetime
 import plotly.express as px
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 
 
 
@@ -31,6 +32,7 @@ data_quality_summary_data = pd.read_csv('data/dashboard_data/data_quality_summar
 expander_data = pd.read_csv('data/dashboard_data/expander_df.csv')
 geospatial_data = pd.read_csv('data/dashboard_data/geospatial_df.csv')
 state_lga_completion_data = pd.read_csv('data/dashboard_data/state_lga_completion_data.csv')
+bad_data_trend_pivot = pd.read_csv('data/dashboard_data/bad_data_trend_pivot.csv')
 
 
 
@@ -231,6 +233,22 @@ with tab1:
         colC.metric("Total clean data", f"{total_clean_records}")
         colC.metric("Total Inconsistent data", f"{total_bad_records}")
 
+        # Create Matplotlib figure
+        fig, ax = plt.subplots(figsize=(8, 4))
+
+        # Plotting
+        ax.plot(bad_data_trend_pivot['Date'], bad_data_trend_pivot['Dropped Data'], marker='o', linestyle='-', color='black', linewidth=2)
+
+        # Formatting Fixes
+        ax.set_xlabel("Date", fontsize=12)
+        ax.set_ylabel("Dropped Data", fontsize=12)
+        ax.set_xticks(bad_data_trend_pivot['Date'])  
+        ax.set_xticklabels(bad_data_trend_pivot['Date'].astype(str), rotation=45, ha="right")  
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+
+        # Show plot in Streamlit
+        st.pyplot(fig)
 
 
 

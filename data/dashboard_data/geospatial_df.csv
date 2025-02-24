@@ -1175,25 +1175,25 @@
 1173,Lagos,Oshodi-Isolo,6.573497,3.341142
 1174,Lagos,Oshodi-Isolo,6.536948,3.325924
 1175,Lagos,Mushin,6.530718,3.360662
-1176,Ogun,Ilishan-Remo,6.894218,3.709539
-1177,Ogun,Ilishan-Remo,6.894218,3.709539
-1178,Ogun,Ilishan-Remo,6.894218,3.709539
-1179,Ogun,Ilishan-Remo,6.894218,3.709532
-1180,Ogun,Ilishan-Remo,6.894218,3.709543
+1176,Ogun,Remo North,6.894218,3.709539
+1177,Ogun,Remo North,6.894218,3.709539
+1178,Ogun,Remo North,6.894218,3.709539
+1179,Ogun,Remo North,6.894218,3.709532
+1180,Ogun,Remo North,6.894218,3.709543
 1181,Ogun,Imeko Afon,7.447736,2.837959
 1182,Ogun,Imeko Afon,7.447736,2.838042
-1183,Ogun,Ilishan-Remo,6.894218,3.709539
+1183,Ogun,Remo North,6.894218,3.709539
 1184,Ogun,Ewekoro,7.068328,3.292523
 1185,Lagos,Oshodi-Isolo,6.503905,3.309169
 1186,Lagos,Mushin,6.532476,3.360531
 1187,Ogun,Ewekoro,7.070378,3.293079
 1188,Lagos,Oshodi-Isolo,6.573524,3.343183
 1189,Ogun,Ewekoro,7.072669,3.295812
-1190,Ogun,Ilishan-Remo,6.894218,3.709638
-1191,Ogun,Ilishan-Remo,6.894218,3.709539
-1192,Ogun,Ilishan-Remo,6.894218,3.709539
-1193,Ogun,Ilishan-Remo,6.894218,3.709554
-1194,Ogun,Ilishan-Remo,6.894218,3.709533
+1190,Ogun,Remo North,6.894218,3.709638
+1191,Ogun,Remo North,6.894218,3.709539
+1192,Ogun,Remo North,6.894218,3.709539
+1193,Ogun,Remo North,6.894218,3.709554
+1194,Ogun,Remo North,6.894218,3.709533
 1195,Osun,Ilesa East,7.600213,4.768672
 1196,Ogun,Imeko Afon,7.447736,2.833241
 1197,Lagos,Oshodi-Isolo,6.572292,3.342867
@@ -2721,7 +2721,7 @@
 2719,Kwara,Ilorin East,8.491506,4.567696
 2720,Kwara,Ilorin East,8.491133,4.567485
 2721,Kogi,Idah,7.114627,6.744077
-2722,Kwara,Omu Aran,8.448261,4.599046
+2722,Kwara,irepodun ,8.448261,4.599046
 2723,Anambra,Awka South,5.486861,7.481247
 2724,Anambra,Awka South,6.203762,7.067358
 2725,Anambra,Awka South,6.203818,7.067307
@@ -2843,11 +2843,11 @@
 2841,Akwa-Ibom,Obot Akara,5.060889,7.872898
 2842,Akwa-Ibom,Obot Akara,5.047823,7.880061
 2843,Cross River,Calabar Municipal,5.033434,8.346665
-2844,Kwara,Omu Aran,8.444139,4.600981
+2844,Kwara,irepodun ,8.444139,4.600981
 2845,Federal Capital Territory,Abuja Municipal Area Council,9.027914,7.5773
-2846,Kwara,Omu Aran,8.443797,4.600981
-2847,Kwara,Omu Aran,8.447236,4.600192
-2848,Kwara,Omu Aran,8.447235,4.599368
+2846,Kwara,irepodun ,8.443797,4.600981
+2847,Kwara,irepodun ,8.447236,4.600192
+2848,Kwara,irepodun ,8.447235,4.599368
 2849,Federal Capital Territory,Abuja Municipal Area Council,9.030198,7.578866
 2850,Federal Capital Territory,Bwari,9.146397,7.324447
 2851,Kwara,Ilorin West,8.478507,4.537645
@@ -2926,12 +2926,12 @@
 2924,Kogi,Lokoja,7.79403,6.739958
 2925,Nasarawa,Lafia,8.527699,8.518038
 2926,Benue,Tarka,7.654946,8.862713
-2927,Kwara,Omu Aran,8.451549,4.581032
+2927,Kwara,irepodun ,8.451549,4.581032
 2928,Federal Capital Territory,Bwari,9.168974,7.325387
 2929,Nasarawa,Lafia,8.5291,8.518426
 2930,Kogi,Olamaboro,7.217191,7.560068
 2931,Federal Capital Territory,Bwari,9.169132,7.327131
-2932,Kwara,Omu Aran,8.452671,4.581529
+2932,Kwara,irepodun ,8.452671,4.581529
 2933,Kogi,Olamaboro,7.21791,7.560637
 2934,Kogi,Lokoja,7.777742,6.739159
 2935,Federal Capital Territory,Bwari,9.167182,7.32516
@@ -3004,3 +3004,275 @@
 3002,Abia,Umuahia South,5.48717,7.481045
 3003,Imo,Owerri Municipal,5.485123,7.038204
 3004,Imo,Owerri Municipal,5.486764,7.039647
+3005,Kogi,Ijumu,7.983677,5.978914
+3006,Kogi,Omala,7.849195,7.516977
+3007,Kogi,Ijumu,7.984054,5.9797
+3008,Kogi,Omala,7.849446,7.517089
+3009,Kogi,Omala,7.849716,7.517324
+3010,Kogi,Ijumu,7.983952,5.978916
+3011,Kogi,Adavi,7.671977,6.429036
+3012,Benue,Gwer East,7.571805,8.597694
+3013,Kogi,Adavi,7.671977,6.429036
+3014,Benue,Gwer East,7.572267,8.597202
+3015,Kogi,Adavi,7.676599,6.430124
+3016,Kogi,Ijumu,8.035546,6.040655
+3017,Kogi,Kabba/Bunu,7.818078,6.074294
+3018,Benue,Gwer West,7.571741,8.596683
+3019,Kogi,Adavi,7.676599,6.430124
+3020,Kogi,Kabba/Bunu,7.817349,6.075929
+3021,Benue,Gwer West,7.572315,8.59639
+3022,Kogi,Ijumu,8.035886,6.040989
+3023,Niger,Shiroro,9.666356,6.721102
+3024,Nasarawa,Nasarawa Eggon,8.707588,8.539229
+3025,Nasarawa,Nasarawa Eggon,8.70767,8.539275
+3026,Nasarawa,Nasarawa Eggon,8.708287,8.539216
+3027,Nasarawa,Nasarawa Eggon,8.708967,8.53861
+3028,Kogi,Adavi,7.676599,6.430124
+3029,Niger,Shiroro,9.667325,6.720746
+3030,Federal Capital Territory,Abuja Municipal Area Council,8.952469,7.549829
+3031,Benue,Ohimini,7.264563,7.9933
+3032,Niger,Shiroro,9.66666,6.720138
+3033,Federal Capital Territory,Abuja Municipal Area Council,8.95083,7.548335
+3034,Kogi,Ijumu,8.036234,6.041331
+3035,Kogi,Lokoja,7.778835,6.741851
+3036,Kogi,Omala,7.849778,7.517732
+3037,Kogi,Kabba/Bunu,7.822291,6.073551
+3038,Federal Capital Territory,Abuja Municipal Area Council,8.950717,7.548253
+3039,Benue,Ohimini,7.264653,7.995411
+3040,Kogi,Adavi,7.591643,6.202883
+3041,Kogi,Lokoja,7.779042,6.742087
+3042,Kogi,Kabba/Bunu,7.817335,6.04583
+3043,Benue,Gwer West,7.572533,8.59646
+3044,Benue,Gwer West,7.572658,8.596252
+3045,Benue,Gwer West,7.572656,8.595333
+3046,Benue,Gwer West,7.572852,8.595243
+3047,Kogi,Ijumu,8.036621,6.041145
+3048,Kogi,Omala,7.850029,7.51768
+3049,Kogi,Adavi,7.584908,6.22111
+3050,Federal Capital Territory,Abuja Municipal Area Council,8.949884,7.547823
+3051,Benue,Ohimini,7.264388,8.006294
+3052,Benue,Ohimini,7.263776,8.006833
+3053,Niger,Shiroro,9.668105,6.72124
+3054,Kogi,Ijumu,8.03674,6.041475
+3055,Federal Capital Territory,Gwagwalada,9.091663,7.208722
+3056,Federal Capital Territory,Abuja Municipal Area Council,8.952736,7.547146
+3057,Niger,Shiroro,9.667984,6.72179
+3058,Benue,Ohimini,7.263343,8.009423
+3059,Federal Capital Territory,Abuja Municipal Area Council,8.951649,7.547064
+3060,Benue,Ohimini,7.263766,8.009908
+3061,Nasarawa,Obi,8.369548,8.77545
+3062,Nasarawa,Obi,8.36867,8.769008
+3063,Kogi,Omala,7.86502,7.508152
+3064,Kogi,Kabba/Bunu,7.816432,6.04552
+3065,Benue,Gboko,7.314966,8.993879
+3066,Kwara,Ifelodun,8.424241,4.600986
+3067,Federal Capital Territory,Abuja Municipal Area Council,8.950077,7.547655
+3068,Federal Capital Territory,Gwagwalada,9.090669,7.207478
+3069,Benue,Ohimini,7.258392,8.004026
+3070,Kwara,irepodun ,8.447146,4.600148
+3071,Benue,Vandeikya,7.014585,9.029074
+3072,Benue,Ohimini,7.258466,8.001582
+3073,Kogi,Kabba/Bunu,7.815358,6.046078
+3074,Niger,Gurara,9.334024,7.001539
+3075,Niger,Gurara,9.334214,7.001595
+3076,Niger,Gurara,9.3341,7.001283
+3077,Niger,Gurara,9.335736,6.999332
+3078,Federal Capital Territory,Gwagwalada,9.091037,7.206512
+3079,Federal Capital Territory,Abuja Municipal Area Council,8.951634,7.549121
+3080,Kogi,Kabba/Bunu,7.814585,6.045033
+3081,Benue,Gboko,7.314738,8.993806
+3082,Federal Capital Territory,Gwagwalada,9.091468,7.207279
+3083,Federal Capital Territory,Abuja Municipal Area Council,8.951851,7.549787
+3084,Kogi,Kabba/Bunu,7.812581,6.04484
+3085,Federal Capital Territory,Gwagwalada,9.091683,7.207008
+3086,Federal Capital Territory,Gwagwalada,9.171788,7.324858
+3087,Federal Capital Territory,Gwagwalada,9.171663,7.324792
+3088,Federal Capital Territory,Gwagwalada,9.171779,7.3248
+3089,Federal Capital Territory,Gwagwalada,9.171219,7.327237
+3090,Federal Capital Territory,Gwagwalada,9.171215,7.327224
+3091,Federal Capital Territory,Gwagwalada,9.171213,7.327213
+3092,Federal Capital Territory,Gwagwalada,9.171242,7.327251
+3093,Federal Capital Territory,Gwagwalada,9.171281,7.327267
+3094,Benue,Gboko,7.315105,8.994041
+3095,Benue,Vandeikya,7.010052,9.043746
+3096,Federal Capital Territory,Gwagwalada,9.09262,7.206961
+3097,Benue,Gwer East,7.302613,8.48473
+3098,Benue,Gwer East,7.302034,8.484667
+3099,Niger,Gurara,9.336504,6.998842
+3100,Niger,Gurara,9.335976,6.998082
+3101,Niger,Gurara,9.336412,7.001979
+3102,Kogi,Omala,7.866575,7.508688
+3103,Federal Capital Territory,Gwagwalada,9.092687,7.206279
+3104,Benue,Vandeikya,7.016408,9.028456
+3105,Benue,Gboko,7.313918,8.993036
+3106,Federal Capital Territory,Gwagwalada,9.093769,7.211197
+3107,Nasarawa,Nasarawa Eggon,8.708573,8.539277
+3108,Nasarawa,Lafia,8.6922,8.550625
+3109,Nasarawa,Nasarawa Eggon,8.692205,8.550654
+3110,Nasarawa,Nasarawa Eggon,8.691863,8.550796
+3111,Federal Capital Territory,Gwagwalada,9.091505,7.2071
+3112,Federal Capital Territory,Gwagwalada,9.091717,7.207322
+3113,Federal Capital Territory,Gwagwalada,9.092222,7.207618
+3114,Federal Capital Territory,Gwagwalada,9.092542,7.207376
+3115,Federal Capital Territory,Gwagwalada,9.092568,7.207722
+3116,Federal Capital Territory,Gwagwalada,9.092503,7.207892
+3117,Federal Capital Territory,Gwagwalada,9.092758,7.20869
+3118,Federal Capital Territory,Gwagwalada,9.094156,7.212257
+3119,Kogi,Omala,7.865169,7.508173
+3120,Nasarawa,Doma,8.399226,8.357768
+3121,Nasarawa,Doma,8.399439,8.357222
+3122,Nasarawa,Doma,8.399479,8.356302
+3123,Nasarawa,Doma,8.400024,8.356773
+3124,Nasarawa,Doma,8.400719,8.356026
+3125,Nasarawa,Doma,8.406704,8.375614
+3126,Nasarawa,Doma,8.410028,8.37813
+3127,Nasarawa,Doma,8.412127,8.378452
+3128,Abia,Osisioma,5.1377,7.348701
+3129,Abia,Osisioma,5.137315,7.347758
+3130,Abia,Osisioma,5.136075,7.350609
+3131,Abia,Isiala Ngwa South,5.545262,7.610217
+3132,Abia,Osisioma,5.135807,7.351347
+3133,Abia,Osisioma,5.136057,7.352766
+3134,Abia,Osisioma,5.131428,7.357406
+3135,Abia,Osisioma,5.131237,7.358341
+3136,Abia,Isiala Ngwa South,5.287457,7.33541
+3137,Abia,Osisioma,5.133008,7.359885
+3138,Abia,Isiala Ngwa South,5.287528,7.335695
+3139,Abia,Umuahia South,5.478759,7.49118
+3140,Abia,Umuahia South,5.479721,7.490983
+3141,Anambra,Njikoka,6.188735,7.026195
+3142,Abia,Isiala Ngwa South,5.287528,7.335695
+3143,Anambra,Njikoka,6.188947,7.025838
+3144,Anambra,Njikoka,6.188809,7.025563
+3145,Anambra,Njikoka,6.188637,7.025356
+3146,Abia,Isiala Ngwa South,5.287256,7.338197
+3147,Anambra,Njikoka,6.188066,7.025094
+3148,Enugu,Enugu South,6.414523,7.521948
+3149,Enugu,Enugu South,6.41337,7.514877
+3150,Anambra,Njikoka,6.187942,7.025255
+3151,Anambra,Njikoka,6.187656,7.025052
+3152,Anambra,Njikoka,6.187309,7.025181
+3153,Anambra,Njikoka,6.187309,7.025181
+3154,Anambra,Njikoka,6.186981,7.024996
+3155,Anambra,Njikoka,6.184625,7.014661
+3156,Enugu,Enugu South,6.41215,7.5139
+3157,Enugu,Enugu South,6.411305,7.511082
+3158,Enugu,Enugu South,6.414722,7.51126
+3159,Delta,Warri North,6.000999,5.462958
+3160,Cross River,Biase,5.430594,8.157636
+3161,Delta,Warri North,6.001121,5.462954
+3162,Delta,Warri North,6.000392,5.462654
+3163,Delta,Warri North,6.001275,5.462947
+3164,Delta,Warri North,6.000955,5.461955
+3165,Delta,Warri North,5.998193,5.444642
+3166,Delta,Warri North,5.997944,5.443392
+3167,Delta,Warri North,5.998952,5.442548
+3168,Delta,Ika North East,6.224465,6.216857
+3169,Delta,Ika North East,6.224465,6.216857
+3170,Delta,Warri North,5.99763,5.441022
+3171,Delta,Ika North East,6.211679,6.209559
+3172,Delta,Ika North East,6.217706,6.212946
+3173,Delta,Ika North East,6.217996,6.213229
+3174,Delta,Oshimili South,6.204287,6.72369
+3175,Delta,Ika North East,6.224465,6.216857
+3176,Delta,Ika North East,6.224465,6.216857
+3177,Cross River,Obanliku,6.649648,9.207095
+3178,Delta,Ika North East,6.224465,6.216857
+3179,Delta,Warri North,6.003119,5.47534
+3180,Delta,Oshimili South,6.203921,6.72379
+3181,Delta,Ika North East,6.224465,6.216857
+3182,Cross River,Yakurr,5.811734,8.081993
+3183,Cross River,Abi,5.896188,8.024054
+3184,Akwa-Ibom,Essien Udim,5.130041,7.773271
+3185,Akwa-Ibom,Essien Udim,5.131085,7.772742
+3186,Akwa-Ibom,Etim Ekpo,5.019683,7.66828
+3187,Akwa-Ibom,Etim Ekpo,5.019703,7.66835
+3188,Akwa-Ibom,Etim Ekpo,5.019523,7.668394
+3189,Akwa-Ibom,Etim Ekpo,5.019633,7.668317
+3190,Akwa-Ibom,Etim Ekpo,5.019539,7.673671
+3191,Akwa-Ibom,Etim Ekpo,5.019629,7.673662
+3192,Akwa-Ibom,Etim Ekpo,5.019649,7.673689
+3193,Akwa-Ibom,Etim Ekpo,5.019691,7.674921
+3194,Akwa-Ibom,Etim Ekpo,5.019733,7.674872
+3195,Akwa-Ibom,Etim Ekpo,5.019803,7.67495
+3196,Akwa-Ibom,Essien Udim,5.130002,7.774383
+3197,Cross River,Ikom,5.959766,8.737874
+3198,Cross River,Ikom,5.958673,8.736844
+3199,Cross River,Ikom,5.957185,8.737807
+3200,Delta,Aniocha North,6.31933,6.465856
+3201,Delta,Aniocha North,6.319097,6.465828
+3202,Cross River,Ikom,5.957254,8.737835
+3203,Delta,Aniocha North,6.31976,6.465893
+3204,Delta,Aniocha North,6.319629,6.465905
+3205,Cross River,Ikom,5.958712,8.737638
+3206,Delta,Aniocha North,6.319689,6.466081
+3207,Delta,Aniocha North,6.316151,6.466724
+3208,Delta,Aniocha North,6.316224,6.466887
+3209,Cross River,Calabar South,4.934644,8.308802
+3210,Delta,Aniocha North,6.315802,6.466961
+3211,Cross River,Ikom,5.958447,8.737288
+3212,Delta,Aniocha North,6.315688,6.466543
+3213,Delta,Aniocha North,6.315409,6.46658
+3214,Cross River,Obanliku,6.62516,9.231735
+3215,Cross River,Obanliku,6.617376,9.235699
+3216,Cross River,Obanliku,6.617146,9.235733
+3217,Cross River,Bekwarra,6.680064,8.969992
+3218,Cross River,Bekwarra,6.691757,8.937611
+3219,Cross River,Bekwarra,6.723879,8.934573
+3220,Cross River,Bekwarra,6.707237,8.921445
+3221,Cross River,Bekwarra,6.699608,8.911698
+3222,Cross River,Bekwarra,6.703,8.903273
+3223,Cross River,Bekwarra,6.699268,8.91168
+3224,Cross River,Bekwarra,6.693135,8.926509
+3225,Cross River,Bekwarra,6.691118,8.944553
+3226,Cross River,Bekwarra,6.684149,8.961936
+3227,Cross River,Bekwarra,6.67744,8.974468
+3228,Cross River,Bekwarra,6.66125,8.989958
+3229,Delta,Oshimili South,6.203705,6.72393
+3230,Delta,Oshimili South,6.203486,6.723555
+3231,Delta,Oshimili South,6.197028,6.735941
+3232,Delta,Oshimili South,6.196656,6.736386
+3233,Delta,Oshimili South,6.197126,6.736639
+3234,Delta,Oshimili South,6.196477,6.737691
+3235,Ogun,Ogun Waterside,6.536936,4.329901
+3236,Lagos,Epe,6.613233,3.944263
+3237,Lagos,Epe,6.613281,3.943988
+3238,Lagos,Epe,6.614832,3.943847
+3239,Lagos,Epe,6.614461,3.943824
+3240,Lagos,Epe,6.614352,3.943861
+3241,Lagos,Epe,6.611986,3.987169
+3242,Lagos,Epe,6.610879,3.987277
+3243,Lagos,Epe,6.610963,3.987043
+3244,Lagos,Epe,6.610784,3.987111
+3245,Lagos,Epe,6.610405,3.987528
+3246,Lagos,Lagos Mainland,6.49549,3.378699
+3247,Lagos,Lagos Mainland,6.496192,3.379914
+3248,Lagos,Lagos Mainland,6.494567,3.380318
+3249,Lagos,Lagos Mainland,6.494607,3.380418
+3250,Lagos,Lagos Mainland,6.49392,3.379171
+3251,Lagos,Lagos Mainland,6.488634,3.381775
+3252,Osun,Atakunmosa West,7.737724,4.597588
+3253,Osun,Atakunmosa West,7.737942,4.598147
+3254,Lagos,Lagos Mainland,6.490642,3.381312
+3255,Lagos,Alimosho,6.650893,3.268435
+3256,Lagos,Ikeja,6.597744,3.336344
+3257,Lagos,Ikeja,6.597992,3.337653
+3258,Lagos,Ikeja,6.597992,3.337653
+3259,Osun,Boluwaduro,7.94664,4.809229
+3260,Lagos,Epe,6.582359,3.968991
+3261,Osun,Atakunmosa East,7.591791,4.674319
+3262,Lagos,Lagos Mainland,6.490683,3.382128
+3263,Osun,Boripe,7.906029,4.686159
+3264,Lagos,Epe,6.582984,3.969075
+3265,Osun,Atakunmosa East,7.592416,4.673379
+3266,Lagos,Epe,6.583378,3.96911
+3267,Lagos,Lagos Mainland,6.491225,3.383019
+3268,Lagos,Oshodi-Isolo,6.559021,3.345886
+3269,Lagos,Oshodi-Isolo,6.559021,3.345886
+3270,Lagos,Epe,6.58419,3.969678
+3271,Lagos,Epe,6.582172,3.968242
+3272,Lagos,Epe,6.582879,3.968333
+3273,Lagos,Agege,6.627355,3.316818
+3274,Lagos,Agege,6.627355,3.316818
+3275,Lagos,Epe,6.584999,3.968292
+3276,Lagos,Epe,6.582796,3.968323
