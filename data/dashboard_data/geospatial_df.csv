@@ -3276,3 +3276,430 @@
 3274,Lagos,Agege,6.627355,3.316818
 3275,Lagos,Epe,6.584999,3.968292
 3276,Lagos,Epe,6.582796,3.968323
+3277,Lagos,Epe,6.584647,3.96687
+3278,Ogun,Ogun Waterside,6.552237,4.343602
+3279,Ogun,Ogun Waterside,6.546412,4.303694
+3280,Ogun,Ogun Waterside,6.545561,4.30444
+3281,Ogun,Ogun Waterside,6.5725,4.307551
+3282,Ogun,Ogun Waterside,6.572493,4.307582
+3283,Ogun,Ogun Waterside,6.593849,4.29324
+3284,Ogun,Ogun Waterside,6.593851,4.293217
+3285,Ogun,Ogun Waterside,6.614378,4.287335
+3286,Lagos,Epe,6.58585,3.966054
+3287,Ogun,Odogbolu,6.846798,3.770282
+3288,Ogun,Odogbolu,6.845279,3.771113
+3289,Ogun,Odogbolu,6.845104,3.771921
+3290,Lagos,Eti-Osa,6.434972,3.52273
+3291,Ogun,Odogbolu,6.845865,3.770686
+3292,Ogun,Odogbolu,6.845472,3.766096
+3293,Ogun,Odogbolu,6.849105,3.767045
+3294,Ogun,Odogbolu,6.785,3.778757
+3295,Ogun,Odogbolu,6.786814,3.781123
+3296,Ogun,Odogbolu,6.777257,3.784162
+3297,Lagos,Alimosho,6.651235,3.267342
+3298,Ogun,Odogbolu,6.789036,3.781002
+3299,Ogun,Abeokuta South,7.142464,3.346402
+3300,Ogun,Odogbolu,6.785287,3.780358
+3301,Lagos,Epe,6.623159,3.978847
+3302,Osun,Iwo,7.653092,4.188398
+3303,Osun,Iwo,7.653108,4.188316
+3304,Osun,Iwo,7.652591,4.1881
+3305,Ogun,Odogbolu,6.788745,3.78113
+3306,Lagos,Epe,6.623841,3.984236
+3307,Lagos,Alimosho,6.653458,3.272801
+3308,Lagos,Alimosho,6.663616,3.282178
+3309,Ogun,Abeokuta South,7.142418,3.346525
+3310,Osun,Iwo,7.652608,4.187849
+3311,Lagos,Eti-Osa,6.728306,3.249303
+3312,Lagos,Eti-Osa,6.728013,3.249385
+3313,Lagos,Eti-Osa,6.724452,3.252041
+3314,Lagos,Epe,6.690754,3.258891
+3315,Osun,Iwo,7.660212,4.187045
+3316,Osun,Iwo,7.660344,4.187071
+3317,Osun,Iwo,7.660395,4.18676
+3318,Ogun,Abeokuta South,7.142722,3.346248
+3319,Ogun,Ado-Odo/Ota,7.14272,3.346248
+3320,Osun,Iwo,7.661116,4.187173
+3321,Osun,Iwo,7.661632,4.18697
+3322,Osun,Ife South,7.180337,4.69754
+3323,Osun,Ife South,7.180188,4.697154
+3324,Osun,Ife South,7.180117,4.697009
+3325,Osun,Ife South,7.18045,4.696868
+3326,Osun,Ife South,7.181573,4.697711
+3327,Osun,Ife South,7.181663,4.697945
+3328,Osun,Osogbo,7.760984,4.558413
+3329,Osun,Ife South,7.259835,4.641023
+3330,Osun,Osogbo,7.760984,4.558413
+3331,Osun,Ife South,7.261947,4.639264
+3332,Osun,Osogbo,7.760984,4.558413
+3333,Osun,Ife South,7.261945,4.639256
+3334,Osun,Ife South,7.265148,4.638227
+3335,Osun,Osogbo,7.760984,4.558413
+3336,Osun,Olorunda,7.798462,4.589156
+3337,Osun,Olorunda,7.782428,4.564409
+3338,Osun,Olorunda,7.781149,4.554699
+3339,Osun,Olorunda,7.776747,4.557517
+3340,Osun,Osogbo,7.760984,4.558413
+3341,Osun,Isokan,7.348104,4.180577
+3342,Osun,Isokan,7.348307,4.180863
+3343,Osun,Ede South,7.678532,4.462546
+3344,Osun,Ede South,7.678717,4.46229
+3345,Ekiti,Ekiti West,7.71029,5.042403
+3346,Ekiti,Ekiti West,7.710632,5.042463
+3347,Ekiti,Ekiti West,7.711043,5.04236
+3348,Ekiti,Ekiti West,7.711456,5.042224
+3349,Ekiti,Ekiti West,7.71192,5.042262
+3350,Ekiti,Ekiti West,7.71232,5.042212
+3351,Ekiti,Ekiti West,7.71227,5.041652
+3352,Ekiti,Ekiti West,7.612625,5.00658
+3353,Ekiti,Moba,7.990293,5.118005
+3354,Ekiti,Oye,7.797868,5.326843
+3355,Ekiti,Efon,7.653445,4.919448
+3356,Ekiti,Efon,7.653148,4.919455
+3357,Ekiti,Efon,7.652151,4.919302
+3358,Ekiti,Efon,7.651713,4.919244
+3359,Cross River,Ikom,5.959247,8.738509
+3360,Cross River,Boki,6.064238,8.908978
+3361,Delta,Ethiope East,5.593307,6.002594
+3362,Delta,Ethiope East,5.593307,6.002594
+3363,Delta,Ethiope East,5.574778,5.975713
+3364,Delta,Ethiope East,5.593633,6.002594
+3365,Delta,Ethiope East,5.593307,6.002594
+3366,Akwa-Ibom,Ini,5.060818,7.873276
+3367,Akwa-Ibom,Ini,5.147544,7.760515
+3368,Delta,Ika North East,6.224465,6.216857
+3369,Delta,Udu,6.22215,6.217189
+3370,Delta,Udu,5.49647,5.791389
+3371,Delta,Udu,5.49647,5.791389
+3372,Delta,Udu,5.49647,5.791389
+3373,Delta,Udu,5.49647,5.791389
+3374,Cross River,Boki,6.065397,8.909505
+3375,Delta,Warri South,5.509252,5.786777
+3376,Cross River,Boki,6.064895,8.89452
+3377,Delta,Warri South,5.510176,5.78775
+3378,Delta,Warri South,5.509568,5.786777
+3379,Delta,Warri South,5.509568,5.786777
+3380,Delta,Warri South,5.509568,5.786777
+3381,Bayelsa,Ekeremor,5.060547,5.78206
+3382,Cross River,Yakurr,5.806786,8.074911
+3383,Delta,Bomadi,5.168035,5.910786
+3384,Cross River,Yakurr,5.806786,8.074911
+3385,Delta,Bomadi,5.167741,5.910365
+3386,Delta,Bomadi,5.167532,5.909346
+3387,Cross River,Yakurr,5.80669,8.075014
+3388,Cross River,Yakurr,5.806786,8.074911
+3389,Delta,Bomadi,5.167176,5.910732
+3390,Cross River,Yakurr,5.806053,8.074723
+3391,Delta,Bomadi,5.166901,5.911957
+3392,Cross River,Yakurr,6.881312,3.739719
+3393,Cross River,Yakurr,6.806251,3.874472
+3394,Cross River,Yakurr,6.774002,4.02641
+3395,Cross River,Abi,5.891175,8.016521
+3396,Benue,Gboko,7.33707,9.009651
+3397,Benue,Vandeikya,7.012321,9.018377
+3398,Benue,Gboko,7.339627,9.007917
+3399,Benue,Vandeikya,7.000008,9.03323
+3400,Kogi,Okene,7.541153,6.193176
+3401,Federal Capital Territory,Abaji,8.477673,6.942668
+3402,Benue,Gboko,7.360972,9.042959
+3403,Kogi,Ajaokuta,7.559049,6.633983
+3404,Benue,Vandeikya,7.018045,9.021412
+3405,Kogi,Okene,7.541153,6.193176
+3406,Kwara,Offa,8.155483,4.724725
+3407,Kwara,Offa,8.155473,4.724656
+3408,Kwara,Offa,8.155502,4.724574
+3409,Kwara,Offa,8.155489,4.724283
+3410,Kwara,Offa,8.155471,4.72432
+3411,Kwara,Offa,8.155402,4.724393
+3412,Kwara,Offa,8.155437,4.7244
+3413,Kwara,Offa,8.155432,4.724383
+3414,Kwara,Offa,8.155193,4.724848
+3415,Kwara,Offa,8.155205,4.724869
+3416,Kwara,Offa,8.155265,4.724872
+3417,Kwara,Oyun,8.166021,4.730093
+3418,Benue,Vandeikya,7.008106,9.031154
+3419,Benue,Gboko,7.361661,9.042196
+3420,Plateau,Bassa,9.953272,8.759135
+3421,Niger,Katcha,9.387407,6.348516
+3422,Benue,Vandeikya,7.004693,9.031912
+3423,Benue,Gboko,7.361516,9.041671
+3424,Federal Capital Territory,Abuja Municipal Area Council,9.081575,7.470362
+3425,Kogi,Ajaokuta,7.55969,6.63303
+3426,Niger,Katcha,9.386963,6.347816
+3427,Plateau,Bassa,9.953207,8.758932
+3428,Federal Capital Territory,Abaji,8.478089,6.94189
+3429,Federal Capital Territory,Abaji,8.478099,6.941377
+3430,Federal Capital Territory,Abuja Municipal Area Council,9.08142,7.470488
+3431,Plateau,Bassa,9.951933,8.759131
+3432,Benue,Gboko,7.361951,9.042629
+3433,Federal Capital Territory,Abuja Municipal Area Council,9.081193,7.471761
+3434,Niger,Katcha,9.385361,6.349314
+3435,Nasarawa,keana,8.148353,8.799371
+3436,Plateau,Jos North,9.903325,8.86721
+3437,Benue,Ohimini,7.334952,7.941522
+3438,Kogi,Ajaokuta,7.559019,6.633881
+3439,Federal Capital Territory,Abuja Municipal Area Council,9.081734,7.472265
+3440,Benue,Vandeikya,7.007707,9.031259
+3441,Plateau,Bassa,9.942777,8.742868
+3442,Kogi,Okene,7.547307,6.210443
+3443,Benue,Ohimini,7.332752,7.940757
+3444,Plateau,Bassa,9.942969,8.742208
+3445,Benue,Ushongo,7.130019,9.021901
+3446,Niger,Katcha,9.386854,6.349295
+3447,Federal Capital Territory,Abuja Municipal Area Council,9.082156,7.47268
+3448,Kogi,Ajaokuta,7.542914,6.668047
+3449,Plateau,Bassa,9.942975,8.74196
+3450,Kogi,Bassa,7.715355,6.898616
+3451,Federal Capital Territory,Abuja Municipal Area Council,9.083087,7.473436
+3452,Plateau,Jos South,9.885157,8.869827
+3453,Kogi,Ajaokuta,7.542936,6.66781
+3454,Niger,Wushishi,9.732057,6.198952
+3455,Federal Capital Territory,Abaji,8.477312,6.942841
+3456,Federal Capital Territory,Abaji,8.47684,6.942912
+3457,Federal Capital Territory,Abaji,8.47532,6.94433
+3458,Federal Capital Territory,Abaji,8.475016,6.945186
+3459,Federal Capital Territory,Abaji,8.475359,6.943155
+3460,Plateau,Bassa,9.943378,8.741783
+3461,Kogi,Igalamela-Odolu,7.190573,6.820069
+3462,Federal Capital Territory,Abuja Municipal Area Council,9.084441,7.473502
+3463,Kogi,Bassa,7.716517,6.898479
+3464,Kogi,Ajaokuta,7.542799,6.66768
+3465,Plateau,Bassa,9.943422,8.741644
+3466,Benue,Ushongo,7.129894,9.024192
+3467,Federal Capital Territory,Abaji,8.47382,6.94536
+3468,Federal Capital Territory,Abaji,8.473597,6.944794
+3469,Plateau,Jos South,9.886003,8.87086
+3470,Federal Capital Territory,Abaji,8.473049,6.944965
+3471,Kogi,Bassa,7.71739,6.898952
+3472,Kogi,Igalamela-Odolu,7.192245,6.820923
+3473,Niger,Munya,10.02045,7.108929
+3474,Federal Capital Territory,Abaji,8.47265,6.944745
+3475,Kogi,Igalamela-Odolu,7.194276,6.821113
+3476,Plateau,Bassa,9.942781,8.741049
+3477,Nasarawa,keana,8.152071,8.798654
+3478,Kogi,Igalamela-Odolu,7.198826,6.821373
+3479,Plateau,Jos South,9.886361,8.871398
+3480,Benue,Apa,7.660919,7.883211
+3481,Kogi,Okene,7.547307,6.210443
+3482,Benue,Konshisha,7.290133,8.534352
+3483,Benue,Konshisha,7.290036,8.534168
+3484,Benue,Konshisha,7.289858,8.534014
+3485,Benue,Konshisha,7.288714,8.532755
+3486,Benue,Konshisha,7.28926,8.532001
+3487,Benue,Konshisha,7.289092,8.532218
+3488,Benue,Konshisha,7.289296,8.533081
+3489,Benue,Konshisha,7.289553,8.532705
+3490,Benue,Konshisha,7.291691,8.518862
+3491,Benue,Konshisha,7.291355,8.518084
+3492,Benue,Konshisha,7.291609,8.51765
+3493,Niger,Munya,10.020273,7.108965
+3494,Kogi,Igalamela-Odolu,7.200893,6.820491
+3495,Niger,Wushishi,9.732598,6.198572
+3496,Federal Capital Territory,Abuja Municipal Area Council,9.081911,7.467822
+3497,Federal Capital Territory,Abaji,8.472782,6.945234
+3498,Federal Capital Territory,Abaji,8.472245,6.946008
+3499,Federal Capital Territory,Abaji,8.472102,6.946428
+3500,Benue,Apa,7.661125,7.88431
+3501,Kogi,Okene,7.547307,6.210443
+3502,Niger,Munya,10.020344,7.109334
+3503,Nasarawa,keana,8.152071,8.80059
+3504,Nasarawa,keana,8.151228,8.797642
+3505,Nasarawa,keana,8.151228,8.796724
+3506,Federal Capital Territory,Abaji,8.475071,6.945415
+3507,Niger,Wushishi,9.733018,6.198177
+3508,Plateau,Jos South,9.796775,8.865565
+3509,Kogi,Bassa,7.732708,6.893652
+3510,Benue,Apa,7.665601,7.88497
+3511,Plateau,Jos North,9.967359,8.87341
+3512,Kwara,Oyun,8.167216,4.730885
+3513,Kwara,Oyun,8.16749,4.731222
+3514,Kwara,Oyun,8.167464,4.731184
+3515,Kwara,Oyun,8.1672,4.73148
+3516,Kwara,Oyun,8.167257,4.731704
+3517,Kwara,Oyun,8.167394,4.731818
+3518,Kwara,Oyun,8.16742,4.731799
+3519,Kwara,Oyun,8.167462,4.731851
+3520,Kwara,Oyun,8.168338,4.731206
+3521,Kwara,Oyun,8.16969,4.731524
+3522,Plateau,Jos South,9.796474,8.865516
+3523,Niger,Munya,10.013287,7.117511
+3524,Federal Capital Territory,Abuja Municipal Area Council,9.025129,7.566502
+3525,Benue,Apa,7.666506,7.886058
+3526,Kogi,Ajaokuta,7.5427,6.667203
+3527,Federal Capital Territory,Abuja Municipal Area Council,9.023477,7.567331
+3528,Plateau,Jos South,9.797284,8.864698
+3529,Benue,Apa,7.668276,7.8877
+3530,Benue,Apa,7.66936,7.88819
+3531,Niger,Munya,10.01307,7.117864
+3532,Kogi,Ajaokuta,7.542756,6.666891
+3533,Plateau,Jos North,9.967297,8.873125
+3534,Federal Capital Territory,Abaji,8.474122,6.944128
+3535,Federal Capital Territory,Abaji,8.474227,6.944085
+3536,Federal Capital Territory,Abaji,8.474247,6.944196
+3537,Federal Capital Territory,Abaji,8.474288,6.94421
+3538,Federal Capital Territory,Abaji,8.474185,6.944192
+3539,Federal Capital Territory,Abaji,8.47401,6.944136
+3540,Federal Capital Territory,Abaji,8.474067,6.944202
+3541,Federal Capital Territory,Abaji,8.47426,6.944073
+3542,Benue,Apa,7.668998,7.890962
+3543,Niger,Wushishi,9.732775,6.198083
+3544,Benue,Apa,7.670149,7.892146
+3545,Niger,Munya,10.012682,7.117909
+3546,Niger,Wushishi,9.732899,6.197165
+3547,Benue,Apa,7.67119,7.893533
+3548,Plateau,Jos South,9.797011,8.864393
+3549,Nasarawa,Kokona,8.860396,8.22417
+3550,Nasarawa,Kokona,8.860418,8.224228
+3551,Nasarawa,Kokona,8.859899,8.224036
+3552,Nasarawa,Kokona,8.859333,8.223447
+3553,Nasarawa,Kokona,8.859933,8.224113
+3554,Nasarawa,Kokona,8.846179,8.130034
+3555,Nasarawa,Kokona,8.846467,8.130253
+3556,Nasarawa,Kokona,8.84669,8.130449
+3557,Nasarawa,Akwanga,8.915532,8.384448
+3558,Niger,Wushishi,9.733767,6.196938
+3559,Nasarawa,keana,8.14808,8.793281
+3560,Nasarawa,keana,8.149193,8.795099
+3561,Benue,Apa,7.668805,7.89624
+3562,Plateau,Jos South,9.797476,8.864252
+3563,Kogi,Okene,7.546536,6.221074
+3564,Plateau,Jos South,9.797298,8.863763
+3565,Niger,Wushishi,9.733953,6.196713
+3566,Niger,Munya,10.004719,7.110982
+3567,Kogi,Bassa,7.76113,6.923394
+3568,Kogi,Igalamela-Odolu,7.1736,6.823876
+3569,Plateau,Jos North,9.966299,8.870292
+3570,Kogi,Okene,7.546536,6.221074
+3571,Kogi,Igalamela-Odolu,7.175287,6.825016
+3572,Kogi,Mopa-Muro,8.142706,5.895979
+3573,Kogi,Mopa-Muro,8.143131,5.896335
+3574,Kogi,Mopa-Muro,8.142955,5.896855
+3575,Kogi,Mopa-Muro,8.142393,5.897175
+3576,Kogi,Mopa-Muro,8.143596,5.897256
+3577,Kogi,Mopa-Muro,8.112164,5.893308
+3578,Kogi,Mopa-Muro,8.11172,5.891603
+3579,Kogi,Mopa-Muro,8.113133,5.891015
+3580,Kogi,Igalamela-Odolu,7.176785,6.825942
+3581,Kogi,Okene,7.546536,6.221074
+3582,Nasarawa,Nasarawa,8.554158,7.706238
+3583,Nasarawa,Nasarawa,8.554241,7.706396
+3584,Nasarawa,Nasarawa,8.555438,7.705746
+3585,Nasarawa,Nasarawa,8.558204,7.706246
+3586,Nasarawa,Nasarawa,8.550247,7.70685
+3587,Nasarawa,Nasarawa,8.539554,7.707716
+3588,Nasarawa,Nasarawa,8.543506,7.710564
+3589,Nasarawa,Nasarawa,8.555617,7.719458
+3590,Enugu,Enugu East,6.491504,7.51651
+3591,Enugu,Enugu East,6.488042,7.518322
+3592,Enugu,Enugu East,6.487935,7.51611
+3593,Enugu,Enugu East,6.487935,7.51611
+3594,Enugu,Enugu East,6.48838,7.517163
+3595,Enugu,Enugu East,6.498241,7.532848
+3596,Enugu,Nkanu West,6.336862,7.578677
+3597,Abia,Aba South,5.096217,7.356621
+3598,Ebonyi,Abakaliki,6.310518,8.098098
+3599,Anambra,Anaocha,6.139369,7.037575
+3600,Abia,Aba South,5.095909,7.358239
+3601,Anambra,Anaocha,6.139369,7.037575
+3602,Anambra,Oyi,6.23791,6.942853
+3603,Anambra,Oyi,6.238023,6.942853
+3604,Anambra,Oyi,6.238005,6.942875
+3605,Anambra,Anaocha,6.139369,7.037575
+3606,Abia,Aba South,5.096832,7.357749
+3607,Anambra,Oyi,6.238109,6.942907
+3608,Anambra,Anaocha,6.139369,7.037575
+3609,Abia,Aba South,5.097171,7.356771
+3610,Anambra,Oyi,6.238096,6.942671
+3611,Abia,Isiala Ngwa South,5.287417,7.32516
+3612,Imo,Ahiazu Mbaise,5.52424,7.267064
+3613,Anambra,Oyi,6.238173,6.94299
+3614,Anambra,Anaocha,6.140509,7.039632
+3615,Imo,Ahiazu Mbaise,5.524166,7.267026
+3616,Anambra,Oyi,6.23795,6.94311
+3617,Abia,Aba South,5.095782,7.355457
+3618,Abia,Isiala Ngwa South,5.289023,7.326565
+3619,Anambra,Anaocha,6.140509,7.039632
+3620,Anambra,Oyi,6.237832,6.943168
+3621,Anambra,Anaocha,6.140509,7.039632
+3622,Abia,Isiala Ngwa South,5.288837,7.327098
+3623,Abia,Aba South,5.095675,7.355744
+3624,Abia,Isiala Ngwa South,5.289023,7.326565
+3625,Imo,Ahiazu Mbaise,5.524274,7.267136
+3626,Imo,Ahiazu Mbaise,5.524202,7.266955
+3627,Imo,Ahiazu Mbaise,5.5244,7.267088
+3628,Anambra,Anaocha,6.140509,7.039632
+3629,Anambra,Oyi,6.238712,6.941854
+3630,Abia,Isiala Ngwa South,5.289071,7.328926
+3631,Anambra,Oyi,6.238464,6.942401
+3632,Anambra,Anaocha,6.140989,7.040442
+3633,Abia,Isiala Ngwa South,5.289023,7.326565
+3634,Abia,Aba South,5.097171,7.35451
+3635,Ebonyi,Abakaliki,6.307763,8.096798
+3636,Anambra,Dunukofia,6.194122,6.96694
+3637,Anambra,Dunukofia,6.194122,6.96694
+3638,Anambra,Anaocha,6.140989,7.040442
+3639,Abia,Isiala Ngwa South,5.289028,7.328405
+3640,Abia,Isiala Ngwa South,5.289275,7.328164
+3641,Abia,Aba South,5.099938,7.361118
+3642,Abia,Isiala Ngwa North,5.289028,7.328405
+3643,Ebonyi,Abakaliki,6.307583,8.097006
+3644,Anambra,Dunukofia,6.192816,6.970874
+3645,Abia,Isiala Ngwa North,5.357169,7.367056
+3646,Abia,Isiala Ngwa North,5.356012,7.3672
+3647,Abia,Osisioma,5.130562,7.359664
+3648,Ebonyi,Abakaliki,6.30737,8.096721
+3649,Abia,Isiala Ngwa North,5.353984,7.368264
+3650,Imo,Ahiazu Mbaise,5.523605,7.266068
+3651,Imo,Ahiazu Mbaise,5.522806,7.267045
+3652,Imo,Ahiazu Mbaise,5.523747,7.265189
+3653,Abia,Isiala Ngwa North,5.352056,7.369481
+3654,Ebonyi,Abakaliki,6.30943,8.098942
+3655,Anambra,Dunukofia,6.185056,6.952538
+3656,Abia,Isiala Ngwa North,5.289028,7.328405
+3657,Abia,Isiala Ngwa North,5.289028,7.328405
+3658,Abia,Isiala Ngwa North,5.352573,7.369233
+3659,Anambra,Anaocha,6.074441,7.02652
+3660,Enugu,Nkanu East,6.310217,7.666724
+3661,Anambra,Anaocha,6.074441,7.02652
+3662,Abia,Isiala Ngwa North,5.358153,7.365543
+3663,Abia,Isiala Ngwa North,5.352573,7.369233
+3664,Enugu,Nkanu East,6.306201,7.664723
+3665,Ebonyi,Abakaliki,6.308917,8.098961
+3666,Anambra,Anaocha,6.074441,7.02652
+3667,Enugu,Nkanu East,6.304627,7.663621
+3668,Enugu,Nkanu East,6.304697,7.66658
+3669,Ebonyi,Abakaliki,6.308957,8.098808
+3670,Abia,Umuahia North,5.519049,7.509484
+3671,Abia,Umuahia North,5.518485,7.509466
+3672,Abia,Umuahia North,5.517623,7.509466
+3673,Abia,Umuahia North,5.517099,7.509426
+3674,Ebonyi,Abakaliki,6.308727,8.099302
+3675,Enugu,Nkanu East,6.305063,7.655319
+3676,Abia,Osisioma,5.130904,7.361928
+3677,Abia,Osisioma,5.131427,7.36087
+3678,Enugu,Nkanu East,6.305132,7.652044
+3679,Enugu,Nkanu East,6.307216,7.650809
+3680,Ebonyi,Abakaliki,6.308375,8.099293
+3681,Enugu,Nkanu East,6.303539,7.651728
+3682,Ebonyi,Abakaliki,6.306606,8.099718
+3683,Enugu,Nkanu East,6.302029,7.653352
+3684,Anambra,Dunukofia,6.187033,6.953807
+3685,Enugu,Nkanu East,6.302546,7.656694
+3686,Enugu,Ezeagu,6.435412,7.292822
+3687,Anambra,Dunukofia,6.186722,6.953678
+3688,Enugu,Ezeagu,6.435412,7.292822
+3689,Anambra,Dunukofia,6.18648,6.953656
+3690,Ebonyi,Abakaliki,6.306144,8.099686
+3691,Ebonyi,Abakaliki,6.305934,8.099185
+3692,Ebonyi,Ezza South,6.165224,8.025854
+3693,Enugu,Ezeagu,6.432432,7.289131
+3694,Enugu,Ezeagu,6.432432,7.289131
+3695,Enugu,Ezeagu,6.432432,7.289131
+3696,Enugu,Ezeagu,6.432432,7.289131
+3697,Enugu,Udi,6.558245,7.350566
+3698,Enugu,Udi,6.546648,7.366317
+3699,Enugu,Udi,6.546648,7.366317
+3700,Enugu,Udi,6.558743,7.388052
+3701,Enugu,Udi,6.591657,7.327785
+3702,Enugu,Udi,6.46137,7.359477
+3703,Plateau,Jos North,9.902909,8.867283
