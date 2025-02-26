@@ -230,7 +230,7 @@ with tab1:
 
     with colC:
 
-        colC.metric("Total clean data", f"{total_clean_records}")
+        colC.metric("Total clean data (Collected vs sampling)", f"{total_clean_records} ({current_total})")
         colC.metric("Total Inconsistent data", f"{total_bad_records}")
 
         # Create Matplotlib figure
@@ -293,6 +293,8 @@ with tab1:
                 mime="text/csv",
                 key="download-csv"
             )
+
+
 
 
 with tab2:
