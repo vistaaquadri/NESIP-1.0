@@ -35,6 +35,12 @@ state_lga_completion_data = pd.read_csv('data/dashboard_data/state_lga_completio
 bad_data_trend_pivot = pd.read_csv('data/dashboard_data/bad_data_trend_pivot.csv')
 
 
+best_performing_state = pd.read_csv('data/dashboard_data/top_5_states.csv')
+least_performing_state = pd.read_csv('data/dashboard_data/BOTTOM_5_states.csv')
+best_performing_enumerators = pd.read_csv('data/dashboard_data/top_enumerators.csv')
+least_performing_enumerators = pd.read_csv('data/dashboard_data/bottom_enumerators.csv')
+
+
 
 # Tabs for state and vendor
 tab1, tab2 = st.tabs(["Energy Access", "State Readiness"])
@@ -251,15 +257,36 @@ with tab1:
         st.pyplot(fig)
 
 
+    # Alternatively, you can use st.container() if you need more complex layout or control
+    with st.container():
+        with st.expander('State and Enumerator Performance', expanded=False):
+            colA, colB, colC, colD = st.columns([2,2,2,2])
+            
+            with colA:
+                st.write("Best Performing States")
+                st.markdown(best_performing_state.to_html(escape=False, index=False), unsafe_allow_html=True)
+    
+            with colB:
+                st.write("Least Performing States")
+                st.markdown(least_performing_state.to_html(escape=False, index=False), unsafe_allow_html=True)
+
+            with colC:
+                st.write("Best Performing Enumerators")
+                st.markdown(best_performing_enumerators.to_html(escape=False, index=False), unsafe_allow_html=True) 
+
+            with colD:
+                st.write("Least Performing Enumerators")
+                st.markdown(least_performing_enumerators.to_html(escape=False, index=False), unsafe_allow_html=True)
 
 
 
     # Alternatively, you can use st.container() if you need more complex layout or control
     with st.container():
-        with st.expander('Sampling Methodology Tracker', expanded=True):
+        with st.expander('Sampling Methodology Tracker', expanded=False):
             # Dropdown for state selection
+            expander_data.columns = expander_data.columns.str.strip()
             state_options = expander_data["State"].unique().tolist()
-            selected_state = st.selectbox("Select State", ["All"] + state_options)
+            selected_state = st.selectbox("Select State(s)", ["All"] + state_options)
 
             # Filter LGA options based on selected state
             if selected_state == "All":
@@ -267,7 +294,7 @@ with tab1:
             else:
                 lga_options = expander_data[expander_data["State"] == selected_state]["LGA"].unique().tolist()
 
-            selected_lga = st.selectbox("Select LGA", ["All"] + lga_options)
+            selected_lga = st.selectbox("Select LGA(s)", ["All"] + lga_options)
 
             # Filter dataframe based on selections
             filtered_df_summary = expander_data.copy()
