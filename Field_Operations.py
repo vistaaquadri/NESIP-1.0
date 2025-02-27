@@ -259,7 +259,7 @@ with tab1:
 
     # Alternatively, you can use st.container() if you need more complex layout or control
     with st.container():
-        with st.expander('State and Enumerator Performance', expanded=False):
+        with st.expander('State and Enumerator Performance (Data Quality)', expanded=False):
             colA, colB, colC, colD = st.columns([2,2,2,2])
             
             with colA:
