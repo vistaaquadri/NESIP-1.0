@@ -7,3 +7,4 @@ gspread_dataframe
 google-auth
 openpyxl
 pydeck
+numpy
