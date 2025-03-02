@@ -327,3 +327,96 @@ with tab1:
 with tab2:
     st.write("State Readiness Data summary would be published soon")
 
+
+    # Summary Metrics
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.metric(label="States Interviewed", value="7 out of 37", delta="+10.80%")
+
+    with col2:
+        st.metric(label="Questionnaire Filed", value="3 out of 37", delta="+10.80%")
+
+    with col3:
+        st.metric(label="Desktop Data", value="30 out of 37", delta="+10.80%")
+
+    # Progress Bar
+    st.subheader("Progress Bar")
+    progress_value = 49
+    PERC_DEF_2 = 100 - progress_value
+    date = 'February 28th, 2025'
+    fig_progress = go.Figure(go.Pie(values=[f"{progress_value}", f"{PERC_DEF_2}"], labels=["Completed", "Remaining"],
+                                    hole=0.6, marker_colors=["#1a3665", "lightgrey"]))
+    fig_progress.update_traces(textinfo='none')
+    fig_progress.update_layout(showlegend=False, annotations=[dict(text= f"{overall_completion:.2f}%" , x=0.5, y=0.5, font_size=20, showarrow=False)], width=600, height=600 )
+    st.plotly_chart(fig_progress, use_container_width=True)
+
+
+
+    import streamlit as st
+    import plotly.graph_objects as go
+    from datetime import datetime
+
+    # Set progress values
+    progress_value = 49
+    PERC_DEF_2 = 100 - progress_value
+
+    # Get today's date
+    date = datetime.today().strftime('%B %d, %Y')  # Example: February 28, 2025
+
+    # Create figure
+    fig_progress = go.Figure(go.Pie(
+        values=[progress_value, PERC_DEF_2],
+        labels=["Completed", "Remaining"],
+        hole=0.6,
+        marker_colors=["#1a3665", "lightgrey"]
+    ))
+
+    # Update trace (removing text on pie slices)
+    fig_progress.update_traces(textinfo='none')
+
+    # Add percentage and date in the center
+    fig_progress.update_layout(
+        showlegend=False,
+        annotations=[
+            dict(text=f"{progress_value:.2f}%", x=0.5, y=0.52, font_size=20, showarrow=False),
+            dict(text=date, x=0.5, y=0.42, font_size=10, showarrow=False, font=dict(color="grey"))
+        ],
+        width=600,
+        height=600
+    )
+
+    # Display in Streamlit
+    st.plotly_chart(fig_progress, use_container_width=True)
+
+
+
+
+
+
+    # Geospatial Heatmap
+    st.subheader("Geospatial Heatmap")
+    # Generate random latitude and longitude data for demo purposes
+    latitudes = np.random.uniform(4.0, 14.0, 10)
+    longitudes = np.random.uniform(3.0, 15.0, 10)
+    df_map = pd.DataFrame({'Latitude': latitudes, 'Longitude': longitudes})
+
+    fig = px.scatter_mapbox(df_map, lat="Latitude", lon="Longitude", zoom=5, height=400)
+    fig.update_layout(mapbox_style="open-street-map")
+    st.plotly_chart(fig)
+
+
+    # Replace "Done" and "Pending" with emojis
+    state_collection_progress = state_collection_progress.replace({"Done": " Completed ✅", "Pending": "Pending 🟡"})
+
+    st.markdown("### States Data Overview")
+
+    st.dataframe(state_collection_progress, height=300)
+
+    # Replace "Done" and "Pending" with emojis
+    state_readiness_progress = state_readiness_progress.replace({"Done": " Completed ✅", "Pending": "Pending 🟡"})
+
+    st.markdown("### States Data Overview")
+
+    st.dataframe(state_readiness_progress, height=300)
+    
