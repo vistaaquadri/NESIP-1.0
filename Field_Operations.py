@@ -325,4 +325,4 @@ with tab1:
 
 
 with tab2:
-    st.write("state readiness")
+    st.write("State Readiness")
