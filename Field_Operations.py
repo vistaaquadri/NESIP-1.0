@@ -325,4 +325,4 @@ with tab1:
 
 
 with tab2:
-    st.write("State Readiness Data summary would be published soon")
+    st.write("state readiness")

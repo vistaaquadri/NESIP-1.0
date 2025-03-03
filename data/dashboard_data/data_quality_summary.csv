@@ -1,28 +1,28 @@
 ,State,Clean Data,Inconsistent Data
-0,Abia,198,24
-1,Adamawa,100,4
+0,Abia,201,25
+1,Adamawa,129,6
 2,Akwa-Ibom,307,19
-3,Anambra,222,21
-4,Bauchi,122,20
+3,Anambra,252,21
+4,Bauchi,158,20
 5,Bayelsa,89,4
-6,Benue,257,16
-7,Borno,108,17
+6,Benue,262,16
+7,Borno,140,24
 8,Cross River,206,37
 9,Delta,268,23
-10,Ebonyi,93,5
+10,Ebonyi,111,5
 11,Edo,183,5
 12,Ekiti,181,32
-13,Enugu,161,10
+13,Enugu,176,10
 14,Federal Capital Territory,163,6
-15,Gombe,74,16
-16,Imo,153,29
-17,Jigawa,143,7
-18,Kaduna,133,18
-19,Kano,220,16
-20,Kastina,210,14
+15,Gombe,84,16
+16,Imo,162,30
+17,Jigawa,186,7
+18,Kaduna,173,21
+19,Kano,269,25
+20,Kastina,231,16
 21,Kebbi,170,13
-22,Kogi,169,5
-23,Kwara,154,10
+22,Kogi,171,5
+23,Kwara,158,10
 24,Lagos,671,33
 25,Nasarawa,85,17
 26,Niger,106,11
@@ -32,7 +32,7 @@
 30,Oyo,323,5
 31,Plateau,132,9
 32,Rivers,288,7
-33,Sokoto,141,8
-34,Taraba,67,5
-35,Yobe,69,6
-36,Zamfara,83,7
+33,Sokoto,154,8
+34,Taraba,75,5
+35,Yobe,99,10
+36,Zamfara,114,7
