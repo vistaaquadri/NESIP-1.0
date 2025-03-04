@@ -1,2 +1,2 @@
 ,total_states,states_done,state_per_cmptd,states_visited,total_target,current_total,daily_avg_combined,perc_inc_dec_avg_col,expected_completion_date,completion_date_text,overall_completion,perc_deficit,total_clean_records,total_bad_records,Daily_avg_expected,perc_in_dec_collection,last_collection_count
-0,37,17,45.95,37 states visited,7537,6552.0,378,-1,"March 4th, 2025",March-06-2025,86.93,13.07,7190,553,300,0,1
+0,37,24,64.86,37 states visited,7374,6847.0,376,-2,"March 4th, 2025",March-05-2025,92.85,7.15,7521,551,300,0,1

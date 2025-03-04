@@ -6,6 +6,8 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import numpy as np
 from st_aggrid import AgGrid, GridOptionsBuilder
+from datetime import datetime
+from PIL import Image
 
 
 # Set page configuration
@@ -41,8 +43,8 @@ least_performing_state = pd.read_csv('data/dashboard_data/BOTTOM_5_states.csv')
 best_performing_enumerators = pd.read_csv('data/dashboard_data/top_enumerators.csv')
 least_performing_enumerators = pd.read_csv('data/dashboard_data/bottom_enumerators.csv')
 
-state_collection_progress = pd.read_csv('data/dashboard_data/state_collection_progress.csv')
-state_readiness_progress = pd.read_csv('data/dashboard_data/state_readiness_progress.csv')
+#state_collection_progress = pd.read_csv('data/dashboard_data/state_collection_progress.csv')
+#state_readiness_progress = pd.read_csv('data/dashboard_data/state_readiness_progress.csv')
 
 
 # Tabs for state and vendor
@@ -326,3 +328,5 @@ with tab1:
 
 with tab2:
     st.write("State Readiness")
+
+    ###################

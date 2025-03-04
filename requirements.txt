@@ -9,3 +9,6 @@ openpyxl
 pydeck
 numpy
 streamlit-aggrid
+opencv-python
+geopandas
+PIL
