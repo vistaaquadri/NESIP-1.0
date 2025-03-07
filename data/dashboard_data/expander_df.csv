@@ -75,13 +75,13 @@
 73,Anambra,Awka North,10,3,11,3,0,0
 74,Anambra,Awka South,10,3,13,3,0,0
 75,Anambra,Ayamelum,10,3,10,3,0,0
-76,Anambra,Dunukofia,10,3,8,6,2,0
+76,Anambra,Dunukofia,10,3,10,6,0,0
 77,Anambra,Ekwusigo,10,3,10,4,0,0
 78,Anambra,Idemili North,10,3,10,3,0,0
 79,Anambra,Idemili South,10,3,10,3,0,0
 80,Anambra,Ihiala,10,3,10,3,0,0
 81,Anambra,Njikoka,10,3,20,11,0,0
-82,Anambra,Nnewi North,10,3,10,2,0,1
+82,Anambra,Nnewi North,10,3,10,3,0,0
 83,Anambra,Nnewi South,10,3,10,4,0,0
 84,Anambra,Ogbaru,10,3,10,3,0,0
 85,Anambra,Onitsha North,10,3,11,3,0,0
@@ -327,7 +327,7 @@
 325,Jigawa,Kafin Hausa,3,5,3,5,0,0
 326,Jigawa,Kaugama,3,5,3,5,0,0
 327,Jigawa,Kazaure,3,5,3,6,0,0
-328,Jigawa,Kiri Kasama,3,5,3,6,0,0
+328,Jigawa,Kiri Kasama,3,5,4,6,0,0
 329,Jigawa,Kiyawa,3,5,3,5,0,0
 330,Jigawa,Maigatari,3,5,3,5,0,0
 331,Jigawa,Malam Madori,3,5,3,5,0,0
@@ -409,7 +409,7 @@
 407,Kastina,Bindawa,3,5,3,5,0,0
 408,Kastina,Charanchi,3,5,3,5,0,0
 409,Kastina,Dan Musa,6,10,6,10,0,0
-410,Kastina,Danja,6,10,3,4,3,6
+410,Kastina,Danja,6,10,6,10,0,0
 411,Kastina,Daura,3,5,3,5,0,0
 412,Kastina,Dutsi,6,10,6,10,0,0
 413,Kastina,Dutsin Ma,3,5,3,5,0,0
@@ -419,9 +419,9 @@
 417,Kastina,Kaita,3,5,3,5,0,0
 418,Kastina,Kankia,3,5,3,5,0,0
 419,Kastina,Katsina,3,5,3,7,0,0
-420,Kastina,Kurfi,3,5,2,5,1,0
+420,Kastina,Kurfi,3,5,3,5,0,0
 421,Kastina,Kusada,6,10,6,10,0,0
-422,Kastina,Mai'Adua,3,5,0,0,3,5
+422,Kastina,Mai'Adua,3,5,3,5,0,0
 423,Kastina,Malumfashi,3,5,3,5,0,0
 424,Kastina,Mani,3,5,3,5,0,0
 425,Kastina,Mashi,3,5,3,5,0,0
@@ -520,7 +520,7 @@
 518,Niger,Agwara,3,4,0,0,3,4
 519,Niger,Bida,3,4,10,0,0,4
 520,Niger,Borgu,3,4,4,7,0,0
-521,Niger,Bosso,3,4,7,0,0,4
+521,Niger,Bosso,3,4,7,4,0,0
 522,Niger,Chanchaga,3,4,7,0,0,4
 523,Niger,Edati,3,4,3,7,0,0
 524,Niger,Gbako,3,4,3,6,0,0
@@ -533,14 +533,14 @@
 531,Niger,Mariga,3,4,0,0,3,4
 532,Niger,Mashegu,3,4,3,7,0,0
 533,Niger,Mokwa,3,4,4,3,0,1
-534,Niger,Munya,3,4,0,7,3,0
+534,Niger,Munya,3,4,3,7,0,0
 535,Niger,Paikoro,3,4,0,7,3,0
-536,Niger,Rafi,3,4,0,0,3,4
+536,Niger,Rafi,3,4,3,4,0,0
 537,Niger,Rijau,3,4,0,0,3,4
 538,Niger,Shiroro,3,4,3,7,0,0
-539,Niger,Suleja,3,4,0,7,3,0
-540,Niger,Tafa,3,4,0,6,3,0
-541,Niger,Wushishi,3,4,0,7,3,0
+539,Niger,Suleja,3,4,0,11,3,0
+540,Niger,Tafa,3,4,3,6,0,0
+541,Niger,Wushishi,3,4,3,7,0,0
 542,Ogun,Abeokuta North,6,6,6,6,0,0
 543,Ogun,Abeokuta South,6,6,6,6,0,0
 544,Ogun,Ado-Odo/Ota,6,6,6,6,0,0
@@ -644,9 +644,9 @@
 642,Oyo,Surulere,6,3,6,3,0,0
 643,Plateau,Barkin Ladi,3,6,3,6,0,0
 644,Plateau,Bassa,3,6,3,6,0,0
-645,Plateau,Bokkos,3,6,3,2,0,4
-646,Plateau,Jos East,3,6,2,7,1,0
-647,Plateau,Jos North,3,6,3,5,0,1
+645,Plateau,Bokkos,3,6,3,6,0,0
+646,Plateau,Jos East,3,6,3,7,0,0
+647,Plateau,Jos North,3,6,3,6,0,0
 648,Plateau,Jos South,3,6,3,6,0,0
 649,Plateau,Kanam,3,6,4,6,0,0
 650,Plateau,Kanke,3,6,3,6,0,0
@@ -704,20 +704,20 @@
 702,Sokoto,Wurno,3,4,3,4,0,0
 703,Sokoto,Yabo,3,4,3,4,0,0
 704,Taraba,Ardo Kola,3,5,3,5,0,0
-705,Taraba,Bali,3,5,0,0,3,5
-706,Taraba,Donga,3,5,3,4,0,1
+705,Taraba,Bali,3,5,2,0,1,5
+706,Taraba,Donga,3,5,3,5,0,0
 707,Taraba,Gashaka,3,5,0,0,3,5
 708,Taraba,Gassol,3,5,3,5,0,0
 709,Taraba,Ibi,3,5,3,5,0,0
 710,Taraba,Jalingo,3,5,2,5,1,0
 711,Taraba,Karim Lamido,3,5,3,5,0,0
-712,Taraba,Kurmi,3,5,0,0,3,5
-713,Taraba,Lau,3,5,3,3,0,2
+712,Taraba,Kurmi,3,5,3,5,0,0
+713,Taraba,Lau,3,5,3,5,0,0
 714,Taraba,Sardauna,3,5,0,0,3,5
 715,Taraba,Takum,3,5,3,5,0,0
 716,Taraba,Ussa,3,5,3,5,0,0
 717,Taraba,Wukari,3,5,4,5,0,0
-718,Taraba,Yorro,3,5,2,4,1,1
+718,Taraba,Yorro,3,5,3,5,0,0
 719,Taraba,Zing,3,5,3,5,0,0
 720,Yobe,Bade,3,4,3,4,0,0
 721,Yobe,Bursari,3,4,3,4,0,0
@@ -736,15 +736,15 @@
 734,Yobe,Tarmuwa,3,4,3,4,0,0
 735,Yobe,Yunusari,3,4,3,4,0,0
 736,Yobe,Yusufari,3,4,3,4,0,0
-737,Zamfara,Bakuka,3,7,4,9,0,0
+737,Zamfara,Bakuka,3,7,8,9,0,0
 738,Zamfara,Birnin Magaji/Kiyaw,3,7,3,7,0,0
 739,Zamfara,Bukkuyum,6,14,7,14,0,0
 740,Zamfara,Bungudu,3,7,3,7,0,0
 741,Zamfara,Gummi,6,14,7,14,0,0
-742,Zamfara,Gusau,3,7,6,7,0,0
+742,Zamfara,Gusau,3,7,6,8,0,0
 743,Zamfara,Kaura-Namoda,3,7,3,7,0,0
-744,Zamfara,Maradun,3,7,1,7,2,0
+744,Zamfara,Maradun,3,7,1,9,2,0
 745,Zamfara,Maru,3,7,3,7,0,0
-746,Zamfara,Talata-Mafara,3,7,3,7,0,0
+746,Zamfara,Talata-Mafara,3,7,6,7,0,0
 747,Zamfara,Tsafe,3,7,3,7,0,0
 748,Zamfara,Zurmi,3,7,3,10,0,0
