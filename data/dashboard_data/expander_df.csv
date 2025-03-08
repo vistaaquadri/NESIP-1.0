@@ -692,59 +692,57 @@
 690,Sokoto,Illela,3,4,3,4,0,0
 691,Sokoto,Kebbe,3,4,3,4,0,0
 692,Sokoto,Kware,3,4,3,4,0,0
-693,Sokoto,Rabah,3,4,0,0,3,4
-694,Sokoto,Shagari,3,4,3,4,0,0
-695,Sokoto,Silame,3,4,5,4,0,0
-696,Sokoto,Sokoto North,3,4,3,4,0,0
-697,Sokoto,Sokoto South,3,4,6,8,0,0
-698,Sokoto,Tambuwal,3,4,3,4,0,0
-699,Sokoto,Tangaza,3,4,3,4,0,0
-700,Sokoto,Tureta,3,4,0,0,3,4
-701,Sokoto,Wamakko,3,4,3,4,0,0
-702,Sokoto,Wurno,3,4,3,4,0,0
-703,Sokoto,Yabo,3,4,3,4,0,0
-704,Taraba,Ardo Kola,3,5,3,5,0,0
-705,Taraba,Bali,3,5,3,5,0,0
-706,Taraba,Donga,3,5,3,5,0,0
-707,Taraba,Gashaka,3,5,3,5,0,0
-708,Taraba,Gassol,3,5,3,5,0,0
-709,Taraba,Ibi,3,5,3,5,0,0
-710,Taraba,Jalingo,3,5,3,5,0,0
-711,Taraba,Karim Lamido,3,5,3,5,0,0
-712,Taraba,Kurmi,3,5,3,5,0,0
-713,Taraba,Lau,3,5,3,5,0,0
-714,Taraba,Sardauna,3,5,3,5,0,0
-715,Taraba,Takum,3,5,3,5,0,0
-716,Taraba,Ussa,3,5,3,5,0,0
-717,Taraba,Wukari,3,5,4,5,0,0
-718,Taraba,Yorro,3,5,3,5,0,0
-719,Taraba,Zing,3,5,3,5,0,0
-720,Yobe,Bade,3,4,3,4,0,0
-721,Yobe,Bursari,3,4,3,4,0,0
-722,Yobe,Damaturu,3,4,3,4,0,0
-723,Yobe,Fika,3,4,3,4,0,0
-724,Yobe,Fune,3,4,3,4,0,0
-725,Yobe,Geidam,3,4,3,4,0,0
-726,Yobe,Gujba,3,4,3,4,0,0
-727,Yobe,Gulani,3,4,3,4,0,0
-728,Yobe,Jakusko,3,4,3,4,0,0
-729,Yobe,Karasuwa,3,4,3,4,0,0
-730,Yobe,Machina,3,4,3,4,0,0
-731,Yobe,Nangere,3,4,3,4,0,0
-732,Yobe,Nguru,3,4,3,4,0,0
-733,Yobe,Potiskum,3,4,3,4,0,0
-734,Yobe,Tarmuwa,3,4,3,4,0,0
-735,Yobe,Yunusari,3,4,3,4,0,0
-736,Yobe,Yusufari,3,4,3,4,0,0
-737,Zamfara,Bakuka,3,7,8,9,0,0
-738,Zamfara,Birnin Magaji/Kiyaw,3,7,3,7,0,0
-739,Zamfara,Bukkuyum,6,14,7,14,0,0
-740,Zamfara,Bungudu,3,7,3,7,0,0
-741,Zamfara,Gummi,6,14,7,14,0,0
-742,Zamfara,Gusau,3,7,6,8,0,0
-743,Zamfara,Kaura-Namoda,3,7,3,7,0,0
-744,Zamfara,Maradun,3,7,1,9,2,0
-745,Zamfara,Maru,3,7,3,7,0,0
-746,Zamfara,Talata-Mafara,3,7,6,7,0,0
-747,Zamfara,Tsafe,3,7,3,7,0,0
-748,Zamfara,Zurmi,3,7,3,10,0,0
+693,Sokoto,Shagari,3,4,3,4,0,0
+694,Sokoto,Silame,3,4,5,4,0,0
+695,Sokoto,Sokoto North,3,4,3,4,0,0
+696,Sokoto,Sokoto South,3,4,6,8,0,0
+697,Sokoto,Tambuwal,3,4,3,4,0,0
+698,Sokoto,Tangaza,3,4,3,4,0,0
+699,Sokoto,Wamakko,3,4,3,4,0,0
+700,Sokoto,Wurno,3,4,3,4,0,0
+701,Sokoto,Yabo,3,4,3,4,0,0
+702,Taraba,Ardo Kola,3,5,3,5,0,0
+703,Taraba,Bali,3,5,3,5,0,0
+704,Taraba,Donga,3,5,3,5,0,0
+705,Taraba,Gashaka,3,5,3,5,0,0
+706,Taraba,Gassol,3,5,3,5,0,0
+707,Taraba,Ibi,3,5,3,5,0,0
+708,Taraba,Jalingo,3,5,3,5,0,0
+709,Taraba,Karim Lamido,3,5,3,5,0,0
+710,Taraba,Kurmi,3,5,3,5,0,0
+711,Taraba,Lau,3,5,3,5,0,0
+712,Taraba,Sardauna,3,5,3,5,0,0
+713,Taraba,Takum,3,5,3,5,0,0
+714,Taraba,Ussa,3,5,3,5,0,0
+715,Taraba,Wukari,3,5,4,5,0,0
+716,Taraba,Yorro,3,5,3,5,0,0
+717,Taraba,Zing,3,5,3,5,0,0
+718,Yobe,Bade,3,4,3,4,0,0
+719,Yobe,Bursari,3,4,3,4,0,0
+720,Yobe,Damaturu,3,4,3,4,0,0
+721,Yobe,Fika,3,4,3,4,0,0
+722,Yobe,Fune,3,4,3,4,0,0
+723,Yobe,Geidam,3,4,3,4,0,0
+724,Yobe,Gujba,3,4,3,4,0,0
+725,Yobe,Gulani,3,4,3,4,0,0
+726,Yobe,Jakusko,3,4,3,4,0,0
+727,Yobe,Karasuwa,3,4,3,4,0,0
+728,Yobe,Machina,3,4,3,4,0,0
+729,Yobe,Nangere,3,4,3,4,0,0
+730,Yobe,Nguru,3,4,3,4,0,0
+731,Yobe,Potiskum,3,4,3,4,0,0
+732,Yobe,Tarmuwa,3,4,3,4,0,0
+733,Yobe,Yunusari,3,4,3,4,0,0
+734,Yobe,Yusufari,3,4,3,4,0,0
+735,Zamfara,Bakuka,3,7,8,9,0,0
+736,Zamfara,Birnin Magaji/Kiyaw,3,7,3,7,0,0
+737,Zamfara,Bukkuyum,6,14,7,14,0,0
+738,Zamfara,Bungudu,3,7,3,7,0,0
+739,Zamfara,Gummi,6,14,7,14,0,0
+740,Zamfara,Gusau,3,7,6,8,0,0
+741,Zamfara,Kaura-Namoda,3,7,3,7,0,0
+742,Zamfara,Maradun,3,7,1,9,2,0
+743,Zamfara,Maru,3,7,3,7,0,0
+744,Zamfara,Talata-Mafara,3,7,6,7,0,0
+745,Zamfara,Tsafe,3,7,3,7,0,0
+746,Zamfara,Zurmi,3,7,3,10,0,0

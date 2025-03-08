@@ -9,13 +9,13 @@ import plotly.express as px
 
 # Function to load and display the logo with text
 def render_logo():
-    logo_path = "logo.png"  # Update this path to the correct logo file
+    logo_path = "vista_image.png"  # Update this path to the correct logo file
     with open(logo_path, "rb") as f:
         data = f.read()
         encoded = base64.b64encode(data).decode()
     return f'<div style="display: flex; align-items: center;">' \
-           f'<img src="data:image/png;base64,{encoded}" style="height:40px; margin-right:10px;">' \
-           f'<span style="font-size: 18px; font-weight: bold; color: #06266E;">Vista | Advisory | Partners</span>' \
+           f'<img src="data:image/png;base64,{encoded}" style="height:60px; width: 220px; margin-right:10px;">' \
+           f'<span style="font-size: 18px; font-weight: bold; color: #06266E;"></span>' \
            f'</div>'
 
 
