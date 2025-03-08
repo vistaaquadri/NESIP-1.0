@@ -504,10 +504,10 @@
 502,Lagos,Somolu,29,3,31,3,0,0
 503,Lagos,Surulere,29,3,32,4,0,0
 504,Nasarawa,Akwanga,3,5,3,5,0,0
-505,Nasarawa,Awe,3,5,2,5,1,0
+505,Nasarawa,Awe,3,5,3,5,0,0
 506,Nasarawa,Doma,3,5,5,5,0,0
-507,Nasarawa,Karu,3,5,6,3,0,2
-508,Nasarawa,Keffi,3,5,3,4,0,1
+507,Nasarawa,Karu,3,5,6,5,0,0
+508,Nasarawa,Keffi,3,5,3,5,0,0
 509,Nasarawa,Kokona,3,5,3,5,0,0
 510,Nasarawa,Lafia,3,5,3,8,0,0
 511,Nasarawa,Nasarawa,3,5,3,5,0,0
@@ -521,7 +521,7 @@
 519,Niger,Bida,3,4,10,0,0,4
 520,Niger,Borgu,3,4,4,7,0,0
 521,Niger,Bosso,3,4,7,4,0,0
-522,Niger,Chanchaga,3,4,7,0,0,4
+522,Niger,Chanchaga,3,4,7,3,0,1
 523,Niger,Edati,3,4,3,7,0,0
 524,Niger,Gbako,3,4,3,6,0,0
 525,Niger,Gurara,3,4,0,7,3,0
@@ -530,12 +530,12 @@
 528,Niger,Lapai,3,4,0,7,3,0
 529,Niger,Lavun,3,4,3,7,0,0
 530,Niger,Magama,3,4,3,7,0,0
-531,Niger,Mariga,3,4,0,0,3,4
+531,Niger,Mariga,3,4,2,4,1,0
 532,Niger,Mashegu,3,4,3,7,0,0
 533,Niger,Mokwa,3,4,4,3,0,1
 534,Niger,Munya,3,4,3,7,0,0
 535,Niger,Paikoro,3,4,0,7,3,0
-536,Niger,Rafi,3,4,3,4,0,0
+536,Niger,Rafi,3,4,4,4,0,0
 537,Niger,Rijau,3,4,0,0,3,4
 538,Niger,Shiroro,3,4,3,7,0,0
 539,Niger,Suleja,3,4,0,11,3,0
@@ -696,7 +696,7 @@
 694,Sokoto,Shagari,3,4,3,4,0,0
 695,Sokoto,Silame,3,4,5,4,0,0
 696,Sokoto,Sokoto North,3,4,3,4,0,0
-697,Sokoto,Sokoto South,3,4,3,4,0,0
+697,Sokoto,Sokoto South,3,4,6,8,0,0
 698,Sokoto,Tambuwal,3,4,3,4,0,0
 699,Sokoto,Tangaza,3,4,3,4,0,0
 700,Sokoto,Tureta,3,4,0,0,3,4
@@ -704,16 +704,16 @@
 702,Sokoto,Wurno,3,4,3,4,0,0
 703,Sokoto,Yabo,3,4,3,4,0,0
 704,Taraba,Ardo Kola,3,5,3,5,0,0
-705,Taraba,Bali,3,5,2,0,1,5
+705,Taraba,Bali,3,5,3,5,0,0
 706,Taraba,Donga,3,5,3,5,0,0
-707,Taraba,Gashaka,3,5,0,0,3,5
+707,Taraba,Gashaka,3,5,3,5,0,0
 708,Taraba,Gassol,3,5,3,5,0,0
 709,Taraba,Ibi,3,5,3,5,0,0
-710,Taraba,Jalingo,3,5,2,5,1,0
+710,Taraba,Jalingo,3,5,3,5,0,0
 711,Taraba,Karim Lamido,3,5,3,5,0,0
 712,Taraba,Kurmi,3,5,3,5,0,0
 713,Taraba,Lau,3,5,3,5,0,0
-714,Taraba,Sardauna,3,5,0,0,3,5
+714,Taraba,Sardauna,3,5,3,5,0,0
 715,Taraba,Takum,3,5,3,5,0,0
 716,Taraba,Ussa,3,5,3,5,0,0
 717,Taraba,Wukari,3,5,4,5,0,0
